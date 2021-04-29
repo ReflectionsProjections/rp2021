@@ -25,9 +25,11 @@ export default function Landing() {
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
-        <a href="mailto:<RP_EMAIL>" rel="noopener noreferrer">
-          Email us at&nbsp;
-          {`<RP_EMAIL>`}
+        <a
+          href="mailto:Reflectionsprojections@gmail.com"
+          rel="noopener noreferrer"
+        >
+          Email us at reflectionsprojections [at] gmail.com
         </a>
       </footer>
     </div>
