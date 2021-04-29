@@ -1,3 +1,14 @@
+:root {
+  --orange-1: #c85227;
+  --orange-2: #e76f24;
+  --orange-3: #f58023;
+  --yellow-1: #faa731;
+  --yellow-2: #fbbc17;
+  --yellow-3: #ffcf45;
+  --green-1: #57b086;
+  --green-2: #75c69e;
+}
+
 html,
 body {
   padding: 0;
