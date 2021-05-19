@@ -1,4 +1,5 @@
 import Head from "next/head";
+import SponsorSection from "../styles/SponsorSection";
 import styles from "../styles/Landing.module.css";
 
 export default function Landing() {
@@ -13,6 +14,10 @@ export default function Landing() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+
+      <Element name="sponsor-section">
+        <SponsorSection />
+      </Element>
 
       <main className={styles.main}>
         <img src="/logo.png" alt="Reflections Projects Logo" />

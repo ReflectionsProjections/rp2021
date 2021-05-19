@@ -1,0 +1,25 @@
+@import "../../static/stylesheets/_variables.scss";
+
+.sponsorTitle {
+  padding-bottom: 4em;
+}
+
+.firstTierSection {
+  padding-top: 1em;
+}
+
+.tier {
+  padding-bottom: 3em;
+}
+
+.tier h3 {
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.image {
+  transition: transform 0.33s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.05);
+}
