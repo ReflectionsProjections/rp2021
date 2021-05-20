@@ -7,7 +7,7 @@ import Section from '../../UIComponents/Section';
 
 import SpeakerCard from './components/SpeakerCard';
 
-import styles from './Speaker.scss';
+import styles from './Speaker.module.scss';
 
 const Speaker = ({ speakers }) => {
   return (
