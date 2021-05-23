@@ -1,0 +1,27 @@
+@import '../../public/stylesheets/variables';
+
+.faqDropdown {
+  background-color: $slate-blue;
+}
+.faqDropdown:focus,
+.faqDropdown:hover,
+.faqDropdown:active {
+  background-color: $medium-purple;
+}
+
+.faqPrompt {
+  margin: 0.75em auto;
+}
+.faqPrompt h3 {
+  margin-bottom: 0.75em;
+  font-size: 1.75em;
+}
+
+@media (max-width: 767.98px) {
+  .faqPrompt h3 {
+    font-size: 1.5em;
+  }
+  .faqSection {
+    font-size: 1.1em;
+  }
+}

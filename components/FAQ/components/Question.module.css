@@ -1,0 +1,33 @@
+.arrowRight {
+    float: right;
+  }
+  
+  .arrowCenter {
+    float: none;
+  }
+  
+  .questionCard {
+    padding: 0.5em;
+    border: none;
+    box-shadow: 0 0 0 2px hsla(0, 0%, 0%, 0.05);
+    margin-bottom: 0.5em;
+  }
+  .questionCardTitle {
+    margin: 0;
+  }
+  .questionCardText {
+    margin-top: 0.75em;
+  }
+  
+  .questionCardMobile p {
+    margin-bottom: 0.3em;
+  }
+  
+  @media (max-width: 767.98px) {
+    .questionCardBody {
+      padding: 0.5em;
+    }
+    .questionCardTitle {
+      margin-bottom: 0;
+    }
+  }

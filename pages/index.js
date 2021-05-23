@@ -1,7 +1,19 @@
 import Head from "next/head";
+import { useState, useEffect } from 'react';
+import { Link, Element } from 'react-scroll';
+import FAQ from "../components/FAQ";
+import Layout from '../UIComponents/Layout';
+
+
 import styles from "../styles/Landing.module.css";
+import '../public/stylesheets/animations.module.scss';
+import useGetStaticData from '../services/useGetStaticData';
 
 export default function Landing() {
+
+  const { isLoaded, rpData, nav, gates } = useGetStaticData();
+  const { events, faqSection, speakerSection, projectSection, sponsors } = rpData;
+
   return (
     <div className={styles.landingContainer}>
       <Head>
@@ -22,6 +34,16 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
+
+      <Layout className={styles.landingContainer}>
+        {isLoaded && (
+          <>
+            <Element name="faq">
+              {<FAQ faqData={faqSection} />}
+            </Element>
+          </>
+        )}
+      </Layout>
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
