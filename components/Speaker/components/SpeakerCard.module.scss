@@ -1,0 +1,26 @@
+.speakerCard {
+  border: none;
+  box-shadow: 0 0 0 2px hsla(0, 0%, 0%, 0.1);
+  margin-bottom: 0.5em;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  margin-bottom: 1em;
+}
+
+.speakerCard:hover {
+  box-shadow: 0 0 0 4px#0cbabb, 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.speakerCard:hover .cardImage {
+  background-image: linear-gradient(
+    -135deg,
+   #ffcf45,
+   #f58023
+  );
+}
+
+.speakerName {
+  font-family: 'Roboto Mono';
+}

@@ -1,5 +1,7 @@
 import Head from "next/head";
-import styles from "../styles/Landing.module.css";
+import styles from "../styles/Landing.module.scss";
+import Speaker from '../components/Speaker';
+
 
 export default function Landing() {
   return (
@@ -22,6 +24,9 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
+      <Element name="speakers">
+        {<Speaker speakers={speakerSection.list} />}
+      </Element>
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
