@@ -1,4 +1,7 @@
 import Head from "next/head";
+
+import About from '../components/About/index';
+
 import styles from "../styles/Landing.module.css";
 
 export default function Landing() {
@@ -22,6 +25,8 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
+
+      <About />
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;

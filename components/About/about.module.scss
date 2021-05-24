@@ -1,0 +1,17 @@
+.aboutSection {
+    min-height: 0;
+  }
+  
+  .socialMediaIcons {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .socialMediaIcons i {
+    padding-right: 2em;
+    font-size: 2em;
+    color: #0cbabb;
+  }
+  .socialMediaIcons i:hover {
+    color: #f9bfcb;
+  }
