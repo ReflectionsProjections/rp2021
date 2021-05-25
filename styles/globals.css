@@ -10,8 +10,9 @@
   --green-2: #75c69e;
 
   /* Font Colors */
-  --text-color: rgb(102, 112, 138);
-  --text-color-lighter: rgba(102, 112, 138, 0.6);
+  --grey: rgb(102, 112, 138);
+  --grey-lighter: rgba(102, 112, 138, 0.6);
+  --grey-lightest: rgba(102, 112, 138, 0.15);
 
   /* UI */
   --font-family: "Roboto", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -32,7 +33,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--font-family);
-  color: var(--text-color);
+  color: var(--grey);
 }
 
 a {
@@ -44,8 +45,8 @@ a {
   box-sizing: border-box;
 }
 
-button,
-button.secondary:hover {
+.btn,
+.btn.secondary:hover {
   min-width: 7.5em;
   min-height: 3em;
   cursor: pointer;
@@ -58,12 +59,12 @@ button.secondary:hover {
   color: #fff;
 }
 
-button.secondary {
+.btn.secondary {
   background: none;
   border: 2px solid var(--yellow-2);
   color: var(--yellow-2);
 }
 
-button:hover {
+.btn:hover {
   background: var(--yellow-1);
 }
