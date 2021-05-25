@@ -1,0 +1,64 @@
+.title,
+.subtitle {
+  font-family: "Roboto Mono";
+  font-weight: 200;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.25em;
+  margin: 0.3em 0;
+  padding: 0;
+}
+
+.subtitle {
+  margin-bottom: 1em;
+  font-size: 1.25em;
+}
+
+.section {
+  margin: 0;
+  margin-bottom: 3em;
+  padding: 3em;
+  width: 100%;
+  background-color: white;
+  border-radius: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 4em;
+  transform: scale(0.995);
+  transition: transform 0.3s ease-in-out;
+
+  @media {
+    max-width: 768px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /** I tried .section:hover but for some reason it still needs a closing brace */
+  /*
+  &:hover {
+    transform: scale(1);
+  }*/
+}
+
+.minHeight {
+  min-height: 90vh;
+}
+
+.header {
+  padding-bottom: 1em;
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    margin: 0.1em 0;
+    font-size: 1.7em;
+  }
+  .subtitle {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+  }
+}
+.body {
+  padding-top: 1em;
+}

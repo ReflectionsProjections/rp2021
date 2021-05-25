@@ -6,8 +6,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import Section from "../../UIComponents/Section";
-import styles from "./SponsorSection.css";
+import Section from "./Section";
+import styles from "./SponsorSection.module.css";
 
 /* Sponsor Group */
 /* Use this for section styling */
