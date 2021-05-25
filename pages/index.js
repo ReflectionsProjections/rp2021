@@ -1,5 +1,6 @@
 import Head from "next/head";
-import SponsorSection from "../styles/SponsorSection";
+import { Element } from "react-scroll";
+import SponsorSection from "../components/SponsorSection";
 import styles from "../styles/Landing.module.css";
 
 export default function Landing() {
