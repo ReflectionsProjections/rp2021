@@ -1,0 +1,78 @@
+@import 'static/stylesheets/variables.scss';
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding: none;
+  &::after {
+    // this is the timeline vertical line
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: $medium-purple;
+    top: 20px;
+    bottom: 0;
+    left: calc(12% + 1px);
+    margin-left: -3px;
+
+    @media (min-width: 768px) {
+      left: calc(12% + 1px);
+    }
+
+    @media (min-width: 992px) {
+      left: calc(37% + 1px);
+    }
+  }
+}
+
+.title {
+  font-weight: 200;
+  color: $medium-purple;
+}
+
+.event {
+  position: relative;
+  margin: 0;
+  padding: 1em 0;
+  width: 100%;
+  &::after {
+    /* circle thing on line */
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: calc(12% - 13px);
+    background-color: white;
+    border: 3px solid $medium-purple;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+
+    @media (min-width: 768px) {
+      left: calc(12% - 13px);
+    }
+
+    @media (min-width: 992px) {
+      left: calc(37% - 13px);
+    }
+  }
+}
+
+.eventTime {
+  font-family: 'Roboto Mono';
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  text-align: left;
+  @media (min-width: 992px) {
+    text-align: right;
+    font-size: 1em;
+  }
+}
+
+.eventBody {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
