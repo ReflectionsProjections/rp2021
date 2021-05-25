@@ -1,11 +1,17 @@
+$breakpoint: 710px;
+$height: 4.5rem;
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4.5rem;
+  height: $height;
+
+  // TODO: Move z-indexes into enum
+  z-index: 999;
 
   position: fixed;
-  padding: 0 2em;
+  padding: 0 min(5%, 2em);
   width: 100%;
 
   background-color: #fff;
@@ -20,15 +26,50 @@
     }
   }
 
+  .toggle {
+    display: none;
+
+    border: none;
+    color: var(--grey);
+    font-size: 2rem;
+    background: none;
+  }
+
+  @media screen and (max-width: $breakpoint) {
+    .toggle {
+      display: block;
+    }
+  }
+
   ul {
     padding: 0;
     margin: 0;
     list-style: none;
     height: 100%;
 
+    @media screen and (max-width: $breakpoint) {
+      position: fixed;
+      left: 0;
+      top: $height;
+
+      height: auto;
+      width: 100%;
+      background-color: #fff;
+      padding-bottom: 0.1em;
+
+      &:not([data-open="true"]) {
+        display: none;
+      }
+    }
+
     li {
       display: inline-block;
       height: 100%;
+      text-align: center;
+
+      @media screen and (max-width: $breakpoint) {
+        display: block;
+      }
 
       a {
         display: flex;
@@ -36,32 +77,46 @@
         position: relative;
         height: 100%;
 
+        @media screen and (max-width: $breakpoint) {
+          width: 100%;
+          padding: 1em 0;
+          border-bottom: 1px solid var(--grey-lightest);
+        }
+
         justify-content: center;
         align-items: center;
 
         font-size: 0.875rem;
         padding: 0 2rem;
 
-        &:hover,
-        &.active {
-          &::before {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background-color: var(--text-color-lighter);
+        @media not screen and (max-width: $breakpoint) {
+          &:hover,
+          &.active {
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 3px;
+              background-color: var(--grey-lighter);
+            }
           }
-        }
 
-        &:active::before {
-          background-color: var(--yellow-1);
+          &.active::before {
+            background-color: var(--yellow-1);
+          }
         }
       }
 
       button {
         margin-left: 1em;
+
+        @media screen and (max-width: $breakpoint) {
+          margin: 0.5em 0;
+          max-width: 300px;
+          width: 95%;
+        }
       }
     }
   }
