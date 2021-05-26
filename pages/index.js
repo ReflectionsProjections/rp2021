@@ -1,9 +1,18 @@
 import Head from "next/head";
 import styles from "../styles/Landing.module.scss";
 import Speaker from '../components/Speaker';
+import { Element } from 'react-scroll';
+import useGetStaticData from '../services/useGetStaticData';
+
 
 
 export default function Landing() {
+
+  const { isLoaded, rpData, nav, gates } = useGetStaticData();
+
+  const { events, faqSection, speakerSection, projectSection, sponsors } = rpData;
+
+
   return (
     <div className={styles.landingContainer}>
       <Head>
