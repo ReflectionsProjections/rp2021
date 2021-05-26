@@ -2,8 +2,19 @@ import Head from "next/head";
 import { Element } from "react-scroll";
 import SponsorSection from "../components/SponsorSection";
 import styles from "../styles/Landing.module.css";
+import useGetStaticData from "../services/useGetStaticData";
 
 export default function Landing() {
+  let query = {};
+  if (process.browser) {
+    query = getQueryObject(window);
+  }
+
+  const { isLoaded, rpData, nav, gates } = useGetStaticData();
+
+  const { events, faqSection, speakerSection, projectSection, sponsors } =
+    rpData;
+
   return (
     <div className={styles.landingContainer}>
       <Head>
@@ -17,7 +28,7 @@ export default function Landing() {
       </Head>
 
       <Element name="sponsor-section">
-        <SponsorSection />
+        <SponsorSection sponsors={sponsors} />
       </Element>
 
       <main className={styles.main}>

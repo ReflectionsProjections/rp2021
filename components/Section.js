@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import Container from "react-bootstrap/Container";
 
-import styles from "./Section.module.css";
+import styles from "./Section.module.scss";
 
 const Section = ({ children, minHeight = true }) => (
   <Container>

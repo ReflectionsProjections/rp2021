@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import Section from "./Section";
-import styles from "./SponsorSection.module.css";
+import styles from "./SponsorSection.module.scss";
 
 /* Sponsor Group */
 /* Use this for section styling */
