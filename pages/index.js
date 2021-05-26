@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Element } from 'react-scroll';
 
 import About from '../components/About/index';
 
@@ -26,7 +27,9 @@ export default function Landing() {
         <h2>September 20-25th, 2021</h2>
       </main>
 
-      <About />
+      <Element name="about">
+        <About />
+      </Element>
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;

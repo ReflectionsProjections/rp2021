@@ -1,17 +1,29 @@
 .aboutSection {
-    min-height: 0;
-  }
-  
-  .socialMediaIcons {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-  }
-  .socialMediaIcons i {
-    padding-right: 2em;
-    font-size: 2em;
-    color: #0cbabb;
-  }
-  .socialMediaIcons i:hover {
-    color: #f9bfcb;
-  }
+  min-height: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+.aboutSection h3 {
+  font-size: 1.75rem;
+}
+
+.aboutSection a {
+  color: #f58023;
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.socialMediaIcons i {
+  padding-right: 2em;
+  font-size: 2em;
+  color: #0cbabb;
+}
+
+.socialMediaIcons i:hover {
+  color: #f9bfcb;
+}
