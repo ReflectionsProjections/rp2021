@@ -7,7 +7,7 @@ const prefix =
     ? "https://www.reflectionsprojections.org"
     : "http://localhost:3000";
 export const fetchConferenceData = async () => {
-  const url = `${prefix}/static/data/rp2020.json`;
+  const url = `${prefix}/public/data/rp2021.json`;
   const api_call = await fetch(proxyurl + url);
   const data = await api_call.json();
   return data;
@@ -35,7 +35,7 @@ export const fetchRegistrationConfig = async () => {
 };
 
 /*export const fetchConferenceData = async () => {
-  const res = await axios.get(`${prefix}/static/data/rp2020.json`);
+  const res = await axios.get(`${prefix}/static/data/rp2021.json`);
   return res.data;
 };
 export const fetchNavData = async () => {

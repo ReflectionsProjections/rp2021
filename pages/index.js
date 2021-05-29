@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 import SponsorSection from "../components/SponsorSection";
 import styles from "../styles/Landing.module.css";
 import useGetStaticData from "../services/useGetStaticData";
+import { getQueryObject } from "../lib/path";
 
 export default function Landing() {
   let query = {};
