@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import styles from './styles.scss';
+// import styles from 'styles.scss';
 
 export const UITimeline = ({ children }) => (
   <div className={classNames('pt-2 pb-5')}>{children}</div>
