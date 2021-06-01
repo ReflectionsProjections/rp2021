@@ -28,9 +28,11 @@ export default function Landing() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <Element name="sponsor-section">
-        <SponsorSection sponsors={sponsors} />
-      </Element>
+      {isLoaded && (
+        <Element name="sponsor-section">
+          {<SponsorSection sponsors={sponsors} />}
+        </Element>
+      )}
 
       <main className={styles.main}>
         <img src="/logo.png" alt="Reflections Projects Logo" />
