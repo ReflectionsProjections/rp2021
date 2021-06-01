@@ -3,15 +3,29 @@ import styles from "../styles/Landing.module.scss";
 import Speaker from '../components/Speaker';
 import { Element } from 'react-scroll';
 import useGetStaticData from '../services/useGetStaticData';
-
-
+import { fetchConferenceData, fetchNavData, fetchGates } from './api/client';
+import { useState, useEffect } from 'react';
+import { getQueryObject } from '../lib/path';
 
 export default function Landing() {
+  let query = {};
+  if (process.browser) {
+    query = getQueryObject(window);
+  }
+  let data = "";
+  async function getData() {
+    data = await fetchConferenceData();
+    return data;
+  }
 
+  getData().then(console.log(data));
+
+  console.log(useGetStaticData());
   const { isLoaded, rpData, nav, gates } = useGetStaticData();
-
+  console.log(isLoaded);
+  console.log(rpData);
   const { events, faqSection, speakerSection, projectSection, sponsors } = rpData;
-
+  
 
   return (
     <div className={styles.landingContainer}>
@@ -33,9 +47,9 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
-      <Element name="speakers">
+      {/* <Element name="speakers">
         {<Speaker speakers={speakerSection.list} />}
-      </Element>
+      </Element> */}
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
