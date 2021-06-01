@@ -12,18 +12,9 @@ export default function Landing() {
   if (process.browser) {
     query = getQueryObject(window);
   }
-  let data = "";
-  async function getData() {
-    data = await fetchConferenceData();
-    return data;
-  }
-
-  getData().then(console.log(data));
 
   console.log(useGetStaticData());
   const { isLoaded, rpData, nav, gates } = useGetStaticData();
-  console.log(isLoaded);
-  console.log(rpData);
   const { events, faqSection, speakerSection, projectSection, sponsors } = rpData;
   
 
@@ -47,9 +38,9 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
-      {/* <Element name="speakers">
+      <Element name="speakers">
         {<Speaker speakers={speakerSection.list} />}
-      </Element> */}
+      </Element>
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;

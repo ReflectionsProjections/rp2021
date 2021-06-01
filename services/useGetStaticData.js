@@ -12,13 +12,11 @@ export default function useGetStaticData() {
   useEffect(() => {
     const loadData = async () => {
       const _conferenceData = await fetchConferenceData();
-      console.log(_conferenceData);
-      console.log('test')
-      const _nav = await fetchNavData();
-      const _gates = await fetchGates();
+      // const _nav = await fetchNavData();
+      // const _gates = await fetchGates();
       setRpData(_conferenceData);
-      setNav(_nav);
-      setGates(_gates);
+      // setNav(_nav);
+      // setGates(_gates);
       setIsLoaded(true);
     };
     if (!isLoaded) {
