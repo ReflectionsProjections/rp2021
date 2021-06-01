@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import { fetchConferenceData, fetchNavData, fetchGates } from '../pages/api/client';
+import { fetchConferenceData } from '../pages/api/client';
 
 export default function useGetStaticData() {
   const [isLoaded, setIsLoaded] = useState(false);

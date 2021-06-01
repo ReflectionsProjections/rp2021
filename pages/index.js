@@ -13,10 +13,9 @@ export default function Landing() {
     query = getQueryObject(window);
   }
 
-  console.log(useGetStaticData());
   const { isLoaded, rpData, nav, gates } = useGetStaticData();
+
   const { events, faqSection, speakerSection, projectSection, sponsors } = rpData;
-  
 
   return (
     <div className={styles.landingContainer}>
@@ -38,10 +37,12 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
-      <Element name="speakers">
-        {<Speaker speakers={speakerSection.list} />}
-      </Element>
 
+      {isLoaded && (
+        <Element name="speakers">
+          {<Speaker speakers={speakerSection.list} />}
+        </Element>
+      )}
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
         <a
