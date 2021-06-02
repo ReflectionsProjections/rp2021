@@ -3,7 +3,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 
-import styles from './Question.module.css';
+import styles from './Question.module.scss';
 
 const Question = props => {
   const { question, answer, show, handleToggle } = props;

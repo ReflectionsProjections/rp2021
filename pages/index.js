@@ -6,7 +6,6 @@ import Layout from '../UIComponents/Layout';
 
 
 import styles from "../styles/Landing.module.css";
-import '../public/stylesheets/animations.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
 
 export default function Landing() {
@@ -35,7 +34,7 @@ export default function Landing() {
         <h2>September 20-25th, 2021</h2>
       </main>
 
-      <Layout className={styles.landingContainer}>
+      <Layout>
         {isLoaded && (
           <>
             <Element name="faq">
