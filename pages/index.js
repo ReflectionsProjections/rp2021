@@ -23,7 +23,21 @@ export default function Landing() {
         <h2>September 20-25th, 2021</h2>
       </main>
 
+
       <footer className={styles.footer}>
+      Sign up&nbsp;
+      <a 
+        href="https://forms.gle/6oiAoDGN6R99CjP8A"
+        rel="noopener noreferrer"
+      >
+        here
+      </a>
+      &nbsp;for updates regarding R|P 2021 and to be notified when registration opens! 
+        
+      </footer>
+      <footer className={styles.footer}>
+        
+        
         Questions? Interested in sponsoring?&nbsp;
         <a
           href="mailto:contact@reflectionsprojections.org"
