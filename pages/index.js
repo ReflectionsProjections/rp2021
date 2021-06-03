@@ -27,7 +27,7 @@ export default function Landing() {
       <footer className={styles.footer}>
       Sign up&nbsp;
       <a 
-        href="https://forms.gle/NVmLkj1Cp6qtdj2i8"
+        href="https://forms.gle/6oiAoDGN6R99CjP8A"
         rel="noopener noreferrer"
       >
         here
