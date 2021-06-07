@@ -1,16 +1,7 @@
-.faqDropdown {
-  background-color: var(--orange-3);
-}
-.faqDropdown:focus,
-.faqDropdown:hover,
-.faqDropdown:active {
-  background-color: var(--orange-1);
-}
-
 .faqPrompt {
   margin: 0.75em auto;
   font-family: var(--font-family);
-  color: var(--text-color);
+  color: var(--green);
 }
 
 .faqPrompt h3 {

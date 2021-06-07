@@ -7,7 +7,7 @@
   }
   
   .questionCard {
-    padding: 0.5em;
+    padding-left: 0.5em;
     border: none;
     box-shadow: 0 0 0 2px hsla(0, 0%, 0%, 0.05);
     margin-bottom: 0.5em;
@@ -20,6 +20,7 @@
   }
   .questionCardText {
     margin-top: 0.75em;
+    padding-left: 1em;
     color: var(--text-color);
     font-family: var(--font-family);
   }
