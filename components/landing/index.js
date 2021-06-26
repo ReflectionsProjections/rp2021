@@ -6,7 +6,7 @@ export default function () {
   return (
     <div className={styles.landingContainer}>
       <main className={styles.main}>
-        <img src="/logo.png" alt="Reflections Projects Logo" />
+        <img src="/logo.png" alt="Reflections Projections Logo" />
         <h1>
           reflections <span className={styles.logoBar}>|</span> projections
         </h1>
