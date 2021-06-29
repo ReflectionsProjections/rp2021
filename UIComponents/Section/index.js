@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import Container from 'react-bootstrap/Container';
+import styles from '../../pages/index'
 
 // import styles from 'Section.scss';
 

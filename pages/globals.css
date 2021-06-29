@@ -11,10 +11,20 @@
 
 html,
 body {
-  padding: 0;
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  /*Fallback if gradients don't work */
+  background: linear-gradient(to right, #fff 0%, transparent 100%), linear-gradient(#EF7B23, #E15716);
+  /*Linear gradient... */
+  background: 
+    radial-gradient(
+     at center, linear-gradient(#EF7B23, #E15716)
+    );
 }
 
 a {
@@ -25,3 +35,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* .videoContainer {
+  position: relative;
+}
+
+.videoBackground {
+  position: fixed;
+  z-index: -100;
+} */

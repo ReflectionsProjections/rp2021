@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 
 import { isMobile } from 'react-device-detect';
@@ -11,6 +11,7 @@ import { DAY_FORMAT, TIME_FORMAT, EVENT_TYPE } from '../../constants/events';
 import Section from '../../UIComponents/Section';
 import UIButtonGroupSelect from '../../UIComponents/Input/UIButtonGroupSelect';
 import { UITimeline, UITimelineEvent } from '../../UIComponents/UITimeline';
+// import "../Agenda/agenda.scss"
 
 /* Grabs all events */
 const getEventsList = events => {
@@ -26,6 +27,17 @@ const getEventsList = events => {
     };
   });
 };
+
+if (typeof window !== "undefined") {
+  window.addEventListener("mousemove", event => {
+    const width = window.outerWidth;
+    const height = window.outerHeight;
+    const mouseXpercentage = Math.round(event.pageX / width * 100);
+    const mouseYpercentage = Math.round(event.pageY / height * 100);
+    document.getElementsByTagName("body")[0].style = "background: radial-gradient(at " + mouseXpercentage + "% " + mouseYpercentage + "%, #EF7B23, #fff)";
+    // .css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #3498db, #9b59b6)');
+  });
+}
 
 /* */
 const filterEvents = (events, day, type) => {
