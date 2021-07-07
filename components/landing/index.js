@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./Landing.module.scss";
+import styles from './Landing.module.scss';
 
 export default function () {
   return (

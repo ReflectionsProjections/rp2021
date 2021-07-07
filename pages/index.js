@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import Landing from "../components/landing";
+import Landing from '../components/landing';
 
 export default function Index() {
   return (
