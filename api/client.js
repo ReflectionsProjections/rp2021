@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 const proxyurl = ""
 
 const prefix =
@@ -7,7 +5,7 @@ const prefix =
     ? 'https://www.reflectionsprojections.org'
     : 'http://localhost:3000';  
 export const fetchConferenceData = async () => {
-  const url = `${prefix}/public/data/rp2021.json`;
+  const url = `${prefix}/data/rp2021.json`;
   const api_call = await fetch(proxyurl + url)
   const data = await api_call.json();
   return data;

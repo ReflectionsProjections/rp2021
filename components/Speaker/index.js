@@ -36,7 +36,9 @@ const Speaker = ({ speakers }) => {
                         name={name}
                         cardImage={imageURL}
                         tagline={tagline}
-                        badge={badge} 
+                        badge={badge}
+						key={speaker.name}
+						bio = {bio}
                       />
                     </Col>
                   );
