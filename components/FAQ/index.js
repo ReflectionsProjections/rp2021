@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -30,13 +29,13 @@ const FAQ = ({ faqData: { sections } }) => {
         {`
           .btn-navButton {
             background-color: var(--yellow-3);
-            color: var(--text-color);
+            color: var(--black-text);
+            font-size: 120%;
             margin-top: 0.5em;
             padding: 0.5em;
-            border: none;
-            box-shadow: 0 0 0 2px hsla(0, 0%, 0%, 0.05);
             margin-bottom: 0.5em;
             width: 100%;
+            margin-right: 50em;
           }
           .btn-navButton:focus,
           .btn-navButton:hover,
@@ -47,7 +46,7 @@ const FAQ = ({ faqData: { sections } }) => {
       </style>
 
       <Section.Header>
-        <Section.Title>FAQs</Section.Title>
+        <Section.Title>FAQ</Section.Title>
       </Section.Header>
       <Section.Body>
         <Container>
@@ -55,20 +54,18 @@ const FAQ = ({ faqData: { sections } }) => {
             md={{ span: 6, offset: 3 }}
             className={`text-center ${styles.faqPrompt}`}
           >
-            <h3>What can we help you with?</h3>
+            
 
 
           </Col>
           <Row>
             <Col xs="3">
-              <ButtonGroup vertical="true" aria-label="Basic example">
-                <Button variant="navButton" onClick={() => setCurrSection('General')}>General</Button>
-                <Button variant="navButton" onClick={() => setCurrSection('Events')}>Events</Button>
-                <Button variant="navButton" onClick={() => setCurrSection('MechMania')}>MechMania</Button>
-                <Button variant="navButton" onClick={() => setCurrSection('PuzzleBang')}>PuzzleBang</Button>
-                <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Presenters')}>R|P Symposium for Presenters</Button>
-                <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Schools')}>R|P Symposium for Schools</Button>
-              </ButtonGroup>
+              <Button variant="navButton" onClick={() => setCurrSection('General')}>General</Button>
+              <Button variant="navButton" onClick={() => setCurrSection('Events')}>Events</Button>
+              <Button variant="navButton" onClick={() => setCurrSection('MechMania')}>MechMania</Button>
+              <Button variant="navButton" onClick={() => setCurrSection('PuzzleBang')}>PuzzleBang</Button>
+              <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Presenters')}>R|P Symposium for Presenters</Button>
+              <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Schools')}>R|P Symposium for Schools</Button>
               </Col>
           <Col ><QuestionContainer
             questions={currQuestions}

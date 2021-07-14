@@ -1,28 +1,31 @@
 .arrowRight {
     float: right;
+    transform: scale(1.5)
   }
   
   .arrowCenter {
     float: none;
+    transform: scale(1.5)
   }
   
   .questionCard {
     padding-left: 0.5em;
     border: none;
-    box-shadow: 0 0 0 2px hsla(0, 0%, 0%, 0.05);
+    border-bottom: 0.05em solid black;
     margin-bottom: 0.5em;
+    border-radius: 0;
   }
   
   .questionCardTitle {
-    margin: 0.5em;
-    color: var(--text-color);
-    font-family: var(--font-family);
+    margin: 0.2em;
+    color: var(--black-text);
+    font-family: 'Roboto Mono';
   }
   .questionCardText {
     margin-top: 0.75em;
     padding-left: 1em;
-    color: var(--text-color);
-    font-family: var(--font-family);
+    color: var(--black-text);
+    font-family: 'Roboto Mono';
   }
   
   .questionCardMobile p {

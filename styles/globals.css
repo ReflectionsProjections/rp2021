@@ -10,6 +10,7 @@
   --green-2: #75c69e;
 
   /* Font Colors */
+  --black-text: rgb(0, 0, 0);
   --text-color: rgb(102, 112, 138);
   --text-color-lighter: rgba(102, 112, 138, 0.6);
 

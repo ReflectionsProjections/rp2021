@@ -18,7 +18,7 @@ const Question = props => {
             <Row className="d-sm-none d-none d-md-flex">
               <div>{question}</div>
               <div className={`ml-auto ${styles.arrowRight}`}>
-                {show ? <span>&#9650;</span> : <span>&#9660;</span>}
+                {show ? <span>&#8212;</span> : <span>&#65291;</span>}
               </div>
             </Row>
             <div
@@ -27,9 +27,9 @@ const Question = props => {
               <p>{question}</p>
               <p>
                 {show ? (
-                  <span className={styles.arrowCenter}>&#9650;</span>
+                  <span className={styles.arrowCenter}>&#8212;</span>
                 ) : (
-                  <span className={styles.arrowCenter}>&#9660;</span>
+                  <span className={styles.arrowCenter}>&#65291;</span>
                 )}
               </p>
             </div>

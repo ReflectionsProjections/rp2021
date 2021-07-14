@@ -30,7 +30,7 @@ const Nav = () => {
           <img
             alt="Reflections Projections 2020 Logo"
             className={styles.navbarLogo}
-            src="/public/assets/2020logo.svg"
+            src="/assets/2020logo.svg"
           />
         </Link>
       </Navbar.Brand>

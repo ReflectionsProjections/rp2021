@@ -118,7 +118,7 @@ class Layout extends Component {
           />
         </Head>
         <div style={{ zIndex: 0 }}>
-          <Navbar />
+          
           {children}
         </div>
       </div>
