@@ -1,0 +1,69 @@
+.landingContainer {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background: linear-gradient(#ffcf45, #f58023);
+  }
+  
+  .main {
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+  }
+  
+  .main h1 {
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
+  }
+  
+  .main h2,
+  .main h1 {
+    font-weight: normal;
+  }
+  
+  .main h2 {
+    margin: 0;
+  }
+  
+  .logoBar {
+    display: inline-block;
+    font-weight: bold;
+    transform: scaleY(2);
+  }
+  
+  .main p {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 18px;
+    text: black;
+  }
+  
+  .main img {
+    max-width: 195px;
+    width: 90%;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .footer {
+      flex-direction: column;
+    }
+  }
+  
