@@ -35,6 +35,16 @@ export default function Landing() {
           Email us at contact [at] reflectionsprojections.org
         </a>
       </footer>
+
+      <footer className={styles.footer}>
+        Visit our old website&nbsp;
+        <a
+          href="2020.reflectionsprojections.org"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+      </footer>
     </div>
   );
 }
