@@ -454,38 +454,38 @@
     "tier2": [],
     "tier3": [
       {
-        "name": "Aechelon Technology",
-        "img": "/static/assets/img/sponsors/AechelonTechnology.png",
-        "website": "http://aechelon.com/"
+        "name": "Abbvie",
+        "img": "/resources/abbvie.svg",
+        "website": "https://www.abbvie.com/"
       },
       {
-        "name": "Goldman Sachs",
-        "img": "/static/assets/img/sponsors/Goldmansachs.jpg",
-        "website": "https://www.goldmansachs.com/careers/"
+        "name": "Capital One",
+        "img": "/resources/capitalone.svg",
+        "website": "https://www.capitalone.com/"
       },
       {
-        "name": "Human Capital",
-        "img": "/static/assets/img/sponsors/HumanCapital.png",
-        "website": "https://human.capital/"
+        "name": "Caterpillar",
+        "img": "/resources/caterpillar.svg",
+        "website": "https://www.caterpillar.com/"
       },
       {
-        "name": "IMC Trading",
-        "img": "/static/assets/img/sponsors/IMC.png",
+        "name": "Contrary",
+        "img": "/resources/contrary.svg",
         "website": "https://www.imc.com/us/"
       },
       {
-        "name": "Qualtrics",
-        "img": "/static/assets/img/sponsors/Qualtrics.jpg",
-        "website": "https://www.qualtrics.com/careers/"
+        "name": "Facebook",
+        "img": "/resources/facebook.svg",
+        "website": "https://www.facebook.com"
       }
     ],
     "tier4": [],
     "diversity": {
       "divTier1": [
         {
-          "name": "Balsamiq",
-          "img": "/static/assets/img/sponsors/Balsamiq.png",
-          "website": "https://balsamiq.com/"
+          "name": "Google",
+          "img": "/resources/google.svg",
+          "website": "https://google.com/"
         }
       ],
       "divTier2": []
