@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 const proxyurl = ""
 
 const prefix =
@@ -34,22 +32,3 @@ export const fetchRegistrationConfig = async () => {
   const data = await api_call.json();
   return data;
 };
-
-
-
-/*export const fetchConferenceData = async () => {
-  const res = await axios.get(`${prefix}/static/data/rp2020.json`);
-  return res.data;
-};
-export const fetchNavData = async () => {
-  const res = await axios.get(`${prefix}/static/data/nav.json`);
-  return res.data;
-};
-export const fetchGates = async () => {
-  const res = await axios.get(`${prefix}/static/data/gates.json`);
-  return res.data;
-};
-export const fetchRegistrationConfig = async () => {
-  const res = await axios.get(`${prefix}/static/data/registration.json`);
-  return res.data;
-};*/
