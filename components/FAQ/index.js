@@ -54,9 +54,6 @@ const FAQ = ({ faqData: { sections } }) => {
             md={{ span: 6, offset: 3 }}
             className={`text-center ${styles.faqPrompt}`}
           >
-            
-
-
           </Col>
           <Row>
             <Col xs="3">

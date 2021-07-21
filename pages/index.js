@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { useState, useEffect } from 'react';
-import { Link, Element } from 'react-scroll';
+import Element from 'react-scroll';
 import FAQ from "../components/FAQ";
 import Layout from '../UIComponents/Layout';
 

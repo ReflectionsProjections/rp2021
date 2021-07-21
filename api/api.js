@@ -1,5 +1,3 @@
-import React, {useEffect} from 'react';
-
 const API = 'https://api.reflectionsprojections.org';
 
 function request(method, endpoint, body) {
