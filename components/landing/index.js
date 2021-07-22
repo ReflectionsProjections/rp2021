@@ -39,7 +39,7 @@ export default function Landing() {
       <footer className={styles.footer}>
         Visit our old website&nbsp;
         <a
-          href="2020.reflectionsprojections.org"
+          href="https://2020.reflectionsprojections.org"
           rel="noopener noreferrer"
         >
           here
