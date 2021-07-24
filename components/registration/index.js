@@ -36,6 +36,7 @@ const RegistrationForm = () => {
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
+        console.log(form);
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
@@ -89,9 +90,15 @@ const RegistrationForm = () => {
                                     type="text" 
                                     placeholder="First Name"
                                 />
-                                <Form.Control.Feedback type="invalid">
-                                    Please provide a valid first name.
-                                </Form.Control.Feedback>
+                                {
+                                    validated ? 
+                                    <div className={styles.invalidText}>
+                                        <Form.Control.Feedback type="invalid">
+                                            Please provide a valid first name.    
+                                        </Form.Control.Feedback>
+                                    </div> : <div></div>
+                                }
+                                
                             </Col>
                         </Form.Group>
                         <Form.Group as={Row} controlId="formLastName">
@@ -102,9 +109,14 @@ const RegistrationForm = () => {
                                     type="text" 
                                     placeholder="Last Name"
                                 />
-                                <Form.Control.Feedback type="invalid">
-                                    Please provide a valid last name.
-                                </Form.Control.Feedback>
+                                {
+                                    validated ? 
+                                    <div className={styles.invalidText}>
+                                        <Form.Control.Feedback type="invalid">
+                                            Please provide a valid last name.    
+                                        </Form.Control.Feedback>
+                                    </div> : <div></div>
+                                }
                             </Col>
                         </Form.Group>
 
@@ -116,9 +128,14 @@ const RegistrationForm = () => {
                                     type="email" 
                                     placeholder="Email"
                                 />
-                                <Form.Control.Feedback type="invalid">
-                                    Please provide a valid email.
-                                </Form.Control.Feedback>
+                                {
+                                    validated ? 
+                                    <div className={styles.invalidText}>
+                                        <Form.Control.Feedback type="invalid">
+                                            Please provide a valid email.    
+                                        </Form.Control.Feedback>
+                                    </div> : <div></div>
+                                }
                             </Col>
                         </Form.Group>
 
@@ -133,9 +150,14 @@ const RegistrationForm = () => {
                                     <option>Other</option>
                                     <option>I'd rather not reply</option>
                                 </Form.Control>
-                                <Form.Control.Feedback type="invalid">
-                                    Please provide a valid gender.
-                                </Form.Control.Feedback>
+                                {
+                                    validated ? 
+                                    <div className={styles.invalidText}>
+                                        <Form.Control.Feedback type="invalid">
+                                            Please provide a valid gender.    
+                                        </Form.Control.Feedback>
+                                    </div> : <div></div>
+                                }
                             </Col>
                         </Form.Group>
 
@@ -152,9 +174,14 @@ const RegistrationForm = () => {
                                 <option>Other</option>
                                 <option>I'd rather not reply</option>
                             </Form.Control>
-                            <Form.Control.Feedback type="invalid">
-                                Please provide a valid race.
-                            </Form.Control.Feedback>
+                            {
+                                validated ? 
+                                <div className={styles.invalidText}>
+                                    <Form.Control.Feedback type="invalid">
+                                        Please provide a valid race.    
+                                    </Form.Control.Feedback>
+                                </div> : <div></div>
+                            }
                         </Form.Group>
 
                         <Form.Group controlId="formGraduation">
@@ -172,9 +199,14 @@ const RegistrationForm = () => {
                                 <option>2027</option>
                                 <option>Other</option>
                             </Form.Control>
-                            <Form.Control.Feedback type="invalid">
-                                Please provide a valid graduation year.
-                            </Form.Control.Feedback>
+                            {
+                                validated ? 
+                                <div className={styles.invalidText}>
+                                    <Form.Control.Feedback type="invalid">
+                                        Please provide a valid graduation year.    
+                                    </Form.Control.Feedback>
+                                </div> : <div></div>
+                            }
                         </Form.Group>
 
                         <Form.Group controlId="formSchool">
@@ -192,9 +224,14 @@ const RegistrationForm = () => {
                                 <option>Other</option>
                                 <option>Not Applicable</option>
                             </Form.Control>
-                            <Form.Control.Feedback type="invalid">
-                                Please provide a valid school.
-                            </Form.Control.Feedback>
+                            {
+                                validated ? 
+                                <div className={styles.invalidText}>
+                                    <Form.Control.Feedback type="invalid">
+                                        Please provide a valid school.    
+                                    </Form.Control.Feedback>
+                                </div> : <div></div>
+                            }
                         </Form.Group>
 
                         <Form.Group controlId="formMajor">
@@ -207,9 +244,14 @@ const RegistrationForm = () => {
                                 <option>Other</option>
                                 <option>Not Applicable</option>
                             </Form.Control>
-                            <Form.Control.Feedback type="invalid">
-                                Please provide a valid major.
-                            </Form.Control.Feedback>
+                            {
+                                validated ? 
+                                <div className={styles.invalidText}>
+                                    <Form.Control.Feedback type="invalid">
+                                        Please provide a valid major.    
+                                    </Form.Control.Feedback>
+                                </div> : <div></div>
+                            }
                         </Form.Group>
 
                         <Form.Group controlId="formInterest">
@@ -221,9 +263,14 @@ const RegistrationForm = () => {
                                     <option>Other</option>
                                     <option>Currently not looking</option>
                                 </Form.Control>
-                                <Form.Control.Feedback type="invalid">
-                                    Please select an option.
-                                </Form.Control.Feedback>
+                                {
+                                    validated ? 
+                                    <div className={styles.invalidText}>
+                                        <Form.Control.Feedback type="invalid">
+                                            Please provide an option.    
+                                        </Form.Control.Feedback>
+                                    </div> : <div></div>
+                                }
                         </Form.Group>
 
                         <Form.Group controlId="formRPKnowledge">
@@ -237,9 +284,14 @@ const RegistrationForm = () => {
                                 <option>Previous Attendance</option>
                                 <option>Other</option>
                             </Form.Control>
-                            <Form.Control.Feedback type="invalid">
-                                Please select how you found out about Reflections | Projections.
-                            </Form.Control.Feedback>
+                            {
+                                validated ? 
+                                <div className={styles.invalidText}>
+                                    <Form.Control.Feedback type="invalid">
+                                        Please select how you found out about Reflections | Projections.    
+                                    </Form.Control.Feedback>
+                                </div> : <div></div>
+                            }
                         </Form.Group>
 
                         <Form.Group controlId="formAttendance">
@@ -248,9 +300,14 @@ const RegistrationForm = () => {
                                 <option>Yes</option>
                                 <option>No</option>
                             </Form.Control>
-                            <Form.Control.Feedback type="invalid">
-                                Please provide a valid answer
-                            </Form.Control.Feedback>
+                            {
+                                validated ? 
+                                <div className={styles.invalidText}>
+                                    <Form.Control.Feedback type="invalid">
+                                        Please provide a valid answer.    
+                                    </Form.Control.Feedback>
+                                </div> : <div></div>
+                            }
                         </Form.Group>
 
                         <Form.Group>

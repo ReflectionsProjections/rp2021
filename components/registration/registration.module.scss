@@ -7,7 +7,7 @@
     align-items: center;
   
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: black;
     background: linear-gradient(#ffcf45, #f58023);
   }
   
@@ -65,5 +65,9 @@
     .footer {
       flex-direction: column;
     }
+  }
+
+  .invalidText {
+    color: red;
   }
   
