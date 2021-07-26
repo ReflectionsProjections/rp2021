@@ -15,7 +15,7 @@ const SponsorGroup = ({ children }) => <div className="mb-5">{children}</div>;
 
 SponsorGroup.Title = ({ children }) => (
   <Row>
-    <Col xs={12} className="text-center pb-3">
+    <Col className="text-center pb-3">
       <h4 style={{ fontFamily: "Roboto Mono" }}>{children}</h4>
     </Col>
   </Row>
@@ -29,25 +29,38 @@ const ImageViewer = (props) => {
   //  Bootstrap 4 has 12 column wide layout
   const LAYOUT_COL_WIDTH = 12;
   return (
-    <Col xs={12}>
-      <Row>
-        {images.map((image) => {
-          return (
-            <Col
-              key={image.name}
-              className={classNames(
-                "mb-3 d-flex align-items-center justify-content-center",
-                styles.image
-              )}
-            >
-              <a href={image.website}>
-                <Image src={image.img} width="30%" height="20%" fluid />
-              </a>
-            </Col>
-          );
-        })}
-      </Row>
-    </Col>
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        flexDirection: "row",
+        placeContent: "space-between",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "space-between",
+      }}
+    >
+      {images.map((image) => {
+        return (
+          <div
+            key={image.name}
+            className={classNames(
+              "mb-3 d-flex align-items-center justify-content-center",
+              styles.image
+            )}
+          >
+            <a href={image.website}>
+              <Image
+                src={image.img}
+                width="200vw"
+                height="30vh"
+                style={{ margin: "5%" }}
+              />
+            </a>
+          </div>
+        );
+      })}
+    </div>
   );
 };
 
@@ -56,50 +69,54 @@ const SponsorSection = ({ sponsors }) => {
   return (
     <div>
       <Section.Title className={styles.sponsorTitle}>Sponsors</Section.Title>
-      <Section.Body>
-        <Container display="flex" align-items="center" justify-content="center">
-          <SponsorGroup>
-            <SponsorGroup.Body>
-              {sponsors.tier1 && sponsors.tier1.length > 0 && (
-                <div
-                  className={classNames({
-                    [styles.firstTierSection]: !hasAllTiersSection,
-                  })}
-                >
-                  <ImageViewer images={sponsors.tier1} />
-                </div>
-              )}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "30%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+            flexDirection: "row",
+          }}
+        >
+          {sponsors.tier1 && sponsors.tier1.length > 0 && (
+            <div
+              className={classNames({
+                [styles.firstTierSection]: !hasAllTiersSection,
+              })}
+            >
+              <ImageViewer images={sponsors.tier1} />
+            </div>
+          )}
 
-              {sponsors.tier2 && sponsors.tier2.length > 0 && (
-                <ImageViewer images={sponsors.tier2} />
-              )}
+          {sponsors.tier2 && sponsors.tier2.length > 0 && (
+            <ImageViewer images={sponsors.tier2} />
+          )}
 
-              {sponsors.tier3 && sponsors.tier3.length > 0 && (
-                <ImageViewer images={sponsors.tier3} />
-              )}
+          {sponsors.tier3 && sponsors.tier3.length > 0 && (
+            <ImageViewer images={sponsors.tier3} />
+          )}
 
-              {sponsors.tier4 && sponsors.tier4.length > 0 && (
-                <ImageViewer images={sponsors.tier4} />
-              )}
-            </SponsorGroup.Body>
-          </SponsorGroup>
-          <SponsorGroup>
-            <SponsorGroup.Title></SponsorGroup.Title>
-            <SponsorGroup.Body>
-              {hasAllTiersSection && <ImageViewer images={sponsors.allTiers} />}
-            </SponsorGroup.Body>
-          </SponsorGroup>
-          <SponsorGroup>
-            <SponsorGroup.Body>
-              {sponsors.diversity && (
-                <>
-                  <ImageViewer images={sponsors.diversity.divTier1} />
-                </>
-              )}
-            </SponsorGroup.Body>
-          </SponsorGroup>
-        </Container>
-      </Section.Body>
+          {sponsors.tier4 && sponsors.tier4.length > 0 && (
+            <ImageViewer images={sponsors.tier4} />
+          )}
+
+          {hasAllTiersSection && <ImageViewer images={sponsors.allTiers} />}
+
+          {sponsors.diversity && (
+            <>
+              <ImageViewer images={sponsors.diversity.divTier1} />
+            </>
+          )}
+        </div>
+      </div>
     </div>
   );
 };

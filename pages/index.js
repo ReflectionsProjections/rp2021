@@ -28,12 +28,6 @@ export default function Landing() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      {isLoaded && (
-        <Element name="sponsor-section">
-          {<SponsorSection sponsors={sponsors} />}
-        </Element>
-      )}
-
       <main className={styles.main}>
         <img src="/logo.png" alt="Reflections Projects Logo" />
         <h1>
@@ -42,6 +36,12 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
+
+      {isLoaded && (
+        <Element name="sponsor-section">
+          {<SponsorSection sponsors={sponsors} />}
+        </Element>
+      )}
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
