@@ -61,6 +61,7 @@ const ImageViewer = (props) => {
               <Image
                 src={image.img}
                 style={{
+                  // The width here forces all images to fill up 100% of their parent container
                   width: "100%",
                 }}
               />
@@ -91,6 +92,7 @@ const SponsorSection = ({ sponsors }) => {
             alignItems: "center",
             flexWrap: "wrap",
             flexDirection: "row",
+            // The width here definess the size of the container for all tiers of sponsors
             width: "50%",
           }}
         >
