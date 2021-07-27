@@ -477,18 +477,29 @@
         "name": "Facebook",
         "img": "/resources/facebook.svg",
         "website": "https://www.facebook.com"
+      },
+      {
+        "name": "Google",
+        "img": "/resources/google.svg",
+        "website": "https://google.com/"
       }
     ],
-    "tier4": [],
-    "diversity": {
-      "divTier1": [
-        {
-          "name": "Google",
-          "img": "/resources/google.svg",
-          "website": "https://google.com/"
-        }
-      ],
-      "divTier2": []
-    }
+    "tier4": [
+      {
+        "name": "Grainger",
+        "img": "/resources/grainger.svg",
+        "website": "https://www.grainger.com/"
+      },
+      {
+        "name": "IMC",
+        "img": "/resources/imc.svg",
+        "website": "https://www.imc.com/"
+      },
+      {
+        "name": "Optum",
+        "img": "/resources/optum.svg",
+        "website": "https://www.optum.com/"
+      }
+    ]
   }
 }
