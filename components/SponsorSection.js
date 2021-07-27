@@ -38,12 +38,20 @@ const ImageViewer = (props) => {
         justifyContent: "center",
         alignItems: "center",
         alignContent: "space-between",
+        width: "100%",
       }}
     >
       {images.map((image) => {
         return (
           <div
             key={image.name}
+            // This percentage dictates how many images are per row; 33% would be 3
+            style={{
+              width: "40%",
+              marginBottom: "3%",
+              marginLeft: "2.5%",
+              marginRight: "2.5%",
+            }}
             className={classNames(
               "mb-3 d-flex align-items-center justify-content-center",
               styles.image
@@ -52,9 +60,9 @@ const ImageViewer = (props) => {
             <a href={image.website}>
               <Image
                 src={image.img}
-                width="200vw"
-                height="30vh"
-                style={{ margin: "5%" }}
+                style={{
+                  width: "100%",
+                }}
               />
             </a>
           </div>
@@ -78,12 +86,12 @@ const SponsorSection = ({ sponsors }) => {
       >
         <div
           style={{
-            width: "30%",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
             flexWrap: "wrap",
             flexDirection: "row",
+            width: "50%",
           }}
         >
           {sponsors.tier1 && sponsors.tier1.length > 0 && (
