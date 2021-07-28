@@ -19,26 +19,29 @@
   .questionCardTitle {
     margin: 0.2em;
     color: var(--black-text);
-    font-family: 'Roboto Mono';
+    font-family: var(--alt-font);
   }
   .questionCardText {
     margin-top: 0.75em;
     padding-left: 1em;
     color: var(--black-text);
-    font-family: 'Roboto Mono';
+    font-family: var(--alt-font);
   }
   
   .questionCardMobile p {
     margin-bottom: 0.3em;
-    color: var(--text-color);
-    font-family: var(--font-family);
+    color: var(--black-text);
+    font-family: var(--alt-font);
+    font-size: 90%;
   }
   
   @media (max-width: 767.98px) {
     .questionCardBody {
       padding: 0.5em;
+      font-size: 90%;
     }
     .questionCardTitle {
+      padding-top: 0.5em;
       margin-bottom: 0;
     }
   }

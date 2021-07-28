@@ -1,6 +1,6 @@
 .title,
 .subtitle {
-  font-family: 'Roboto Mono';
+  font-family: var(--alt-font);
   font-weight: 400;
   text-align: left;
   color: var(--black-text);
@@ -49,8 +49,7 @@
 
 @media (max-width: 767.98px) {
   .title {
-    margin: 0.1em 0;
-    font-size: 1.7em;
+    margin: 0.1em 0.5em;
   }
   .subtitle {
     margin-bottom: 0.5em;

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import MediaQuery from 'react-responsive'
 
 import Button from 'react-bootstrap/Button'
+import Dropdown from 'react-bootstrap/Dropdown';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -36,7 +38,9 @@ const FAQ = ({ faqData: { sections } }) => {
             margin-bottom: 0.5em;
             width: 100%;
             margin-right: 50em;
+            border-radius: 5px;
           }
+
           .btn-navButton:focus,
           .btn-navButton:hover,
           .btn-navButton:active {
@@ -54,11 +58,10 @@ const FAQ = ({ faqData: { sections } }) => {
             md={{ span: 6, offset: 3 }}
             className={`text-center ${styles.faqPrompt}`}
           >
-            
-
-
           </Col>
-          <Row>
+          
+          <MediaQuery minWidth={767.98} >
+            <Row>
             <Col xs="3">
               <Button variant="navButton" onClick={() => setCurrSection('General')}>General</Button>
               <Button variant="navButton" onClick={() => setCurrSection('Events')}>Events</Button>
@@ -66,13 +69,58 @@ const FAQ = ({ faqData: { sections } }) => {
               <Button variant="navButton" onClick={() => setCurrSection('PuzzleBang')}>PuzzleBang</Button>
               <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Presenters')}>R|P Symposium for Presenters</Button>
               <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Schools')}>R|P Symposium for Schools</Button>
-              </Col>
-          <Col ><QuestionContainer
-            questions={currQuestions}
-            currQuestion={currQuestion}
-            handleToggle={handleToggle}
-          /></Col>
-          </Row>
+            </Col>
+            <Col>
+              <QuestionContainer
+                questions={currQuestions}
+                currQuestion={currQuestion}
+                handleToggle={handleToggle}
+              />
+            </Col>
+            </Row>
+          </MediaQuery>
+          <MediaQuery maxWidth={767.98} >
+              <div>
+              <Dropdown>
+                <Dropdown.Toggle
+                  size="lg"
+                  id="faq-dropdown"
+                  variant="secondary"
+                  className={styles.faqDropdown}
+                >
+                  {currSection}
+                </Dropdown.Toggle>
+                <Dropdown.Menu className={styles.faqDropdownMenu}>
+                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('General')}>
+                    General
+                  </Dropdown.Item>
+                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('Events')}>
+                    Events
+                  </Dropdown.Item>
+                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('MechMania')}>
+                    MechMania
+                  </Dropdown.Item>
+                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('PuzzleBang')}>
+                    PuzzleBang
+                  </Dropdown.Item>
+                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('R|P Symposium for Presenters')}>
+                    R|P Symposium for Presenters
+                  </Dropdown.Item>
+                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('R|P Symposium for Schools')}>
+                    R|P Symposium for Schools
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </div>
+            <Row>
+              <QuestionContainer
+                questions={currQuestions}
+                currQuestion={currQuestion}
+                handleToggle={handleToggle}
+              />
+            </Row>
+          </MediaQuery>
+          
         </Container>
       </Section.Body>
     </Section>
