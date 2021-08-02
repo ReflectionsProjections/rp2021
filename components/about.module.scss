@@ -1,15 +1,16 @@
 .aboutSection {
   min-height: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   color: #333333;
 }
 
-.aboutSection h3 {
+.title {
   font-size: 1.75rem;
+  font-size: 30px;
 }
 
-.aboutSection a {
-  color: #f58023;
+.body {
+  font-size: 18px;
 }
 
 .socialMediaIcons {
