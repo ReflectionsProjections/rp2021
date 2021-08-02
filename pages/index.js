@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Element } from 'react-scroll';
 
-import About from '../components/About/index';
+import About from '../components/About';
 
 import styles from "../styles/Landing.module.css";
 

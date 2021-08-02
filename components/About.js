@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Section from '../../UIComponents/Section';
+import Section from './Section';
 import styles from './about.module.scss';
 
 /* About Section Styling */
