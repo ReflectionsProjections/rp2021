@@ -15,6 +15,10 @@ export default function Landing() {
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
         />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" 
+          rel="stylesheet"
+        />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
