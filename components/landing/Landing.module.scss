@@ -61,4 +61,7 @@
   @media screen and (max-width: 720px) {
     flex-direction: column;
   }
+  a {
+    color: var(--orange-1);
+  }
 }
