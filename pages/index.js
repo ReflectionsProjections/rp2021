@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Element } from 'react-scroll';
+import { Link, Element } from 'react-scroll';
 
 import About from '../components/About';
 
@@ -29,7 +29,21 @@ export default function Landing() {
         </h1>
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
+        <Link
+          activeClass="active"
+          to="about"
+          spy
+          smooth="easeInOutQuad"
+          duration={500}
+          offset={-80}
+        >
+          <span className={styles.scrollDown}>
+            <span className={styles.scrollDownText}>See More</span>
+          </span>
+        </Link>
       </main>
+
+      <div style={{height: '550px'}}></div>
 
       <Element name="about">
         <About />
