@@ -7,6 +7,23 @@ import styles from './SpeakerCard.module.scss';
 import { getQueryObject } from '../../../lib/path';
 
 const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
+
+	const useMediaQuery = (query, whenTrue, whenFalse) => {
+	if (typeof window === 'undefined' || typeof window.matchMedia === 'undefined')
+		return whenFalse;
+
+	const mediaQuery = window.matchMedia(query);
+	const [match, setMatch] = React.useState(!!mediaQuery.matches);
+
+	React.useEffect(() => {
+		const handler = () => setMatch(!!mediaQuery.matches);
+		mediaQuery.addListener(handler);
+		return () => mediaQuery.removeListener(handler);
+	}, []);
+
+	return match ? whenTrue : whenFalse;
+	};
+
   const [hrefObj, setHrefObj] = useState(undefined);
   const [isCollapsed, setIsCollapsed] = useState(true);
   useEffect(() => {
@@ -22,6 +39,14 @@ const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
   });
 
   const badgeJSX = badge ? <Badge variant="primary">{badge}</Badge> : null;
+
+  const speakerBio = useMediaQuery('(max-width: 599px)', 
+									`<details>
+										<summary>Details</summary>
+  										${bio}
+									</details>`, 
+									bio)
+
   return (
 	  
       <div className={styles.speakerCard} key={name}>
@@ -40,12 +65,9 @@ const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
 						{name}
 						</h1>
 						<h3 className={styles.speakerTagline}>{tagline}</h3>
-						<Button className={styles.collapseButton} onClick={() => setIsCollapsed(!isCollapsed)}>
-							{isCollapsed ?  <ChevronDown/> : <ChevronUp/> }
-						</Button>
 					</div>
-					<div variant="outline-primary" className={`${styles.bio} ${isCollapsed ?  styles.collapsed : styles.expanded}`} size="sm">
-						{ReactHtmlParser(bio)}
+					<div variant="outline-primary" className={styles.bio} size="sm">
+						{ReactHtmlParser(speakerBio)}
 					</div>
 				</div>
 			 </Col>

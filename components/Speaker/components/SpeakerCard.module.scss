@@ -80,23 +80,3 @@
   font-family: 'Roboto Mono', monospace;
   clear: both;
 }
-
-.collapsed {
-  display: none;
-  visibility: hidden;
-}
-
-.expanded {
-  display: block;
-}
-
-.collapseButton {
-  @include desktop {
-    display: none;
-  }
-  justify-content: flex-end;
-  align-self: flex-start;
-  display: flex;
-  min-height: 1em;
-  min-width: 1em;
-}
