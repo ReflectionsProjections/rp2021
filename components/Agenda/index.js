@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import moment from 'moment';
 
 import { isMobile } from 'react-device-detect';
@@ -11,13 +11,14 @@ import { DAY_FORMAT, TIME_FORMAT, EVENT_TYPE } from '../../constants/events';
 import Section from '../../UIComponents/Section';
 import UIButtonGroupSelect from '../../UIComponents/Input/UIButtonGroupSelect';
 import { UITimeline, UITimelineEvent } from '../../UIComponents/UITimeline';
-// import "../Agenda/agenda.scss"
+import Dropdown from 'react-bootstrap/Dropdown'
 
 /* Grabs all events */
 const getEventsList = events => {
   if (typeof events !== 'object') {
     return [];
   }
+
   return events.allIds.map(id => {
     const event = events.byId[id];
     return {
@@ -28,13 +29,12 @@ const getEventsList = events => {
   });
 };
 
-//for the gradient background
 if (typeof window !== "undefined") {
   window.addEventListener("mousemove", event => {
     const width = window.outerWidth;
     const height = window.outerHeight;
-    const xOffset = 0;
-    const yOffset = 7;
+    const xOffset = 16;
+    const yOffset = 0;
     const mouseXpercentage = (event.clientX / width * 100) + xOffset;//Math.round(event.pageX / width * 100);
     const mouseYpercentage = (event.clientY / height * 100) + yOffset;//Math.round(event.pageY / height * 100);
     document.getElementsByTagName("body")[0].style = "background: radial-gradient(at " + mouseXpercentage + "% " + mouseYpercentage + "%, #EF7B23, #ffffff)";
@@ -114,9 +114,21 @@ const Agenda = ({ events }) => {
   const allEvents = getEventsList(events);
 
   const [selectedType, setSelectedType] = useState('');
+  const [selectedDate, setSelectedDate] = useState('09-16-2019')
+  const [selectedDateWeek, setSelectedDateWeek] = useState('Monday Sep 16th');
+  const [dropdownActive, setDropDownActive] = useState(false);
   const handleSelect = value => {
     setSelectedType(value);
   };
+
+  const handleDropdown = () => {
+    setDropDownActive(!dropdownActive);
+    if (!dropdownActive) {
+      document.getElementsByClassName("margin")[0].style.height = "300px";
+    } else {
+      document.getElementsByClassName("margin")[0].style.height = "0px";
+    }
+  }
 
   const startupFairMapLink = isMobile
     ? '/static/startup-fair-map.jpg'
@@ -125,14 +137,15 @@ const Agenda = ({ events }) => {
     ? '/static/career-fair-map.jpg'
     : '/static/career-fair-map.pdf';
 
+
   return (
     <Section>
       <Section.Header>
-        <Section.Title>Agenda</Section.Title>
+        <Section.Title></Section.Title>
       </Section.Header>
       <Section.Body>
         <Container>
-          <Row className="pb-4">
+          {/* <Row className="pb-4">
             <Col className="text-center">
               <Button style={{ margin: '10px' }} href={startupFairMapLink}>
                 Startup Fair Map
@@ -141,43 +154,31 @@ const Agenda = ({ events }) => {
                 Career Fair Map
               </Button>
             </Col>
-          </Row>
+          </Row> */}
           <Row className="pb-4">
             <Col className="text-center">
-              <UIButtonGroupSelect
-                options={[
-                  { label: 'All Events', value: '' },
-                  { label: 'Conference Events', value: EVENT_TYPE.CONFERENCE },
-                  { label: 'Corporate Events', value: EVENT_TYPE.CORPORATE }
-                ]}
-                onSelect={handleSelect}
-              />
+              <Dropdown onClick={() => handleDropdown()}>
+                <Dropdown.Toggle variant="success" id="dropdown-basic" style={{"background-color": "#F3681F", "color": "black", "width": "500px"}}>
+                  {selectedDateWeek}
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu style={{"background-color": "#FEA55B", "width": "500px"}}>
+                  <Dropdown.Item style={{"background-color": "#FEA55B", "color": "black"}} href="#/action-1" onClick={() => {setSelectedDate("09-16-2019"); setSelectedDateWeek("Monday Sep 16th")}}>Monday</Dropdown.Item>
+                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-2" onClick={() => {setSelectedDate("09-17-2019"); setSelectedDateWeek("Tuesday Sep 17th")}}>Tuesday</Dropdown.Item>
+                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-3" onClick={() => {setSelectedDate("09-18-2019"); setSelectedDateWeek("Wednesday Sep 18th")}}>Wednesday</Dropdown.Item>
+                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-4" onClick={() => {setSelectedDate("09-19-2019"); setSelectedDateWeek("Thursday Sep 19th")}}>Thursday</Dropdown.Item>
+                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-5" onClick={() => {setSelectedDate("09-20-2019"); setSelectedDateWeek("Friday Sep 20th")}}>Friday</Dropdown.Item>
+                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-6" onClick={() => {setSelectedDate("09-21-2019"); setSelectedDateWeek("Saturday Sep 21th")}}>Saturday</Dropdown.Item>
+                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-7" onClick={() => {setSelectedDate("09-22-2019"); setSelectedDateWeek("Sunday Sep 22th")}}>Sunday</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </Col>
           </Row>
+          <div className = "margin" style={{"height": "0px"}}></div>
           <Row>
             <DayAgenda
-              label="Monday Sep 16th"
-              events={filterEvents(allEvents, '09-16-2019', selectedType)}
-            />
-            <DayAgenda
-              label="Tuesday Sep 17th"
-              events={filterEvents(allEvents, '09-17-2019', selectedType)}
-            />
-            <DayAgenda
-              label="Wednesday Sep 18th"
-              events={filterEvents(allEvents, '09-18-2019', selectedType)}
-            />
-            <DayAgenda
-              label="Thursday Sep 19th"
-              events={filterEvents(allEvents, '09-19-2019', selectedType)}
-            />
-            <DayAgenda
-              label="Friday Sep 20th"
-              events={filterEvents(allEvents, '09-20-2019', selectedType)}
-            />
-            <DayAgenda
-              label="Saturday Sep 21st"
-              events={filterEvents(allEvents, '09-21-2019', selectedType)}
+              label={selectedDateWeek}
+              events={filterEvents(allEvents, selectedDate, selectedType)}
             />
           </Row>
         </Container>

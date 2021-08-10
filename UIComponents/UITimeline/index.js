@@ -4,19 +4,23 @@ import classNames from 'classnames';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import styles from '../../pages/index'
+import styles from '../../pages/_app';
 
 export const UITimeline = ({ children }) => (
   <div className={classNames('pt-2 pb-5')}>{children}</div>
 );
 
 UITimeline.Title = ({ children }) => (
-  <h3 className={classNames('text-center', styles.title)}>{children}</h3>
+  <h2 className={classNames('text-center', styles.title)}>{children}</h2>
 );
 
 UITimeline.Body = ({ children }) => (
   <div className={styles.container}>{children}</div>
 );
+
+// UITimeline.Location = ({ children }) => (
+//   <h3 className = {styles.eventLocation}>{children}</h3>
+// );
 
 export const UITimelineEvent = ({ children }) => (
   <Row className={styles.event}>{children}</Row>

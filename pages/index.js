@@ -1,10 +1,24 @@
 import Head from "next/head";
-import styles from "../styles/Landing.module.css";
 import Agenda from '../components/Agenda'
+import events from '../static/data/rp2020.json';
+import useGetStaticData from '../services/useGetStaticData';
+import Layout from '../UIComponents/Layout';
 
 export default function Landing() {
+  const { isLoaded, rpData, nav, gates } = useGetStaticData();
+  const { events, faqSection, speakerSection, projectSection, sponsors } = rpData;
+
   return (
-    <Agenda />
+    // <Agenda events={events}/>
+  <Layout>
+    {isLoaded && (
+      <>
+        {/* <Element name="agenda"> */}
+          <Agenda events={events} />
+        {/* </Element> */}
+      </>
+    )}
+  </Layout> 
     // <div className={styles.landingContainer}>
     //   <Head>
     //     <title>Reflections Projects 2021</title>

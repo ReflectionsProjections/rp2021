@@ -9,8 +9,8 @@
     // this is the timeline vertical line
     content: '';
     position: absolute;
-    width: 3px;
-    background-color: $medium-purple;
+    width: 1px;
+    background-color: black;
     top: 20px;
     bottom: 0;
     left: calc(12% + 1px);
@@ -43,8 +43,8 @@
     width: 25px;
     height: 25px;
     left: calc(12% - 13px);
-    background-color: white;
-    border: 3px solid $medium-purple;
+    background-color: "#F3681F";
+    border: 3px solid black;
     top: 20px;
     border-radius: 50%;
     z-index: 1;
@@ -60,6 +60,18 @@
 }
 
 .eventTime {
+  font-family: 'Roboto Mono';
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  text-align: left;
+  color: black;
+  @media (min-width: 992px) {
+    text-align: right;
+    font-size: 1em;
+  }
+}
+
+.eventLocation {
   font-family: 'Roboto Mono';
   margin-bottom: 0.5em;
   font-size: 1.2em;

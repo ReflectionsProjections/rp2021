@@ -1,0 +1,23 @@
+{
+    "exampleGate1": {
+      "type": "TIMED_UNLOCK",
+      "time": "00:00 01 January 2019 CST"
+    },
+    "exampleGate2": {
+      "type": "TIMED_LOCK",
+      "time": "00:00 01 January 2019 CST"
+    },
+    "exampleGate3": {
+      "type": "TOGGLE",
+      "status": "LOCKED"
+    },
+    "EVENT_SECTION": {
+      "type": "TOGGLE",
+      "status": "LOCKED"
+    },
+    "AGENDA_SECTION": {
+      "type": "TOGGLE",
+      "status": "UNLOCKED"
+    }
+  }
+  
