@@ -1,15 +1,19 @@
 import Head from "next/head";
+
 import { Element } from 'react-scroll';
 
 import About from '../components/About';
 
 import styles from "../styles/Landing.module.css";
 
-export default function Landing() {
+import Landing from '../components/landing';
+
+export default function Index() {
   return (
-    <div className={styles.landingContainer}>
+    <>
+    <div>
       <Head>
-        <title>Reflections Projects 2021</title>
+        <title>Reflections Projections 2021</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -21,7 +25,6 @@ export default function Landing() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-
       <main className={styles.main}>
         <img src="/logo.png" alt="Reflections Projects Logo" />
         <h1>
@@ -43,5 +46,7 @@ export default function Landing() {
         </a>
       </footer>
     </div>
+      <Landing />
+    </>
   );
 }
