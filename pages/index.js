@@ -31,9 +31,7 @@ export default function Landing() {
         <h2>September 20-25th, 2021</h2>
       </main>
 
-      <Element name="about">
-        <About />
-      </Element>
+      <About name="about" />
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
