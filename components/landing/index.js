@@ -1,5 +1,7 @@
 import React from 'react';
 
+import About from '../About';
+
 import styles from './Landing.module.scss';
 
 export default function Landing() {
@@ -13,6 +15,8 @@ export default function Landing() {
         <p>27 years of connecting students with industry</p>
         <h2>September 20-25th, 2021</h2>
       </main>
+
+      <About name="about" />
 
       <footer className={styles.footer}>
       Sign up&nbsp;
