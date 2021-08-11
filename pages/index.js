@@ -1,6 +1,8 @@
 import Head from 'next/head';
 
 import Landing from '../components/landing';
+import Nav from '../components/ui/Nav';
+import Footer from '../components/ui/Footer';
 
 export default function Index() {
   return (
@@ -14,7 +16,9 @@ export default function Index() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Nav />
       <Landing />
+      <Footer />
     </>
   );
 }
