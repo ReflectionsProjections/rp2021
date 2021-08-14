@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Element } from "react-scroll";
-import SponsorSection from "../components/SponsorSection";
+import SponsorSection from "../components/SponsorSection.js";
 import styles from "../styles/Landing.module.css";
 import useGetStaticData from "../services/useGetStaticData";
 import { getQueryObject } from "../lib/path";

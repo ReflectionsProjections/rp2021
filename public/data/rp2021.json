@@ -454,50 +454,50 @@
     "tier2": [],
     "tier3": [
       {
-        "name": "Abbvie",
-        "img": "/resources/abbvie.svg",
+        "name": "Aechelon",
+        "img": "/resources/aechelon-full-color.jpeg",
         "website": "https://www.abbvie.com/"
       },
       {
-        "name": "Capital One",
-        "img": "/resources/capitalone.svg",
+        "name": "Blue Cross Blue Shield",
+        "img": "/resources/bcbs-full-color.jpeg",
         "website": "https://www.capitalone.com/"
       },
       {
         "name": "Caterpillar",
-        "img": "/resources/caterpillar.svg",
+        "img": "/resources/aechelon-full-color.jpeg",
         "website": "https://www.caterpillar.com/"
       },
       {
         "name": "Contrary",
-        "img": "/resources/contrary.svg",
+        "img": "/resources/bcbs-full-color.jpeg",
         "website": "https://www.imc.com/us/"
       },
       {
         "name": "Facebook",
-        "img": "/resources/facebook.svg",
+        "img": "/resources/aechelon-full-color.jpeg",
         "website": "https://www.facebook.com"
       },
       {
         "name": "Google",
-        "img": "/resources/google.svg",
+        "img": "/resources/bcbs-full-color.jpeg",
         "website": "https://google.com/"
       }
     ],
     "tier4": [
       {
         "name": "Grainger",
-        "img": "/resources/grainger.svg",
+        "img": "/resources/aechelon-full-color.jpeg",
         "website": "https://www.grainger.com/"
       },
       {
         "name": "IMC",
-        "img": "/resources/imc.svg",
+        "img": "/resources/bcbs-full-color.jpeg",
         "website": "https://www.imc.com/"
       },
       {
         "name": "Optum",
-        "img": "/resources/optum.svg",
+        "img": "/resources/aechelon-full-color.jpeg",
         "website": "https://www.optum.com/"
       }
     ]
