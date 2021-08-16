@@ -36,8 +36,8 @@ if (typeof window !== "undefined") {
     const width = window.outerWidth;
     const height = window.outerHeight;
     const xOffset = 16;
-    const yOffset = 0;
-    const mouseXpercentage = (event.clientX / width * 100) + xOffset;//Math.round(event.pageX / width * 100);
+    const yOffset = 3;
+    const mouseXpercentage = (event.clientX / width * 100);//Math.round(event.pageX / width * 100);
     const mouseYpercentage = (event.clientY / height * 100) + yOffset;//Math.round(event.pageY / height * 100);
     document.getElementsByTagName("body")[0].style = "background: radial-gradient(at " + mouseXpercentage + "% " + mouseYpercentage + "%, #EF7B23, #ffffff)";
   });
@@ -81,17 +81,18 @@ const DayAgenda = ({ label, events }) => {
   return (
     <Col xs={{ span: 10, offset: 1 }} sm={{ span: 8, offset: 2 }}>
       <UITimeline>
-        <UITimeline.Title>{label}</UITimeline.Title>
+        {/* <UITimeline.Title>{label}</UITimeline.Title> */}
         <UITimeline.Body>
           {events.map(event => (
             <UITimelineEvent key={event.title}>
               <UITimelineEvent.Time>
                 {formatTime(event.time)}
               </UITimelineEvent.Time>
+              {/* <UITimeline.Location>{event.location}</UITimeline.Location> */}
               <UITimelineEvent.Body>
                 {event.title}
                 <br />
-                <span style={{ fontWeight: 200 }}>{event.location}</span>
+                {/* <span style={{ fontWeight: 200 }}>{event.location}</span> */}
                 {event.hasPage && (
                   <>
                     <br />
@@ -163,7 +164,6 @@ const Agenda = ({ events }) => {
                 <Dropdown.Toggle variant="success" id="dropdown-basic" className = "togglebar">
                   {selectedDateWeek.substr(0, selectedDateWeek.indexOf(" "))}
                 </Dropdown.Toggle>
-
                 <Dropdown.Menu className = "togglemenu">
                   <Dropdown.Item className = "toggleitem" href="#/action-1" onClick={() => {setSelectedDate("09-16-2019"); setSelectedDateWeek("Monday Sep 16th")}}>Monday</Dropdown.Item>
                   <Dropdown.Item className = "toggleitem"  href="#/action-2" onClick={() => {setSelectedDate("09-17-2019"); setSelectedDateWeek("Tuesday Sep 17th")}}>Tuesday</Dropdown.Item>
