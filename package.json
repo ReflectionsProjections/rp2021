@@ -21,6 +21,7 @@
     "react-ga": "^3.3.0",
     "sass": "^1.36.0",
     "semantic-ui-react": "^2.0.3",
-    "svelte": "^3.38.3"
+    "svelte": "^3.38.3",
+    "webfontloader": "^1.6.28"
   }
 }

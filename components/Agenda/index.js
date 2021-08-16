@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import moment from 'moment';
 
 import { isMobile } from 'react-device-detect';
@@ -11,7 +11,9 @@ import { DAY_FORMAT, TIME_FORMAT, EVENT_TYPE } from '../../constants/events';
 import Section from '../../UIComponents/Section';
 import UIButtonGroupSelect from '../../UIComponents/Input/UIButtonGroupSelect';
 import { UITimeline, UITimelineEvent } from '../../UIComponents/UITimeline';
-import Dropdown from 'react-bootstrap/Dropdown'
+import Dropdown from 'react-bootstrap/Dropdown';
+
+
 
 /* Grabs all events */
 const getEventsList = events => {
@@ -157,19 +159,19 @@ const Agenda = ({ events }) => {
           </Row> */}
           <Row className="pb-4">
             <Col className="text-center">
-              <Dropdown onClick={() => handleDropdown()}>
-                <Dropdown.Toggle variant="success" id="dropdown-basic" style={{"background-color": "#F3681F", "color": "black", "width": "500px"}}>
-                  {selectedDateWeek}
+              <Dropdown className = "toggle" onClick={() => handleDropdown()}>
+                <Dropdown.Toggle variant="success" id="dropdown-basic" className = "togglebar">
+                  {selectedDateWeek.substr(0, selectedDateWeek.indexOf(" "))}
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu style={{"background-color": "#FEA55B", "width": "500px"}}>
-                  <Dropdown.Item style={{"background-color": "#FEA55B", "color": "black"}} href="#/action-1" onClick={() => {setSelectedDate("09-16-2019"); setSelectedDateWeek("Monday Sep 16th")}}>Monday</Dropdown.Item>
-                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-2" onClick={() => {setSelectedDate("09-17-2019"); setSelectedDateWeek("Tuesday Sep 17th")}}>Tuesday</Dropdown.Item>
-                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-3" onClick={() => {setSelectedDate("09-18-2019"); setSelectedDateWeek("Wednesday Sep 18th")}}>Wednesday</Dropdown.Item>
-                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-4" onClick={() => {setSelectedDate("09-19-2019"); setSelectedDateWeek("Thursday Sep 19th")}}>Thursday</Dropdown.Item>
-                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-5" onClick={() => {setSelectedDate("09-20-2019"); setSelectedDateWeek("Friday Sep 20th")}}>Friday</Dropdown.Item>
-                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-6" onClick={() => {setSelectedDate("09-21-2019"); setSelectedDateWeek("Saturday Sep 21th")}}>Saturday</Dropdown.Item>
-                  <Dropdown.Item style={{"background-color": "#FEA55B"}} href="#/action-7" onClick={() => {setSelectedDate("09-22-2019"); setSelectedDateWeek("Sunday Sep 22th")}}>Sunday</Dropdown.Item>
+                <Dropdown.Menu className = "togglemenu">
+                  <Dropdown.Item className = "toggleitem" href="#/action-1" onClick={() => {setSelectedDate("09-16-2019"); setSelectedDateWeek("Monday Sep 16th")}}>Monday</Dropdown.Item>
+                  <Dropdown.Item className = "toggleitem"  href="#/action-2" onClick={() => {setSelectedDate("09-17-2019"); setSelectedDateWeek("Tuesday Sep 17th")}}>Tuesday</Dropdown.Item>
+                  <Dropdown.Item className = "toggleitem"  href="#/action-3" onClick={() => {setSelectedDate("09-18-2019"); setSelectedDateWeek("Wednesday Sep 18th")}}>Wednesday</Dropdown.Item>
+                  <Dropdown.Item className = "toggleitem"  href="#/action-4" onClick={() => {setSelectedDate("09-19-2019"); setSelectedDateWeek("Thursday Sep 19th")}}>Thursday</Dropdown.Item>
+                  <Dropdown.Item className = "toggleitem"  href="#/action-5" onClick={() => {setSelectedDate("09-20-2019"); setSelectedDateWeek("Friday Sep 20th")}}>Friday</Dropdown.Item>
+                  <Dropdown.Item className = "toggleitem"  href="#/action-6" onClick={() => {setSelectedDate("09-21-2019"); setSelectedDateWeek("Saturday Sep 21th")}}>Saturday</Dropdown.Item>
+                  <Dropdown.Item className = "toggleitem"  href="#/action-7" onClick={() => {setSelectedDate("09-22-2019"); setSelectedDateWeek("Sunday Sep 22th")}}>Sunday</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </Col>
