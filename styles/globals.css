@@ -34,6 +34,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   color: var(--grey);
+  background: linear-gradient(var(--yellow-3), var(--orange-3));
 }
 
 a {

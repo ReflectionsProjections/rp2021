@@ -9,8 +9,8 @@ export default function Index() {
       const height = window.outerHeight;
       const xOffset = 0;
       const yOffset = 7;
-      const mouseXpercentage = (event.clientX / width * 100) + xOffset;//Math.round(event.pageX / width * 100);
-      const mouseYpercentage = (event.clientY / height * 100) + yOffset;//Math.round(event.pageY / height * 100);
+      const mouseXpercentage = (event.clientX / width * 100) + xOffset;
+      const mouseYpercentage = (event.clientY / height * 100) + yOffset;
       document.getElementsByTagName("body")[0].style = "background: radial-gradient(at " + mouseXpercentage + "% " + mouseYpercentage + "%, var(--orange-3), var(--yellow-3))";
     });
   }
