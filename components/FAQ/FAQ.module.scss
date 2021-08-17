@@ -1,7 +1,46 @@
+.faqDropdown {
+  color: var(--black-text) !important;
+  font-family: var(--alt-font);
+  font-size: 90%;
+  background-color: var(--yellow-3) !important;
+  text-align: center;
+  margin-bottom: 2em;
+  width: 100%;
+}
+.faqDropdown:focus,
+.faqDropdown:hover,
+.faqDropdown:active {
+  background-color: var(--yellow-1) !important;
+  color: var(--black-text) !important;
+}
+
+.faqDropdownMenu {
+  color: var(--black-text);
+  font-family: var(--alt-font);
+  font-size: 90%;
+  background-color: var(--yellow-3) !important;
+  text-align: center;
+  width: 100%;
+}
+
+.faqDropDownButton {
+  color: var(--black-text);
+  font-family: var(--alt-font);
+  background-color: var(--yellow-3) !important;
+  text-align: center;
+  width: 100%;
+}
+.faqDropDownButton:focus,
+.faqDropDownButton:hover,
+.faqDropDownButton:active {
+  background-color: var(--yellow-1) !important;
+  color: var(--black-text) !important;
+}
+
 .faqPrompt {
   margin: 0.75em auto;
   font-family: var(--font-family);
-  color: var(--green);
+  color: var(--black-text);
 }
 
 .faqPrompt h3 {
