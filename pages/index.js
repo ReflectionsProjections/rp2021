@@ -33,13 +33,13 @@ export default function Landing() {
       </main>
 
       <Layout>
-      {isLoaded && (
-        <>
-          <Element name="faq">
-            {<FAQ faqData={faqSection} />}
-          </Element>
-        </>
-      )}
+        {isLoaded && (
+          <>
+            <Element name="faq">
+              {<FAQ faqData={faqSection} />}
+            </Element>
+          </>
+        )}
       </Layout>
 
       <footer className={styles.footer}>
@@ -54,4 +54,3 @@ export default function Landing() {
     </div>
   );
 }
-

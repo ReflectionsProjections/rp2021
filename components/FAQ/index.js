@@ -6,7 +6,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Section from '../../UIComponents/Section';
+import Section from '../Section';
 
 import QuestionContainer from './components/QuestionContainer';
 
