@@ -1,35 +1,36 @@
-import React, { useState } from 'react';
-import MediaQuery from 'react-responsive'
+import React, { useState } from "react";
+import MediaQuery from "react-responsive";
 
-import Button from 'react-bootstrap/Button'
-import Dropdown from 'react-bootstrap/Dropdown';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Section from '../Section';
+import Button from "react-bootstrap/Button";
+import Dropdown from "react-bootstrap/Dropdown";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Section from "../Section";
 
-import QuestionContainer from './components/QuestionContainer';
+import QuestionContainer from "./components/QuestionContainer";
 
-import styles from './FAQ.module.scss';
+import styles from "./FAQ.module.scss";
 
 const FAQ = ({ faqData: { sections } }) => {
-  const [currSection, setCurrSection] = useState('General');
-  const [currQuestion, setCurrQuestion] = useState('');
+  const [currSection, setCurrSection] = useState("General");
+  const [currQuestion, setCurrQuestion] = useState("");
 
-  const handleToggle = question => {
-    const newCurrQuestion = question === currQuestion ? '' : question;
+  const handleToggle = (question) => {
+    const newCurrQuestion = question === currQuestion ? "" : question;
     setCurrQuestion(newCurrQuestion);
   };
 
   const currQuestions = sections.filter(
-    section => section.name === currSection
+    (section) => section.name === currSection
   )[0].questions;
-  
+
   return (
     <Section>
       <style type="text/css">
         {`
           .btn-navButton {
+            font-family: var(--font-family);
             background-color: var(--yellow-3);
             color: var(--black-text);
             font-size: 120%;
@@ -37,13 +38,13 @@ const FAQ = ({ faqData: { sections } }) => {
             padding: 0.5em;
             margin-bottom: 0.5em;
             width: 100%;
-            margin-right: 50em;
             border-radius: 5px;
           }
 
           .btn-navButton:focus,
           .btn-navButton:hover,
-          .btn-navButton:active {
+          .btn-navButton:active,
+          .btn-navButton.active {
             background-color: var(--yellow-1);
           }
         `}
@@ -57,30 +58,33 @@ const FAQ = ({ faqData: { sections } }) => {
           <Col
             md={{ span: 6, offset: 3 }}
             className={`text-center ${styles.faqPrompt}`}
-          >
-          </Col>
-          
-          <MediaQuery minWidth={767.98} >
+          ></Col>
+
+          <MediaQuery minWidth={767.98}>
             <Row>
-            <Col xs="3">
-              <Button variant="navButton" onClick={() => setCurrSection('General')}>General</Button>
-              <Button variant="navButton" onClick={() => setCurrSection('Events')}>Events</Button>
-              <Button variant="navButton" onClick={() => setCurrSection('MechMania')}>MechMania</Button>
-              <Button variant="navButton" onClick={() => setCurrSection('PuzzleBang')}>PuzzleBang</Button>
-              <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Presenters')}>R|P Symposium for Presenters</Button>
-              <Button variant="navButton" onClick={() => setCurrSection('R|P Symposium for Schools')}>R|P Symposium for Schools</Button>
-            </Col>
-            <Col>
-              <QuestionContainer
-                questions={currQuestions}
-                currQuestion={currQuestion}
-                handleToggle={handleToggle}
-              />
-            </Col>
+              <Col xs="3">
+                {sections.map(({ name }) => (
+                  <Button
+                    key={name}
+                    variant="navButton"
+                    className={currSection === name ? "active" : ""}
+                    onClick={() => setCurrSection(name)}
+                  >
+                    {name}
+                  </Button>
+                ))}
+              </Col>
+              <Col>
+                <QuestionContainer
+                  questions={currQuestions}
+                  currQuestion={currQuestion}
+                  handleToggle={handleToggle}
+                />
+              </Col>
             </Row>
           </MediaQuery>
-          <MediaQuery maxWidth={767.98} >
-              <div>
+          <MediaQuery maxWidth={767.98}>
+            <div>
               <Dropdown>
                 <Dropdown.Toggle
                   size="lg"
@@ -91,24 +95,15 @@ const FAQ = ({ faqData: { sections } }) => {
                   {currSection}
                 </Dropdown.Toggle>
                 <Dropdown.Menu className={styles.faqDropdownMenu}>
-                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('General')}>
-                    General
-                  </Dropdown.Item>
-                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('Events')}>
-                    Events
-                  </Dropdown.Item>
-                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('MechMania')}>
-                    MechMania
-                  </Dropdown.Item>
-                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('PuzzleBang')}>
-                    PuzzleBang
-                  </Dropdown.Item>
-                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('R|P Symposium for Presenters')}>
-                    R|P Symposium for Presenters
-                  </Dropdown.Item>
-                  <Dropdown.Item className={styles.faqDropDownButton} onClick={() => setCurrSection('R|P Symposium for Schools')}>
-                    R|P Symposium for Schools
-                  </Dropdown.Item>
+                  {sections.map(({ name }) => (
+                    <Dropdown.Item
+                      key={name}
+                      className={styles.faqDropDownButton}
+                      onClick={() => setCurrSection(name)}
+                    >
+                      {name}
+                    </Dropdown.Item>
+                  ))}
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -120,7 +115,6 @@ const FAQ = ({ faqData: { sections } }) => {
               />
             </Row>
           </MediaQuery>
-          
         </Container>
       </Section.Body>
     </Section>

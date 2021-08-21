@@ -1,13 +1,11 @@
 import Head from "next/head";
-import { Element } from 'react-scroll';
+import { Element } from "react-scroll";
 import FAQ from "../components/FAQ";
-import Layout from '../UIComponents/Layout';
 
 import styles from "../styles/Landing.module.css";
-import useGetStaticData from '../services/useGetStaticData';
+import useGetStaticData from "../services/useGetStaticData";
 
 export default function Landing() {
-
   const { isLoaded, rpData } = useGetStaticData();
   const { faqSection } = rpData;
 
@@ -32,15 +30,11 @@ export default function Landing() {
         <h2>September 20-25th, 2021</h2>
       </main>
 
-      <Layout>
-        {isLoaded && (
-          <>
-            <Element name="faq">
-              {<FAQ faqData={faqSection} />}
-            </Element>
-          </>
-        )}
-      </Layout>
+      {isLoaded && (
+        <>
+          <Element name="faq">{<FAQ faqData={faqSection} />}</Element>
+        </>
+      )}
 
       <footer className={styles.footer}>
         Questions? Interested in sponsoring?&nbsp;
