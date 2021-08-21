@@ -1,29 +1,29 @@
-import React, { useState } from "react";
-import MediaQuery from "react-responsive";
+import React, { useState } from 'react';
+import MediaQuery from 'react-responsive';
 
-import Button from "react-bootstrap/Button";
-import Dropdown from "react-bootstrap/Dropdown";
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Section from "../Section";
+import Button from 'react-bootstrap/Button';
+import Dropdown from 'react-bootstrap/Dropdown';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Section from '../Section';
 
-import QuestionContainer from "./components/QuestionContainer";
+import QuestionContainer from './components/QuestionContainer';
 
-import styles from "./FAQ.module.scss";
+import styles from './FAQ.module.scss';
 
 const FAQ = ({ faqData: { sections } }) => {
-  const [currSection, setCurrSection] = useState("General");
-  const [currQuestion, setCurrQuestion] = useState("");
+  const [currSection, setCurrSection] = useState('General');
+  const [currQuestion, setCurrQuestion] = useState('');
 
   const handleToggle = (question) => {
-    const newCurrQuestion = question === currQuestion ? "" : question;
+    const newCurrQuestion = question === currQuestion ? '' : question;
     setCurrQuestion(newCurrQuestion);
   };
 
-  const currQuestions = sections.filter(
-    (section) => section.name === currSection
-  )[0].questions;
+  const currQuestions =
+    sections.filter((section) => section.name === currSection)?.[0]
+      ?.questions ?? [];
 
   return (
     <Section>
@@ -67,7 +67,7 @@ const FAQ = ({ faqData: { sections } }) => {
                   <Button
                     key={name}
                     variant="navButton"
-                    className={currSection === name ? "active" : ""}
+                    className={currSection === name ? 'active' : ''}
                     onClick={() => setCurrSection(name)}
                   >
                     {name}
