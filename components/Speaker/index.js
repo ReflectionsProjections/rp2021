@@ -22,7 +22,7 @@ const Speaker = ({ speakers }) => {
               <h4>Loading...</h4>
             ) : (
               <>
-                {speakers.map(speaker => {
+                {speakers.map((speaker) => {
                   const { name, tagline, badge, bio, image } = speaker;
                   const imageURL = `${image}`;
                   return (
@@ -37,8 +37,8 @@ const Speaker = ({ speakers }) => {
                         cardImage={imageURL}
                         tagline={tagline}
                         badge={badge}
-						key={speaker.name}
-						bio = {bio}
+                        key={speaker.name}
+                        bio={bio}
                       />
                     </Col>
                   );
