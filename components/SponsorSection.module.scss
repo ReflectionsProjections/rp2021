@@ -12,11 +12,6 @@
 
   img {
     width: 100%;
-    filter: grayscale(100%);
-
-    &:hover {
-      filter: grayscale(0%);
-    }
   }
 }
 
@@ -29,6 +24,6 @@
 }
 
 .tier h3 {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 100;
 }

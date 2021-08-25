@@ -4,7 +4,7 @@ import About from '../components/About';
 
 import styles from '../styles/Landing.module.css';
 import useGetStaticData from '../services/useGetStaticData';
-import SponsorSection from "../components/SponsorSection.js";
+import SponsorSection from '../components/SponsorSection.js';
 
 export default function Index() {
   const { rpData } = useGetStaticData();
@@ -50,9 +50,7 @@ export default function Index() {
 
         <About name="about" />
         <FAQ faqData={faqSection ?? { sections: [] }} />
-        <Element name="sponsor-section">
-          {sponsors && <SponsorSection sponsors={sponsors} />}
-        </Element>
+        {sponsors && <SponsorSection sponsors={sponsors} />}
 
         <footer className={styles.footer}>
           Sign up&nbsp;
