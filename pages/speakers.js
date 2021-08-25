@@ -2,8 +2,6 @@ import Speaker from '../components/Speaker';
 import { Element } from 'react-scroll';
 import { Container, Row, Col } from 'react-bootstrap';
 import useGetStaticData from '../services/useGetStaticData';
-// import { fetchConferenceData, fetchNavData, fetchGates } from '../api/client';
-// import { useState, useEffect } from 'react';
 import Head from 'next/head';
 
 export default function Speakers() {
@@ -27,17 +25,11 @@ export default function Speakers() {
           rel="stylesheet"
         />
       </Head>
-      <Container fluid="lg">
-        <Row>
-          <Col xs={8} md={10}>
-            {isLoaded && (
-              <Element name="speakers">
-                {<Speaker speakers={speakerSection.list} />}
-              </Element>
-            )}
-          </Col>
-        </Row>
-      </Container>
+      {isLoaded && (
+        <Element name="speakers">
+          {<Speaker speakers={speakerSection.list} />}
+        </Element>
+      )}
     </>
   );
 }
