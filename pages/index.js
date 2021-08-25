@@ -2,7 +2,7 @@ import Head from 'next/head';
 import FAQ from '../components/FAQ';
 import About from '../components/About';
 
-import styles from '../styles/Landing.module.css';
+import styles from '../components/landing/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
 
