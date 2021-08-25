@@ -270,7 +270,7 @@
         "questions": [
           {
             "question": "Is registration open?",
-            "answer": "Yes! Be sure to click the link on the navigation bar to register!"
+            "answer": "Registration will open on Aug 26th, Friday and anyone will be able to register throughout the conference!"
           },
           {
             "question": "Who can attend?",
@@ -279,6 +279,27 @@
           {
             "question": "Is the conference free to attend?",
             "answer": "Yes! Reflections | Projections is completely free to attend! This includes MechMania and all other events."
+          }
+        ]
+      },
+      {
+        "name": "Conference Format / COVID Information",
+        "questions": [
+          {
+            "question": "Will I be able to attend the conference online?",
+            "answer": "We will be posting zoom links on our website so you can join our events wherever you are in the world! All events will be available online or in person. For speakers that choose to attend virtually, we will be playing the talk in a conference room to be viewed."
+          },
+          {
+            "question": "Will I need to show proof of vaccination in order to attend the conference in person?",
+            "answer": "In accordance with University guidelines, you will either need to show proof of vaccination (through your safer Illinois app or using the vaccination card granted to you) or have proof of a negative test result shown through your Safer Illinois app."
+          },
+          {
+            "question": "What precautions will Reflections|Projections take regarding the COVID pandemic? ",
+            "answer": "Reflections|Projections is committed to keeping all conference participants safe, and ensuring that we adhere to university guidelines for the event. This includes masks indoors for even fully vaccinated individuals, pre-packaged food as opposed to open containers, providing hand sanitizer, cleaning conference rooms beforehand, and other precautions that we will discuss with the department in order to make this event possible."
+          },
+          {
+            "question": "How will the career fair work?",
+            "answer": "We will be having a 1 day in-person, 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. More details regarding the platform and logistics will be communicated to attendees."
           }
         ]
       },
@@ -446,10 +467,7 @@
         "location": "Siebel Center Atrium"
       }
     },
-    "allIds": [
-      "12nj3j55j31",
-      "5ad72c8753"
-    ]
+    "allIds": ["12nj3j55j31", "5ad72c8753"]
   },
   "sponsors": {
     "allTiers": [],

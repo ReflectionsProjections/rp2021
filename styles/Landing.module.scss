@@ -4,11 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   font-family: 'Roboto', sans-serif;
   color: white;
-  background: linear-gradient(#ffcf45, #f58023);
 }
 
 .main {
@@ -23,6 +21,7 @@
 .main h1 {
   margin-bottom: 0.5em;
   padding: 0.5em 0;
+  font-size: 2rem;
 }
 
 .main h2,

@@ -1,0 +1,30 @@
+.aboutSection {
+  min-height: 0;
+  font-family: 'Roboto Mono', sans-serif;
+  color: #333333;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-size: 30px;
+}
+
+.body {
+  font-size: 18px;
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.socialMediaIcons i {
+  padding-right: 2em;
+  font-size: 2em;
+  color: #0cbabb;
+}
+
+.socialMediaIcons i:hover {
+  color: #f9bfcb;
+}

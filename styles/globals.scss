@@ -10,6 +10,10 @@
   --green-2: #75c69e;
 
   /* Font Colors */
+  --black-text: rgb(0, 0, 0);
+  --text-color: rgb(102, 112, 138);
+  --text-color-lighter: rgba(102, 112, 138, 0.6);
+
   --grey: rgb(102, 112, 138);
   --grey-lighter: rgba(102, 112, 138, 0.6);
   --grey-lightest: rgba(102, 112, 138, 0.15);
@@ -17,6 +21,9 @@
   /* UI */
   --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --alt-font: 'Roboto Mono', 'Roboto', -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
   --shadow: 0 2.3px 0.8px -16px rgba(0, 0, 0, 0.01),
     0 5.4px 1.9px -16px rgba(0, 0, 0, 0.015),
     0 9.7px 3.5px -16px rgba(0, 0, 0, 0.018),
@@ -34,10 +41,10 @@ body {
   margin: 0;
   font-family: var(--font-family);
   color: var(--grey);
+  background: linear-gradient(var(--yellow-3), var(--orange-3));
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
