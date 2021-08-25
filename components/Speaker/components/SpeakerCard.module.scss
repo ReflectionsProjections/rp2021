@@ -19,6 +19,7 @@
 .cardImage {
   width: 15vw;
   height: 15vw;
+  border: 50%;
 }
 
 .imageContainer {
@@ -26,8 +27,8 @@
 }
 
 .gradientCircle {
-  width: 100%;
-  height: 100%;
+  width: 15vw;
+  height: 15vw;
   align-items: center;
   position: relative;
   $border: 0.1em;
@@ -64,6 +65,10 @@
   color: black;
   font-weight: bold;
   width: 100%;
+  @include mobile {
+    font-size: 0.5rem;
+    margin-right: 20px;
+  }
 }
 
 .speakerTagline {
@@ -72,6 +77,10 @@
   margin-top: 0;
   font-weight: normal;
   width: 100%;
+  @include mobile {
+      font-size: 0.5rem;
+      margin-right: 20px;
+    }
 }
 
 .bio {

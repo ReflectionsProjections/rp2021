@@ -54,7 +54,7 @@ const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
   return (
     <div className={styles.speakerCard} key={name}>
       <Row style={{ display: 'flex' }}>
-        <Col sm={2} md={4}>
+        <Col xs={3} sm={3} md={4} lg={3}>
           <div className={styles.imageContainer}>
             <div className={styles.gradientCircle}>
               <Image
@@ -66,7 +66,7 @@ const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
             </div>
           </div>
         </Col>
-        <Col sm={10} md={8}>
+        <Col xs={9} sm={9} md={8} lg={9}>
           <div className={styles.text}>
             <div>
               <h1 className={styles.speakerName}>{name}</h1>
