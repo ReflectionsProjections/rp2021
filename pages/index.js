@@ -1,57 +1,91 @@
-import Head from "next/head";
-import { Element } from "react-scroll";
-import SponsorSection from "../components/SponsorSection.js";
-import styles from "../styles/Landing.module.css";
-import useGetStaticData from "../services/useGetStaticData";
-import { getQueryObject } from "../lib/path";
+import Head from 'next/head';
+import FAQ from '../components/FAQ';
+import About from '../components/About';
 
-export default function Landing() {
-  let query = {};
-  if (process.browser) {
-    query = getQueryObject(window);
+import styles from '../styles/Landing.module.css';
+import useGetStaticData from '../services/useGetStaticData';
+import SponsorSection from "../components/SponsorSection.js";
+
+export default function Index() {
+  const { rpData } = useGetStaticData();
+  const { faqSection, sponsors } = rpData;
+
+  if (typeof window !== 'undefined') {
+    window.addEventListener('mousemove', (event) => {
+      const width = window.outerWidth;
+      const height = window.outerHeight;
+      const xOffset = 0;
+      const yOffset = 7;
+      const mouseXpercentage = (event.clientX / width) * 100 + xOffset;
+      const mouseYpercentage = (event.clientY / height) * 100 + yOffset;
+      document.body.style = `background: radial-gradient(at ${mouseXpercentage}% ${mouseYpercentage}%, var(--orange-3), var(--yellow-3))`;
+    });
   }
 
-  const { isLoaded, rpData, nav, gates } = useGetStaticData();
-
-  const { events, faqSection, speakerSection, projectSection, sponsors } =
-    rpData;
-
   return (
-    <div className={styles.landingContainer}>
+    <>
       <Head>
-        <title>Reflections Projects 2021</title>
+        <title>Reflections|Projections 2021</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+          rel="stylesheet"
+        />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <div className={styles.landingContainer}>
+        <main className={styles.main}>
+          <img src="/logo.png" alt="Reflections Projections Logo" />
+          <h1>
+            reflections <span className={styles.logoBar}>|</span> projections
+          </h1>
+          <p>27 years of connecting students with industry</p>
+          <h2>September 20-25th, 2021</h2>
+          <br />
+        </main>
 
-      <main className={styles.main}>
-        <img src="/logo.png" alt="Reflections Projects Logo" />
-        <h1>
-          reflections <span className={styles.logoBar}>|</span> projections
-        </h1>
-        <p>27 years of connecting students with industry</p>
-        <h2>September 20-25th, 2021</h2>
-      </main>
-
-      {isLoaded && (
+        <About name="about" />
+        <FAQ faqData={faqSection ?? { sections: [] }} />
         <Element name="sponsor-section">
-          {<SponsorSection sponsors={sponsors} />}
+          {sponsors && <SponsorSection sponsors={sponsors} />}
         </Element>
-      )}
 
-      <footer className={styles.footer}>
-        Questions? Interested in sponsoring?&nbsp;
-        <a
-          href="mailto:contact@reflectionsprojections.org"
-          rel="noopener noreferrer"
-        >
-          Email us at contact [at] reflectionsprojections.org
-        </a>
-      </footer>
-    </div>
+        <footer className={styles.footer}>
+          Sign up&nbsp;
+          <a
+            href="https://forms.gle/6oiAoDGN6R99CjP8A"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>
+          &nbsp;for updates regarding R|P 2021 and to be notified when
+          registration opens!
+        </footer>
+
+        <footer className={styles.footer}>
+          Questions? Interested in sponsoring?&nbsp;
+          <a
+            href="mailto:contact@reflectionsprojections.org"
+            rel="noopener noreferrer"
+          >
+            Email us at contact [at] reflectionsprojections.org
+          </a>
+        </footer>
+
+        <footer className={styles.footer}>
+          Visit our old website&nbsp;
+          <a
+            href="https://2020.reflectionsprojections.org"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>
+        </footer>
+      </div>
+    </>
   );
 }

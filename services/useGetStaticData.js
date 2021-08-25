@@ -1,22 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
-import { fetchConferenceData } from "../pages/api/client";
+import { fetchConferenceData } from '../api/client';
 
 export default function useGetStaticData() {
   const [isLoaded, setIsLoaded] = useState(false);
-
   const [rpData, setRpData] = useState({});
-  const [nav, setNav] = useState({});
-  const [gates, setGates] = useState({});
 
   useEffect(() => {
     const loadData = async () => {
       const _conferenceData = await fetchConferenceData();
-      // const _nav = await fetchNavData();
-      // const _gates = await fetchGates();
       setRpData(_conferenceData);
-      // setNav(_nav);
-      // setGates(_gates);
       setIsLoaded(true);
     };
     if (!isLoaded) {
@@ -26,8 +19,6 @@ export default function useGetStaticData() {
 
   return {
     isLoaded,
-    rpData,
-    nav,
-    gates,
+    rpData
   };
 }

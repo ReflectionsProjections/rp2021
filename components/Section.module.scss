@@ -1,8 +1,9 @@
 .title,
 .subtitle {
-  font-family: "Roboto Mono";
-  font-weight: 200;
-  text-align: center;
+  font-family: var(--alt-font);
+  font-weight: 400;
+  text-align: left;
+  color: var(--black-text);
 }
 
 .title {
@@ -19,6 +20,7 @@
 .section {
   margin: 0;
   margin-bottom: 3em;
+  padding: 3em;
   width: 100%;
   background-color: white;
   border-radius: 1.5em;
@@ -26,9 +28,11 @@
   padding-bottom: 4em;
   transform: scale(0.995);
   transition: transform 0.3s ease-in-out;
-  max-width: 768px;
-  padding-left: 0;
-  padding-right: 0;
+
+  @media (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   &:hover {
     transform: scale(1);
@@ -36,17 +40,16 @@
 }
 
 .minHeight {
-  min-height: 90vh;
+  min-height: 60em;
 }
 
 .header {
-  padding-bottom: 1em;
+  padding-bottom: 0em;
 }
 
 @media (max-width: 767.98px) {
   .title {
-    margin: 0.1em 0;
-    font-size: 1.7em;
+    margin: 0.1em 0.5em;
   }
   .subtitle {
     margin-bottom: 0.5em;

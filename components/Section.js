@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import classNames from "classnames";
+import React from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
-import Container from "react-bootstrap/Container";
+import Container from 'react-bootstrap/Container';
 
-import styles from "./Section.module.scss";
+import styles from './Section.module.scss';
 
 const Section = ({ children, minHeight = true }) => (
   <Container>
@@ -31,7 +31,7 @@ Section.Header = ({ children, className, ...rest }) => (
 );
 
 Section.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Section;
