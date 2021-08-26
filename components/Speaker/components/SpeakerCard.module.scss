@@ -25,28 +25,16 @@
 }
 
 .gradientCircle {
-  width: 15vw;
-  height: 15vw;
-  align-items: center;
-  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
   $border: 0.1em;
   color: #fff;
   background-clip: padding-box;
   border: solid $border transparent;
   border-radius: 50%;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -$border;
-    border-radius: inherit;
-    background: linear-gradient(to bottom right, #ffcf45, #f58023, #ffcf45);
-  }
+  margin: -$border;
+  background: linear-gradient(to bottom right, #ffcf45, #f58023, #ffcf45);
 }
 .text {
   display: block;
