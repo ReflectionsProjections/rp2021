@@ -312,23 +312,19 @@
           },
           {
             "question": "Who's eligible?",
-            "answer": "We accept teams of up to four students. Our student competition accepts up to forty teams and pits them against each other in one final battle. Teams do not need to be comprised of all students from the same school, but all participants must be actively enrolled in a college or university."
+            "answer": "We accept teams of up to four students and up to forty teams, and pits them against each other in one final battle. All participants must be actively enrolled in a college or university, but teams do not need to be comprised of students from the same school."
           },
           {
             "question": "What do you need to know?",
-            "answer": "All members should be proficient in the programming language their team intends to use. The API will use JSON messages passed over HTTP, so we recommend having knowledge of a JSON library in your chosen language."
-          },
-          {
-            "question": "What do you not need to know?",
-            "answer": "No prior knowledge of any specific languages are required. You won't need a background in artificial intelligence—in previous years, many teams without an AI background have competed and done well, or even won. You also shouldn't need knowledge of network programming beyond HTTP requests."
+            "answer": "All members should be proficient in the programming language their team intends to use- either Java or Python- with the relevant installation. You won't need a background in artificial intelligence--in previous years, many teams without an AI background have competed and done well, or even won."
           },
           {
             "question": "What can you bring?",
-            "answer": "You can bring any reference manual(s) you wish, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. You may, however, bring non-code items like rc files, build scripts, notes, etc. Competitors are required to bring their own laptops, though the code you write must be capable of running on our systems."
+            "answer": "You can bring any reference manual(s) you bring, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. Competitors need to bring their own laptops, though the code you write must be capable of running on our systems."
           },
           {
             "question": "What will you do?",
-            "answer": "By either starting from scratch or using our provided sample clients, you will build an artificial intelligence client to play a strategy game of our design. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+            "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
           }
         ]
       },
