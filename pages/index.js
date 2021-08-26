@@ -2,12 +2,13 @@ import Head from 'next/head';
 import FAQ from '../components/FAQ';
 import About from '../components/About';
 
-import styles from '../styles/Landing.module.css';
+import styles from '../components/landing/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
+import SponsorSection from '../components/SponsorSection.js';
 
 export default function Index() {
   const { rpData } = useGetStaticData();
-  const { faqSection } = rpData;
+  const { faqSection, sponsors } = rpData;
 
   if (typeof window !== 'undefined') {
     window.addEventListener('mousemove', (event) => {
@@ -49,6 +50,7 @@ export default function Index() {
 
         <About name="about" />
         <FAQ faqData={faqSection ?? { sections: [] }} />
+        {sponsors && <SponsorSection sponsors={sponsors} />}
 
         <footer className={styles.footer}>
           Sign up&nbsp;

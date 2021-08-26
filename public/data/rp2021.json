@@ -270,7 +270,7 @@
         "questions": [
           {
             "question": "Is registration open?",
-            "answer": "Registration will open on Aug 26th, Friday and anyone will be able to register throughout the conference!"
+            "answer": "Yes! Be sure to click the link on the navigation bar to register!"
           },
           {
             "question": "Who can attend?",
@@ -283,7 +283,7 @@
         ]
       },
       {
-        "name": "Conference Format / COVID Information",
+        "name": "Conference Format",
         "questions": [
           {
             "question": "Will I be able to attend the conference online?",
@@ -475,41 +475,52 @@
     "tier2": [],
     "tier3": [
       {
-        "name": "Aechelon Technology",
-        "img": "/static/assets/img/sponsors/AechelonTechnology.png",
-        "website": "http://aechelon.com/"
+        "name": "Aechelon",
+        "img": "/resources/aechelon-full-color.jpeg",
+        "website": "https://www.abbvie.com/"
       },
       {
-        "name": "Goldman Sachs",
-        "img": "/static/assets/img/sponsors/Goldmansachs.jpg",
-        "website": "https://www.goldmansachs.com/careers/"
+        "name": "Blue Cross Blue Shield",
+        "img": "/resources/bcbs-full-color.jpeg",
+        "website": "https://www.capitalone.com/"
       },
       {
-        "name": "Human Capital",
-        "img": "/static/assets/img/sponsors/HumanCapital.png",
-        "website": "https://human.capital/"
+        "name": "Caterpillar",
+        "img": "/resources/aechelon-full-color.jpeg",
+        "website": "https://www.caterpillar.com/"
       },
       {
-        "name": "IMC Trading",
-        "img": "/static/assets/img/sponsors/IMC.png",
+        "name": "Contrary",
+        "img": "/resources/bcbs-full-color.jpeg",
         "website": "https://www.imc.com/us/"
       },
       {
-        "name": "Qualtrics",
-        "img": "/static/assets/img/sponsors/Qualtrics.jpg",
-        "website": "https://www.qualtrics.com/careers/"
+        "name": "Facebook",
+        "img": "/resources/aechelon-full-color.jpeg",
+        "website": "https://www.facebook.com"
+      },
+      {
+        "name": "Google",
+        "img": "/resources/bcbs-full-color.jpeg",
+        "website": "https://google.com/"
       }
     ],
-    "tier4": [],
-    "diversity": {
-      "divTier1": [
-        {
-          "name": "Balsamiq",
-          "img": "/static/assets/img/sponsors/Balsamiq.png",
-          "website": "https://balsamiq.com/"
-        }
-      ],
-      "divTier2": []
-    }
+    "tier4": [
+      {
+        "name": "Grainger",
+        "img": "/resources/aechelon-full-color.jpeg",
+        "website": "https://www.grainger.com/"
+      },
+      {
+        "name": "IMC",
+        "img": "/resources/bcbs-full-color.jpeg",
+        "website": "https://www.imc.com/"
+      },
+      {
+        "name": "Optum",
+        "img": "/resources/aechelon-full-color.jpeg",
+        "website": "https://www.optum.com/"
+      }
+    ]
   }
 }
