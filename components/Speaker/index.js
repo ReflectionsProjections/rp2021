@@ -15,6 +15,7 @@ const Speaker = ({ speakers }) => {
       </Section.Header>
       <Section.Body>
         <Container>
+<<<<<<< HEAD
           {speakers.length === 0 ? (
             <h4>Loading...</h4>
           ) : (
@@ -37,6 +38,37 @@ const Speaker = ({ speakers }) => {
               })}
             </>
           )}
+=======
+          <Row>
+            {speakers.length === 0 ? (
+              <h4>Loading...</h4>
+            ) : (
+              <>
+                {speakers.map((speaker) => {
+                  const { name, tagline, badge, bio, image } = speaker;
+                  const imageURL = `${image}`;
+                  return (
+                    <Col
+                      className={styles.speakerCardContainer}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                    >
+                      <SpeakerCard
+                        name={name}
+                        cardImage={imageURL}
+                        tagline={tagline}
+                        badge={badge}
+                        key={speaker.name}
+                        bio={bio}
+                      />
+                    </Col>
+                  );
+                })}
+              </>
+            )}
+          </Row>
+>>>>>>> 51e7327469e10d822374b34ef986f55c01b7d89a
         </Container>
       </Section.Body>
     </Section>
