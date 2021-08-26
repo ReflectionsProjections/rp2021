@@ -134,6 +134,11 @@
         "image": "/headshots/SamHigh.jpg"
       },
       {
+        "name": "Tyler Menezes", 
+        "bio": "<p>Tyler Menezes is the Executive Director at CodeDay, where he works to provide welcoming and diverse opportunities for under-served students to explore a future in tech and beyond.<br>Born in Canada but raised in the Pacific Northwest, he briefly attended the University of Washington before dropping out to start a Y Combinator and venture-backed social video startup in 2011. This, combined with stints working in machine learning at Microsoft Research and as a programmer at several Seattle startups, led to his work finding data-driven solutions to increasing CS diversity and enrollment since 2014.<br>In his free time produces the public speaking event Ignite Seattle and helps with some tech projects supporting the band Wintergatan's Marble Machine project.<p>",
+        "image": "/headshot/TylerMenezes.jpg"
+      },
+      {
         "name": "Parth Detroja",
         "tagline": "Product Manager @ Facebook",
         "badge": "Swipe to Unlock Panel",
