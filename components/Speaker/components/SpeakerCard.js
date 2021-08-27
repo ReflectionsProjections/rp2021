@@ -4,7 +4,6 @@ import Badge from 'react-bootstrap/Badge';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { ChevronDown, ChevronUp } from 'react-bootstrap-icons';
 import styles from './SpeakerCard.module.scss';
-import { getQueryObject } from '../../../lib/path';
 
 const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
   return (
