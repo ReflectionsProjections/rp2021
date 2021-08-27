@@ -113,7 +113,7 @@
         "tagline": "SVP, CTO @ Paypal",
         "badge": "Keynote Speaker",
         "bio": "<p>Sri Shivananda plays a critical role in helping PayPal remain at the forefront of innovation as PayPal’s SVP, Chief Technology Officer (CTO). In his role, Sri oversees Technology Platforms & Experiences, leading a talented team responsible for the company’s secure, reliable and scalable global infrastructure and strategic core platform, the foundation that enables PayPal to deliver innovative products and services to consumers and merchants all over the world. Prior to his appointment as SVP and CTO, Sri was Vice President of Global Platform and Infrastructure, directing his team of technologists to drive massive growth at scale across a completely disruptive payments platform. Sri was responsible for all core technologies covering PayPal’s data centers, internal private cloud, online and offline data infrastructure, internal developer frameworks and tools, and various platform services. Before PayPal, Sri was with eBay for more than 15 years, working his way up from a software engineer to Vice President of Global Platform and Infrastructure. As VP, he was responsible for the company’s technology infrastructure that powered the eBay Inc. businesses, including eBay’s hundreds of millions of listings and PayPal’s millions of payments every day. Sri found his way to eBay via the acquisition of Deja.com. Sri is a geek at heart and his passion for learning is evident – he’s constantly pushing the boundaries of innovation, encouraging creative ideas and solutions that solve complex problems with technology.</p>",
-        "image": "/static/img/speakers/Headshot_KEYNOTE_SriShivananda.png"
+        "image": "/logo.png"
       },
       {
         "name": "Ayanna Howard",
@@ -312,23 +312,19 @@
           },
           {
             "question": "Who's eligible?",
-            "answer": "We accept teams of up to four students. Our student competition accepts up to forty teams and pits them against each other in one final battle. Teams do not need to be comprised of all students from the same school, but all participants must be actively enrolled in a college or university."
+            "answer": "We accept teams of up to four students and up to forty teams, and pits them against each other in one final battle. All participants must be actively enrolled in a college or university, but teams do not need to be comprised of students from the same school."
           },
           {
             "question": "What do you need to know?",
-            "answer": "All members should be proficient in the programming language their team intends to use. The API will use JSON messages passed over HTTP, so we recommend having knowledge of a JSON library in your chosen language."
-          },
-          {
-            "question": "What do you not need to know?",
-            "answer": "No prior knowledge of any specific languages are required. You won't need a background in artificial intelligence—in previous years, many teams without an AI background have competed and done well, or even won. You also shouldn't need knowledge of network programming beyond HTTP requests."
+            "answer": "All members should be proficient in the programming language their team intends to use- either Java or Python- with the relevant installation. You won't need a background in artificial intelligence--in previous years, many teams without an AI background have competed and done well, or even won."
           },
           {
             "question": "What can you bring?",
-            "answer": "You can bring any reference manual(s) you wish, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. You may, however, bring non-code items like rc files, build scripts, notes, etc. Competitors are required to bring their own laptops, though the code you write must be capable of running on our systems."
+            "answer": "You can bring any reference manual(s) you bring, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. Competitors need to bring their own laptops, though the code you write must be capable of running on our systems."
           },
           {
             "question": "What will you do?",
-            "answer": "By either starting from scratch or using our provided sample clients, you will build an artificial intelligence client to play a strategy game of our design. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+            "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
           }
         ]
       },

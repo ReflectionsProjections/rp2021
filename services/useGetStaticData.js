@@ -19,6 +19,6 @@ export default function useGetStaticData() {
 
   return {
     isLoaded,
-    rpData
+    rpData,
   };
 }
