@@ -1,0 +1,55 @@
+.title,
+.subtitle {
+  font-family: var(--alt-font);
+  font-weight: 400;
+  text-align: left;
+  color: var(--black-text);
+}
+
+.title {
+  font-size: 2.25em;
+  margin: 0.3em 0;
+  padding: 0;
+}
+
+.subtitle {
+  margin-bottom: 1em;
+  font-size: 1.25em;
+}
+
+.section {
+  margin: 0;
+  margin-bottom: 3em;
+  padding: 3em;
+  width: 100%;
+  background-color: white;
+  border-radius: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 4em;
+
+  @media (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.minHeight {
+  min-height: 60em;
+}
+
+.header {
+  padding-bottom: 0em;
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    margin: 0.1em 0.5em;
+  }
+  .subtitle {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+  }
+}
+.body {
+  padding-top: 1em;
+}
