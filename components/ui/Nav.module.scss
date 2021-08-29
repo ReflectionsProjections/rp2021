@@ -1,5 +1,14 @@
-$breakpoint: 710px;
+$breakpoint: 960px;
 $height: 4.5rem;
+
+.navSpacer {
+  height: calc(6rem);
+}
+
+.wordmark > a {
+  font-family: var(--font-family);
+  color: var(--grey);
+}
 
 .nav {
   display: flex;
@@ -26,15 +35,25 @@ $height: 4.5rem;
       height: 100%;
       padding: 0.25em 0;
     }
+
+    @media (max-width: $breakpoint) {
+      display: none;
+    }
   }
 
-  > * {
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  > *:not(a) {
     flex: 1;
   }
 
   .toggle {
     display: none;
 
+    text-align: right;
     border: none;
     color: var(--grey);
     font-size: 2rem;
@@ -76,6 +95,9 @@ $height: 4.5rem;
 
       @media screen and (max-width: $breakpoint) {
         display: block;
+        &:not(:last-child) {
+          border-bottom: 1px solid var(--grey-lightest);
+        }
       }
 
       a {
@@ -83,13 +105,12 @@ $height: 4.5rem;
         box-sizing: border-box;
         position: relative;
         height: 100%;
-        font-family: var(--font-family-slab);
+        font-family: var(--alt-font);
         font-weight: 500;
 
         @media screen and (max-width: $breakpoint) {
           width: 100%;
           padding: 1em 0;
-          border-bottom: 1px solid var(--grey-lightest);
         }
 
         justify-content: center;
