@@ -108,37 +108,6 @@
       }
     ]
   },
-  "events": {
-    "byId": {
-      "12nj3j55j31": {
-        "title": "PuzzleBang (all week)",
-        "thumbnailPath": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "displayInAgenda": true,
-        "displayInEvents": true,
-        "type": "CONFERENCE",
-        "tags": [],
-        "time": {
-          "start": "09-16-2019 00:00",
-          "end": "09-21-2019 24:00"
-        },
-        "location": "PuzzleBang.com"
-      },
-      "5ad72c8753": {
-        "title": "R|P Symposium",
-        "thumbnailPath": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "displayInAgenda": true,
-        "displayInEvents": true,
-        "type": "CONFERENCE",
-        "tags": [],
-        "time": {
-          "start": "09-16-2019 14:00",
-          "end": "09-16-2019 16:00"
-        },
-        "location": "Siebel Center Atrium"
-      }
-    },
-    "allIds": ["12nj3j55j31", "5ad72c8753"]
-  },
   "sponsors": {
     "allTiers": [],
     "tier1": [],
