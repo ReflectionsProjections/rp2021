@@ -1,125 +1,16 @@
 {
-  "timelineSection": {
-    "events": [
-      {
-        "date": "1995",
-        "content": [
-          "Featured Steve Wozniak, co-founder of Apple Inc., as the conference's first keynote speaker."
-        ]
-      },
-      {
-        "date": "1995",
-        "content": [
-          "Introduction of MechMania, a 24-hour AI hackathon competition. Students competed to create an AI agent to play a modified game of capture the flag."
-        ]
-      },
-      {
-        "date": "1996",
-        "content": [
-          "Adopted the “Reflections | Projections” theme.",
-          "Sponsors included AMD, Boeing, Intel, Citrix Systems."
-        ]
-      },
-      {
-        "date": "1997",
-        "content": [
-          "Our conference included talks about OpenGL, web commerce, and Y2K. OpenGL, a cross-language, cross-platform API for 2D and 3D vector graphics rendering, continues to be the an industry standard for high performance graphics."
-        ]
-      },
-      {
-        "date": "1998",
-        "content": [
-          "Official adoption of the name “Reflections | Projections”."
-        ]
-      },
-      {
-        "date": "1999",
-        "content": [
-          "Took on the title of National Student ACM Conference, reaching 350 students from 12 universities, and over 45 corporate sponsors."
-        ]
-      },
-      {
-        "date": "2001",
-        "content": [
-          "Keynote talk by Fred Brooks, known for heading developing of IBM System/360 family of computers and OS/360 software support package. Two years prior to speaking at R|P 2001, Brooks received the Turing Award.",
-          "General talks by John Draper and Alexy Pajitnov. Draper was a widely known figure in the hacker community who, among other things, exposed a vulnerability in the AT&T network using a toy whistle packaged in boxes of Cap'n Crunch cereal. Pajitnov created Tetris.",
-          "Included workshops on Windows and Perl."
-        ]
-      },
-      {
-        "date": "2002",
-        "content": [
-          "Included a PGP key signing party.",
-          "Talks by Michael Hatt, Ian Murdock, Marcus Brinkmann, and Hal Berghel",
-          "Additional sponsors included Microsoft, Abbott Laboratories, and Argonne National Laboratory"
-        ]
-      },
-      {
-        "date": "2003",
-        "content": [
-          "The year of cryptography, security, and multimedia",
-          "Talk by ACM national lecturer Barbara Simons on computerized and Internet voting",
-          "Had a creative portion, where undergraduates were invited to submit research projects or ideas to present as posters. The projects included open-source development, independent study, & semester group projects."
-        ]
-      },
-      {
-        "date": "2004",
-        "content": [
-          "Speakers included Jimmy Wales, Thomas Cormen, and Owen Astracham"
-        ]
-      },
-      {
-        "date": "2006",
-        "content": [
-          "Featured talks from Jawed Karim, co-founder of YouTube, and Max Levchin, co-founder of PayPal."
-        ]
-      },
-      {
-        "date": "2007",
-        "content": ["Theme change."]
-      },
-      {
-        "date": "2008",
-        "content": [
-          "Heavily expanded corporate presence at the conference. Sponsors included Bloomberg, Caterpillar Inc., Cerner, Citadel LLC, Facebook, Intel, Microsoft, Navteq, Northrop Grumman, the NSA, Nvidia, Raytheon, Sun Microsystems, SpaceX, VMware, Yahoo and others"
-        ]
-      },
-      {
-        "date": "2012",
-        "content": ["Beginning of the Startup Fair."]
-      },
-      {
-        "date": "2014",
-        "content": [
-          "Broke previous attendance records, hosting nearly 2000 attendees."
-        ]
-      },
-      {
-        "date": "2015",
-        "content": ["A year of innovation, entrepreneurship, and brilliance."]
-      },
-      {
-        "date": "2018",
-        "content": [
-          "Reintroduction of the ACM Symposium, a showcase of projects and research by the UIUC computer science community."
-        ]
-      }
-    ]
-  },
   "speakerSection": {
     "list": [
       {
-        "name": "Sri Shivananda",
-        "tagline": "SVP, CTO @ Paypal",
-        "badge": "Keynote Speaker",
-        "bio": "<p>Sri Shivananda plays a critical role in helping PayPal remain at the forefront of innovation as PayPal’s SVP, Chief Technology Officer (CTO). In his role, Sri oversees Technology Platforms & Experiences, leading a talented team responsible for the company’s secure, reliable and scalable global infrastructure and strategic core platform, the foundation that enables PayPal to deliver innovative products and services to consumers and merchants all over the world. Prior to his appointment as SVP and CTO, Sri was Vice President of Global Platform and Infrastructure, directing his team of technologists to drive massive growth at scale across a completely disruptive payments platform. Sri was responsible for all core technologies covering PayPal’s data centers, internal private cloud, online and offline data infrastructure, internal developer frameworks and tools, and various platform services. Before PayPal, Sri was with eBay for more than 15 years, working his way up from a software engineer to Vice President of Global Platform and Infrastructure. As VP, he was responsible for the company’s technology infrastructure that powered the eBay Inc. businesses, including eBay’s hundreds of millions of listings and PayPal’s millions of payments every day. Sri found his way to eBay via the acquisition of Deja.com. Sri is a geek at heart and his passion for learning is evident – he’s constantly pushing the boundaries of innovation, encouraging creative ideas and solutions that solve complex problems with technology.</p>",
-        "image": "/logo.png"
+        "name": "Gregg Vanderheiden",
+        "tagline": "Ph.D.",
+        "bio": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
+        "image": "/img/speakers/HeadShot_GreggVanderheiden.jpeg"
       },
       {
-        "name": "Ayanna Howard",
-        "tagline": "Chair, School of Interactive Computing @ Georgia Tech & Founder and CTO @ Zyrobotics",
-        "badge": "Keynote Speaker",
-        "bio": "<p>Ayanna Howard, Ph.D. is Professor and Chair of the School of Interactive Computing at the Georgia Institute of Technology. She is also the Chief Technology Officer of Zyrobotics. Dr. Howard’s career focus is on intelligent technologies that must adapt to and function within a human-centered world. Her work, which encompasses advancements in artificial intelligence (AI), assistive technologies, and robotics, has resulted in over 250 peer-reviewed publications.  To date, her unique accomplishments have been highlighted through a number of awards and articles, including highlights in USA Today, Upscale, and TIME Magazine, as well as being recognized as one of the 23 most powerful women engineers in the world by Business Insider and one of the Top 50 U.S. Women in Tech by Forbes. Prior to Georgia Tech, Dr. Howard was a senior robotics researcher and deputy manager in the Office of the Chief Scientist at NASA's JPL.</p>",
+        "name": "Becca Blais",
+        "tagline": " CEO and Executive Director of Bluebonnet Data",
+        "bio": "<p>Becca Blais got her start in policy through Notre Dame (Political Science and Peace Studies) student advocacy, where she served as Student Body Vice President and later Student Body President. She is a 2017 Truman Scholar and the Co-Founder and Executive Director of Bluebonnet Data, a nonprofit that is recruiting and training the next generation of data-savvy leaders in the progressive movement.</p>",
         "image": "/static/img/speakers/Headshot_KEYNOTE_DrAyannaHoward.png"
       },
       {
@@ -308,7 +199,7 @@
         "questions": [
           {
             "question": "What is MechMania?",
-            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed for the event. The competition dates and times will be announced soon! The competition will conclude with the closing ceremony and awards presentation, and will be livestreamed on twitch.tv. You must be registered for Reflections | Projections to compete in MechMania."
+            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed for the event. The competition dates and times will be announced soon! The competition will conclude with the closing ceremony and awards presentation, and will be livestreamed on twitch.tv. You must be registered for Reflections|Projections to compete in MechMania."
           },
           {
             "question": "Who's eligible?",
@@ -333,85 +224,23 @@
         "questions": [
           {
             "question": "What is PuzzleBang?",
-            "answer": "PuzzleBang is a puzzle hunt that takes place over the course of the Reflections|Projections week. Puzzles are released online at puzzlebang.com with the first puzzle coming out on Monday, September 21.  Expect one or two per day until Saturday when we release the final set of puzzles along with a metapuzzle."
+            "answer": "PuzzleBang is a puzzle hunt that takes place over the course of the Reflections|Projections week. Puzzles are released online at puzzlebang.com with the first puzzle coming out on Monday, September 20.  Expect one or two puzzles per day until Saturday when we release the final set of puzzles along with a metapuzzle."
           },
           {
             "question": "Who's eligible?",
-            "answer": "Anyone can play! We strongly recommend playing with friends, because the more the merrier. If you haven't met any friends who are interested in playing, drop us a line at GameControl@puzzlebang.com and we'll see about pairing you up with a new friend or two."
+            "answer": "Anyone can play! We strongly recommend playing with friends, because the more the merrier. If you haven't met any friends who are interested in playing, sign up anyway! We'll have a discord server up this year and a  #looking-for-group channel."
           },
           {
             "question": "What you will need to have?",
-            "answer": "Access to a functional human brain, an internet connection, a computer with a current web browser, and an open mind.  We're also adding video chat support this year, so a webcam or at least a microphone will enhance the experience."
+            "answer": "Access to a functional human brain, an internet connection, a computer with a current web browser, and an open mind.  We're also adding discord support this year, so a microphone + speakers will enhance the experience."
           },
           {
             "question": "What do you need to know?",
-            "answer": "Everything! No, just kidding. Wikipedia's classical cipher's page might be useful. A number of letters in the alphabet, number of cards in a deck, all the US state abbreviations, and silly other things that you've probably run across in your daily life. Some awareness of the recent memes and popular culture will probably be helpful. Knowledge of current events at UIUC and the campus layout will be really helpful."
+            "answer": "Everything! No, just kidding. Wikipedia's classical cipher's page might be useful. A number of letters in the alphabet, number of cards in a deck, all the US state abbreviations, and silly other things that you've probably run across in your daily life. Some awareness of the recent memes and popular culture will probably be helpful. Knowledge of UIUC's campus layout will be really helpful."
           },
           {
             "question": "What do you not need to know?",
             "answer": "How to write code. It might be useful to be able to write a script to print out all the ways you can rearrange a set of letters, or apply different ciphers to them, but in general, you should be able to do everything by hand or ask Google and find a tool online to do it for you."
-          }
-        ]
-      },
-      {
-        "name": "R|P Symposium for Presenters",
-        "questions": [
-          {
-            "question": "What is the R|P Symposium?",
-            "answer": "The R|P Symposium is the outreach arm of the event focused on bringing computing concepts in a simple manner to K-12 classrooms. The goal is to use college student presentations to inspire younger students, especially those with fewer opportunities to be exposed to CS, to consider computing as a field."
-          },
-          {
-            "question": "How do I register to present?",
-            "answer": "Fill out the form at acmrp.org/symposium and we'll be in touch with you soon!"
-          },
-          {
-            "question": "What is the motivation behind the R|P Symposium?",
-            "answer": "We stand by our commitment to serve the community and create a more diverse space within computing. By hosting symposium, we hope to support a more diverse generation of new computer scientists."
-          },
-          {
-            "question": "Who can present?",
-            "answer": "You must be a current student at the University of Illinois at Urbana-Champaign to present a project. This, along with a passion for your work, is all you need!"
-          },
-          {
-            "question": "How complex does my project need to be?",
-            "answer": "There is no level of complexity or intricacy we look for in the projects. All we ask is that it's something you're passionate about and willing to teach K-12 students."
-          },
-          {
-            "question": "How long does my presentation need to be?",
-            "answer": "We ask that presentations be no longer than 10 minutes. If you are having trouble adhering to this limit, reach out to us at content@reflectionsprojections.org and we'd be more than happy to set up a time to work with you!"
-          },
-          {
-            "question": "I have a question that is not answered here.",
-            "answer": "Please email us at content@reflectionsprojections.org"
-          }
-        ]
-      },
-      {
-        "name": "R|P Symposium for Schools",
-        "questions": [
-          {
-            "question": "Our students have little to no exposure to computing. Are there any opportunities for such students?",
-            "answer": "Yes! Our lessons assume zero prior experience with computing."
-          },
-          {
-            "question": "How long are each of these lessons?",
-            "answer": "Lessons are generally up to ten minutes in length per video."
-          },
-          {
-            "question": "Do you have any recommendations for how students should interact with the material?",
-            "answer": "Following each lesson, we provide students with exercises and resources that we recommend students to try out if they want to learn more. If the lesson is part of a series of videos, we encourage you to work through them piece by piece, working on the recommended exercises and supplementary materials before moving on to the next one."
-          },
-          {
-            "question": "Can I share these resources with others?",
-            "answer": "Absolutely! Our goal is to show as many people as we can that computing is an accessible field for everyone, so the more the merrier!"
-          },
-          {
-            "question": "My students have more questions. Are there any resources that we can direct them to for support?",
-            "answer": "Check out code.org and Khan Academy for online resources, or https://cs.illinois.edu/broadening-participation-computing/k-12-outreach for UIUC’s outreach programs."
-          },
-          {
-            "question": "I have a question that is not answered here.",
-            "answer": "Please email us at content@reflectionsprojections.org"
           }
         ]
       },
