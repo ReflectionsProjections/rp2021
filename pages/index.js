@@ -5,6 +5,7 @@ import About from '../components/About';
 import styles from '../components/landing/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
+import Button from 'react-bootstrap/Button';
 
 export default function Index() {
   const { rpData } = useGetStaticData();
@@ -51,18 +52,9 @@ export default function Index() {
         <About name="about" />
         <FAQ faqData={faqSection ?? { sections: [] }} />
         {sponsors && <SponsorSection sponsors={sponsors} />}
-
-        <footer className={styles.footer}>
-          Sign up&nbsp;
-          <a
-            href="https://forms.gle/6oiAoDGN6R99CjP8A"
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-          &nbsp;for updates regarding R|P 2021 and to be notified when
-          registration opens!
-        </footer>
+        <a href="https://airtable.com/shrTGIqGrMhlD32NC">
+          <Button className={styles.registrationButton}>Register Now!</Button>
+        </a>
 
         <footer className={styles.footer}>
           Questions? Interested in sponsoring?&nbsp;

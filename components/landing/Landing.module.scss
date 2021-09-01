@@ -68,3 +68,16 @@
     margin-bottom: 3em;
   }
 }
+
+.registrationButton {
+  color: var(--orange-2);
+  font-family: var(--alt-font);
+  background: white !important;
+  text-align: center;
+}
+
+.registrationButton:focus,
+.registrationButton:hover {
+  opacity: 0.75;
+  color: var(--orange-2);
+}
