@@ -49,12 +49,13 @@ export default function Index() {
           <br />
         </main>
 
-        <About name="about" />
-        <FAQ faqData={faqSection ?? { sections: [] }} />
-        {sponsors && <SponsorSection sponsors={sponsors} />}
         <a href="https://airtable.com/shrTGIqGrMhlD32NC">
           <Button className={styles.registrationButton}>Register Now!</Button>
         </a>
+
+        <About name="about" />
+        <FAQ faqData={faqSection ?? { sections: [] }} />
+        {sponsors && <SponsorSection sponsors={sponsors} />}
 
         <footer className={styles.footer}>
           Questions? Interested in sponsoring?&nbsp;
