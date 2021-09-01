@@ -1,0 +1,79 @@
+@mixin mobile {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+.speakerCard {
+  border: none;
+  height: 100%;
+  display: flex;
+}
+
+.cardImage {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.imageContainer {
+  width: 100%;
+}
+
+.gradientCircle {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  $border: 0.1em;
+  color: #fff;
+  background-clip: padding-box;
+  border: solid $border transparent;
+  border-radius: 50%;
+  margin: -$border;
+  background: linear-gradient(to bottom right, #ffcf45, #f58023, #ffcf45);
+}
+.text {
+  display: block;
+  margin-left: 1rem;
+
+  @include mobile {
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+}
+.speakerName {
+  margin-bottom: 0;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  @include mobile {
+    font-size: 0.5rem;
+    margin-right: 20px;
+  }
+}
+
+.speakerTagline {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  margin-top: 0;
+  font-weight: normal;
+  font-style: italic;
+  width: 100%;
+  @include mobile {
+    font-size: 0.5rem;
+    margin-right: 20px;
+  }
+}
+
+.bio {
+  color: black;
+  font-weight: light;
+  font-family: 'Roboto Mono', monospace;
+  clear: both;
+}

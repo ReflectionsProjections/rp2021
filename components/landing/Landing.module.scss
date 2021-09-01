@@ -52,7 +52,7 @@
 
 .footer {
   width: 100%;
-  height: 100px;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,4 +63,22 @@
   a {
     color: var(--orange-1);
   }
+
+  &:last-child {
+    margin-bottom: 3em;
+  }
+}
+
+.registrationButton {
+  color: var(--orange-2);
+  font-family: var(--alt-font);
+  background: white !important;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.registrationButton:focus,
+.registrationButton:hover {
+  opacity: 0.75;
+  color: var(--orange-2);
 }

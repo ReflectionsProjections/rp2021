@@ -1,0 +1,129 @@
+{
+  "faqSection": {
+    "sections": [
+      {
+        "name": "General",
+        "questions": [
+          {
+            "question": "Is registration open?",
+            "answer": "Yes! Be sure to click the link on the navigation bar to register!"
+          },
+          {
+            "question": "Who can attend?",
+            "answer": "Reflections | Projections is free and open to anyone regardless of age, major, or affiliation with the University of Illinois. Come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!"
+          },
+          {
+            "question": "Is the conference free to attend?",
+            "answer": "Yes! Reflections | Projections is completely free to attend! This includes MechMania and all other events."
+          }
+        ]
+      },
+      {
+        "name": "Conference Format",
+        "questions": [
+          {
+            "question": "Will I be able to attend the conference online?",
+            "answer": "We will be posting zoom links on our website so you can join our events wherever you are in the world! All events will be available online or in person. For speakers that choose to attend virtually, we will be playing the talk in a conference room to be viewed."
+          },
+          {
+            "question": "Will I need to show proof of vaccination in order to attend the conference in person?",
+            "answer": "In accordance with University guidelines, you will either need to show proof of vaccination (through your safer Illinois app or using the vaccination card granted to you) or have proof of a negative test result shown through your Safer Illinois app."
+          },
+          {
+            "question": "What precautions will Reflections|Projections take regarding the COVID pandemic? ",
+            "answer": "Reflections|Projections is committed to keeping all conference participants safe, and ensuring that we adhere to university guidelines for the event. This includes masks indoors for even fully vaccinated individuals, pre-packaged food as opposed to open containers, providing hand sanitizer, cleaning conference rooms beforehand, and other precautions that we will discuss with the department in order to make this event possible."
+          },
+          {
+            "question": "How will the career fair work?",
+            "answer": "We will be having a 1 day in-person, 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. More details regarding the platform and logistics will be communicated to attendees."
+          }
+        ]
+      },
+      {
+        "name": "MechMania",
+        "questions": [
+          {
+            "question": "What is MechMania?",
+            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed for the event. The competition dates and times will be announced soon! The competition will conclude with the closing ceremony and awards presentation, and will be livestreamed on twitch.tv. You must be registered for Reflections|Projections to compete in MechMania."
+          },
+          {
+            "question": "Who's eligible?",
+            "answer": "We accept teams of up to four students and up to forty teams, and pits them against each other in one final battle. All participants must be actively enrolled in a college or university, but teams do not need to be comprised of students from the same school."
+          },
+          {
+            "question": "What do you need to know?",
+            "answer": "All members should be proficient in the programming language their team intends to use- either Java or Python- with the relevant installation. You won't need a background in artificial intelligence--in previous years, many teams without an AI background have competed and done well, or even won."
+          },
+          {
+            "question": "What can you bring?",
+            "answer": "You can bring any reference manual(s) you bring, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. Competitors need to bring their own laptops, though the code you write must be capable of running on our systems."
+          },
+          {
+            "question": "What will you do?",
+            "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+          }
+        ]
+      },
+      {
+        "name": "PuzzleBang",
+        "questions": [
+          {
+            "question": "What is PuzzleBang?",
+            "answer": "PuzzleBang is a puzzle hunt that takes place over the course of the Reflections|Projections week. Puzzles are released online at puzzlebang.com with the first puzzle coming out on Monday, September 20.  Expect one or two puzzles per day until Saturday when we release the final set of puzzles along with a metapuzzle."
+          },
+          {
+            "question": "Who's eligible?",
+            "answer": "Anyone can play! We strongly recommend playing with friends, because the more the merrier. If you haven't met any friends who are interested in playing, sign up anyway! We'll have a discord server up this year and a  #looking-for-group channel."
+          },
+          {
+            "question": "What you will need to have?",
+            "answer": "Access to a functional human brain, an internet connection, a computer with a current web browser, and an open mind.  We're also adding discord support this year, so a microphone + speakers will enhance the experience."
+          },
+          {
+            "question": "What do you need to know?",
+            "answer": "Everything! No, just kidding. Wikipedia's classical cipher's page might be useful. A number of letters in the alphabet, number of cards in a deck, all the US state abbreviations, and silly other things that you've probably run across in your daily life. Some awareness of the recent memes and popular culture will probably be helpful. Knowledge of UIUC's campus layout will be really helpful."
+          },
+          {
+            "question": "What do you not need to know?",
+            "answer": "How to write code. It might be useful to be able to write a script to print out all the ways you can rearrange a set of letters, or apply different ciphers to them, but in general, you should be able to do everything by hand or ask Google and find a tool online to do it for you."
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "questions": [
+          {
+            "question": "What's the difference between Tech Talks and Speaker Talks?",
+            "answer": "Tech Talks are given by sponsor representatives who wish to spotlight their company and talk about new products/technologies. Speaker Talks are given by experts in the tech community and are about specific technical or personal topics."
+          },
+          {
+            "question": "How will Speaker Talks be delivered?",
+            "answer": "Speaker talks will be livestreamed. Participants can interact and ask questions to speakers by utilizing the chat functionality of the streaming platform."
+          },
+          {
+            "question": "Is there a career fair?",
+            "answer": "As a result of the transition to a virtual setting, there will not be a career fair at Reflections | Projections 2020. However, all company sponsors will get access to our resume book, so attendees may still use the conference as a recruiting opportunity."
+          }
+        ]
+      }
+    ]
+  },
+  "sponsors": {
+    "allTiers": [],
+    "tier1": [],
+    "tier2": [],
+    "tier3": [
+      {
+        "name": "Aechelon",
+        "img": "/resources/aechelon-full-color.jpeg",
+        "website": "https://www.aechelon.com/"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "img": "/resources/bcbs-full-color.jpeg",
+        "website": "https://www.bcbs.com/"
+      }
+    ],
+    "tier4": []
+  }
+}
