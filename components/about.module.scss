@@ -1,16 +1,17 @@
 .aboutSection {
   min-height: 0;
-  font-family: 'Roboto Mono', sans-serif;
   color: #333333;
 }
 
 .title {
   font-size: 1.75rem;
   font-size: 30px;
+  font-family: var(--alt-font);
 }
 
 .body {
   font-size: 18px;
+  font-family: var(--font-family);
 }
 
 .socialMediaIcons {
