@@ -12,12 +12,7 @@ const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
         <Col sm={2}>
           <div className={styles.imageContainer}>
             <div className={styles.gradientCircle}>
-              <Image
-                className={styles.cardImage}
-                src={cardImage}
-                rounded
-                fluid
-              />
+              <Image className={styles.cardImage} src={cardImage} fluid />
             </div>
           </div>
         </Col>
