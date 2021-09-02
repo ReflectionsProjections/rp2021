@@ -1,4 +1,4 @@
-$breakpoint: 960px;
+$breakpoint: 1200px;
 $height: 4.5rem;
 
 .navSpacer {
@@ -118,6 +118,9 @@ $height: 4.5rem;
 
         font-size: 0.875rem;
         padding: 0 2rem;
+        &.ctaLink {
+          padding-right: 0;
+        }
       }
     }
   }

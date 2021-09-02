@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './Nav.module.scss';
+import Button from 'react-bootstrap/Button';
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,14 @@ export default function Nav() {
           </li>
           <li>
             <Link href="/speakers">Speakers</Link>
+          </li>
+          <li>
+            <a
+              className={styles.ctaLink}
+              href="https://airtable.com/shrTGIqGrMhlD32NC"
+            >
+              <Button>Register</Button>
+            </a>
           </li>
         </ul>
       </nav>
