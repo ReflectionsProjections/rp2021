@@ -109,17 +109,20 @@
   "speakerSection": {
     "list": [
       {
-        "name": "Gregg Vanderheiden Ph.D.",
+        "name": "Gregg Vanderheiden",
+        "tagline": "Ph.D.",
         "bio": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been active in the field of technology and disability for 50 years and was a pioneer in the field of Augmentative Communication (a term originating from his writings), assistive technology and computer access. Access features developed by Dr. Vanderheiden and the Trace Center team can be found in every computer and mobile device internationally (Windows, MacOS, iOS and Linux).  Dr Vanderheiden was selected as part of the team designing the first digital talking book machines for the Library of Congress talking book service - and carried out extensive exploration and testing of approaches in senior living facilities.   Dr. Vanderheiden is a past President and Fellow of RESNA, a Founding Fellow of the American Institute of Medical and Biological Engineering (AIMBE) and Fellow in the Human Factors and Ergonomics society. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013. At the 6th World Wide Web Conference, he was the third annual recipient of the Yuri Rubinsky Memorial World Wide Web Award. His most recent work has focused on development of a Global Public Inclusive Infrastructure (GPII) – and proposing a completely different way to approach accessibility for next-next generation ICT. Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
         "image": "/headshots/GreggVanderheiden.jpg"
       },
       {
-        "name": "Becca Blais, CEO and Executive Director of Bluebonnet Data",
+        "name": "Becca Blais",
+        "tagline": "CEO and Executive Director of Bluebonnet Data",
         "bio": "<p>Becca Blais got her start in policy through Notre Dame (Political Science and Peace Studies) student advocacy, where she served as Student Body Vice President and later Student Body President. She is a 2017 Truman Scholar and the Co-Founder and Executive Director of Bluebonnet Data, a nonprofit that is recruiting and training the next generation of data-savvy leaders in the progressive movement.</p>",
         "image": "/headshots/BeccaBlais.jpg"
       },
       {
         "name": "Cindy Cohn",
+        "tagline": "Executive Director of the Electronic Frontier Foundation",
         "bio": "<p>From 2000-2015 she served as EFF’s Legal Director as well as its General Counsel where she served as lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech.</p>",
         "image": "/headshots/CindyCohn.jpg"
       },
@@ -130,11 +133,13 @@
       },
       {
         "name": "Sam Liang",
+        "tagline": "Ph.D.",
         "bio": "<p>Sam Liang is the Founder and CEO of Otter.ai, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
         "image": "/headshots/SamHigh.jpg"
       },
       {
         "name": "Tyler Menezes", 
+        "tagline": "Executive Director at CodeDay",
         "bio": "<p>Tyler Menezes is the Executive Director at CodeDay, where he works to provide welcoming and diverse opportunities for under-served students to explore a future in tech and beyond. He briefly studied at University of Washington, combined with stints working in machine learning at Microsoft Research and as a programmer at several Seattle startups, led to his work finding data-driven solutions to increasing CS diversity and enrollment since 2014.<p>",
         "image": "/headshot/TylerMenezes.jpg"
       },
@@ -150,6 +155,7 @@
       },
       {
         "name": "Jim Fruchterman",
+        "tagline": "CEO, Tech Matters",
         "bio": "<p>Jim Fruchterman is a leading social entrepreneur, a MacArthur Fellow, a recipient of the Skoll Award for Social Entrepreneurship, and a Distinguished Alumnus of Caltech. His life’s work is applying technology to benefit the 95% of humanity typically neglected by for-profit tech companies. </p>",
         "image": "/headshots/JimFruchterman.jpg"
       },
