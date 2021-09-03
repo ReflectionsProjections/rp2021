@@ -88,23 +88,6 @@
             "answer": "How to write code. It might be useful to be able to write a script to print out all the ways you can rearrange a set of letters, or apply different ciphers to them, but in general, you should be able to do everything by hand or ask Google and find a tool online to do it for you."
           }
         ]
-      },
-      {
-        "name": "Events",
-        "questions": [
-          {
-            "question": "What's the difference between Tech Talks and Speaker Talks?",
-            "answer": "Tech Talks are given by sponsor representatives who wish to spotlight their company and talk about new products/technologies. Speaker Talks are given by experts in the tech community and are about specific technical or personal topics."
-          },
-          {
-            "question": "How will Speaker Talks be delivered?",
-            "answer": "Speaker talks will be livestreamed. Participants can interact and ask questions to speakers by utilizing the chat functionality of the streaming platform."
-          },
-          {
-            "question": "Is there a career fair?",
-            "answer": "As a result of the transition to a virtual setting, there will not be a career fair at Reflections | Projections 2020. However, all company sponsors will get access to our resume book, so attendees may still use the conference as a recruiting opportunity."
-          }
-        ]
       }
     ]
   },
