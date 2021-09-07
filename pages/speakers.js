@@ -1,7 +1,6 @@
 import Speaker from '../components/Speaker';
 import { Element } from 'react-scroll';
 import Nav from '../components/ui/Nav';
-import { Container, Row, Col } from 'react-bootstrap';
 import useGetStaticData from '../services/useGetStaticData';
 import Head from 'next/head';
 

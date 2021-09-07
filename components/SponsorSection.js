@@ -1,8 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
-
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -30,21 +26,23 @@ const SponsorSection = ({ sponsors }) => {
   const tiers = [...tier1, ...tier2, ...tier3, ...tier4];
 
   return (
-    <Section>
-      <Section.Title>Sponsors</Section.Title>
-      <div className={styles.sponsorGrid}>
-        {tiers.map((sponsor, idx) => (
-          <a
-            key={`${sponsor.name}-${idx}`}
-            href={sponsor.website}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src={sponsor.img} />
-          </a>
-        ))}
-      </div>
-    </Section>
+    <div className={styles.sponsorSection}>
+      <Section>
+        <Section.Title>Sponsors</Section.Title>
+        <div className={styles.sponsorGrid}>
+          {tiers.map((sponsor, idx) => (
+            <a
+              key={`${sponsor.name}-${idx}`}
+              href={sponsor.website}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={sponsor.img} />
+            </a>
+          ))}
+        </div>
+      </Section>
+    </div>
   );
 };
 
