@@ -21,7 +21,7 @@ export default function Nav() {
         </button>
         <ul data-open={isOpen}>
           <li>
-            <Link href="/">About</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/schedule">Schedule</Link>
