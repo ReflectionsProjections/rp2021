@@ -1,3 +1,9 @@
+.primarySponsor {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
 .sponsorGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
