@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from './Footer.module.scss';
 
 export default function Footer() {
@@ -9,7 +8,9 @@ export default function Footer() {
         <a id="logo">
           <img src="/logo.png" alt="Reflections|Projections Logo" />
         </a>
-        <div>reflections | projections</div>
+        <div>
+          reflections <span className={styles.logoBar}>|</span> projections
+        </div>
       </div>
       <div>
         <ul>

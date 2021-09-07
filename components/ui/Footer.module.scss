@@ -58,4 +58,9 @@ $breakpoint: 710px;
       padding: 0 1rem 0 0;
     }
   }
+  .logoBar {
+    display: inline-block;
+    font-weight: bold;
+    transform: scaleY(2);
+  }
 }
