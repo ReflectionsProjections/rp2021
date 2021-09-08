@@ -74,33 +74,34 @@ const About = () => (
 
           <AboutSection.Title>MechMania</AboutSection.Title>
           <AboutSection.Body>
-            MechMania is a 24 hr AI Hackathon where participants write a bot
-            that plays a game! The staff has spent the past year writing a game
-            and are challenging you to win it all. Anyone is free to participate
-            at any point during the 24 hours, no extra applications or
-            registrations necessary. Just show up! You can participate solo, or
-            as a group of up to four! MechMania is open to all skill levels of
-            coding, and in the past couple of years, we have had multiple
-            freshmen place in the top few teams! We provide you with starter
-            code in Java and Python. No experience with ML, AI or Deep Learning
-            is required to participate. The point is for you to have fun, and to
-            write something that you will be proud of at the end of the 24 hrs.
-            Throughout the event, staff will always be available for you to ask
-            questions about code or the game itself. Everything is completely
-            virtual, you can be in the comfort of your own bed and participate
-            too! What is the game? You'll just have to join us on Friday
-            September 24th at 12 PM to find out, won't you? 😉 (btw, there will
-            be prizes awarded to the top 3 teams too!)
+            MechMania is a 24 hour AI hackathon where students team up to write
+            a bot that playes a game. Every year, we build a game in secret, and
+            challenge you to write the best bot! You can fly solo, or
+            participate in a group of up to four. We will have some time before
+            the tournament starts for you to find a team and you can re-register
+            if you decide to join a team! MechMania open to all skill levels of
+            coding. we provide the starter code in Java and Python, and you can
+            focus on creating an awesome strategy to beat the other teams' bots
+            in our game. No experience in artificial intelligence or machine
+            learning is required to participate. In many years past, several
+            freshmen have won the top three positions! Oh, and did we mention
+            there are prizes for 1st, 2nd, and 3rd place? (To be eligible for
+            prizes, you must{' '}
+            <a href="https://forms.gle/mBtrb6V121gQex8t9">register here</a>). If
+            you want to find out about the game, you'll just have to see us on
+            Friday, September 24th at 12:00pm CT.
           </AboutSection.Body>
           <AboutSection.Body>
-            Please feel free to contact{' '}
+            If you want to find out more about MechMania, please visit{' '}
+            <a href="https://reflectionsprojections.org">
+              reflectionsprojections.org
+            </a>{' '}
+            and <a href="mechmania.io">mechmania.io</a>. Please feel free to
+            contact{' '}
             <a href="mailto:angiesc2@illinois.edu">
               angiesc2 [at] illinois [dot] edu
             </a>{' '}
-            if you have any other questions! Pre-Registration is currently open{' '}
-            <a href="https://tinyurl.com/mm26registration">here</a>. Also, you
-            can join our discord which contains up to date announcements about
-            the hackathon <a href="https://discord.gg/KfwrcqV">here</a>.
+            if you have any other questions. See you soon!
           </AboutSection.Body>
         </AboutSection>
       </Col>
