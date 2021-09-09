@@ -96,8 +96,8 @@ const About = () => (
             <a href="https://reflectionsprojections.org">
               reflectionsprojections.org
             </a>{' '}
-            and <a href="mechmania.io">mechmania.io</a>. Please feel free to
-            contact{' '}
+            and <a href="https://mechmania.io/">mechmania.io</a>. Please feel
+            free to contact{' '}
             <a href="mailto:angiesc2@illinois.edu">
               angiesc2 [at] illinois [dot] edu
             </a>{' '}
