@@ -115,16 +115,13 @@ const Agenda = ({ events }) => {
   const allEvents = getEventsList(events);
 
   const [selectedType, setSelectedType] = useState('');
-  const [selectedDate, setSelectedDate] = useState('09-16-2019');
-  const [selectedDateWeek, setSelectedDateWeek] = useState('Monday Sep 16th');
+  const [selectedDate, setSelectedDate] = useState('09-20-2019');
+  const [selectedDateWeek, setSelectedDateWeek] = useState('Monday Sep 20th');
   const [dropdownActive, setDropDownActive] = useState(false);
 
   const handleDropdown = () => {
     setDropDownActive(!dropdownActive);
   };
-
-  const startupFairMapLink = '/static/startup-fair-map.pdf';
-  const careerFairMapLink = '/static/career-fair-map.pdf';
 
   return (
     <Section>
@@ -133,16 +130,6 @@ const Agenda = ({ events }) => {
       </Section.Header>
       <Section.Body>
         <Container>
-          {/* <Row className="pb-4">
-            <Col className="text-center">
-              <Button style={{ margin: '10px' }} href={startupFairMapLink}>
-                Startup Fair Map
-              </Button>
-              <Button style={{ margin: '10px' }} href={careerFairMapLink}>
-                Career Fair Map
-              </Button>
-            </Col>
-          </Row> */}
           <Row className="pb-4">
             <Col className="text-center">
               <Dropdown className="toggle" onClick={() => handleDropdown()}>
@@ -158,8 +145,8 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-1"
                     onClick={() => {
-                      setSelectedDate('09-16-2019');
-                      setSelectedDateWeek('Monday Sep 16th');
+                      setSelectedDate('09-20-2021');
+                      setSelectedDateWeek('Monday Sep 20th');
                     }}
                   >
                     Monday
@@ -168,8 +155,8 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-2"
                     onClick={() => {
-                      setSelectedDate('09-17-2019');
-                      setSelectedDateWeek('Tuesday Sep 17th');
+                      setSelectedDate('09-21-2021');
+                      setSelectedDateWeek('Tuesday Sep 21th');
                     }}
                   >
                     Tuesday
@@ -178,8 +165,8 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-3"
                     onClick={() => {
-                      setSelectedDate('09-18-2019');
-                      setSelectedDateWeek('Wednesday Sep 18th');
+                      setSelectedDate('09-22-2021');
+                      setSelectedDateWeek('Wednesday Sep 22th');
                     }}
                   >
                     Wednesday
@@ -188,8 +175,8 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-4"
                     onClick={() => {
-                      setSelectedDate('09-19-2019');
-                      setSelectedDateWeek('Thursday Sep 19th');
+                      setSelectedDate('09-23-2021');
+                      setSelectedDateWeek('Thursday Sep 23th');
                     }}
                   >
                     Thursday
@@ -198,8 +185,8 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-5"
                     onClick={() => {
-                      setSelectedDate('09-20-2019');
-                      setSelectedDateWeek('Friday Sep 20th');
+                      setSelectedDate('09-24-2019');
+                      setSelectedDateWeek('Friday Sep 24th');
                     }}
                   >
                     Friday
@@ -208,13 +195,13 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-6"
                     onClick={() => {
-                      setSelectedDate('09-21-2019');
-                      setSelectedDateWeek('Saturday Sep 21th');
+                      setSelectedDate('09-25-2021');
+                      setSelectedDateWeek('Saturday Sep 25th');
                     }}
                   >
                     Saturday
                   </Dropdown.Item>
-                  <Dropdown.Item
+                  {/* <Dropdown.Item
                     className="toggleitem"
                     href="#/action-7"
                     onClick={() => {
@@ -223,7 +210,7 @@ const Agenda = ({ events }) => {
                     }}
                   >
                     Sunday
-                  </Dropdown.Item>
+                  </Dropdown.Item> */}
                 </Dropdown.Menu>
               </Dropdown>
             </Col>
