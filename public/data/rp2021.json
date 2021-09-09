@@ -1,4 +1,7 @@
 {
+  "speakerSection": {
+    "list": []
+  },
   "faqSection": {
     "sections": [
       {
@@ -6,15 +9,15 @@
         "questions": [
           {
             "question": "Is registration open?",
-            "answer": "Yes! Be sure to click the link on the navigation bar to register!"
+            "answer": "Yes! Be sure to click the link at the top to register!"
           },
           {
             "question": "Who can attend?",
-            "answer": "Reflections | Projections is free and open to anyone regardless of age, major, or affiliation with the University of Illinois. Come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!"
+            "answer": "Reflections|Projections is free and open to anyone regardless of age, major, or affiliation with the University of Illinois. Come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!"
           },
           {
             "question": "Is the conference free to attend?",
-            "answer": "Yes! Reflections | Projections is completely free to attend! This includes MechMania and all other events."
+            "answer": "Yes! Reflections|Projections is completely free to attend! This includes MechMania and all other events."
           }
         ]
       },
@@ -61,6 +64,10 @@
           {
             "question": "What will you do?",
             "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+          },
+          {
+            "question": "Is registration open?",
+            "answer": "Yes! (See above)"
           }
         ]
       },
@@ -102,7 +109,7 @@
           },
           {
             "question": "Is there a career fair?",
-            "answer": "As a result of the transition to a virtual setting, there will not be a career fair at Reflections | Projections 2020. However, all company sponsors will get access to our resume book, so attendees may still use the conference as a recruiting opportunity."
+            "answer": "As a result of the transition to a virtual setting, there will not be a career fair at Reflections|Projections 2020. However, all company sponsors will get access to our resume book, so attendees may still use the conference as a recruiting opportunity."
           }
         ]
       }

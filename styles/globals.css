@@ -8,6 +8,7 @@
   --yellow-3: #ffcf45;
   --green-1: #57b086;
   --green-2: #75c69e;
+  --background-orange: #ffa040;
 
   /* Font Colors */
   --black-text: rgb(0, 0, 0);
@@ -41,7 +42,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   color: var(--grey);
-  background: linear-gradient(var(--yellow-3), var(--orange-3));
+  background: radial-gradient(at 50% 50%, var(--background-orange), white);
 }
 
 a {
