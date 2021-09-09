@@ -1,4 +1,6 @@
 import '../styles/globals.css';
+import '../components/Agenda/timeline.scss';
+import '../components/Agenda/agenda.scss';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
