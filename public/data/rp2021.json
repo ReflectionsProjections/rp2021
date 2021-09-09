@@ -104,20 +104,31 @@
   },
   "sponsors": {
     "allTiers": [],
-    "tier1": [],
-    "tier2": [],
-    "tier3": [
+    "tier1": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "img": "/resources/BCBSIL center logo RGB with tag.png",
+        "website": "https://www.bcbs.com/"
+      }
+    ],
+    "tier2": [
       {
         "name": "Aechelon",
         "img": "/resources/aechelon-full-color.jpeg",
         "website": "https://www.aechelon.com/"
       },
       {
-        "name": "Blue Cross Blue Shield",
-        "img": "/resources/bcbs-full-color.jpeg",
-        "website": "https://www.bcbs.com/"
+        "name": "Uline",
+        "img": "/resources/uline.png",
+        "website": "https://www.uline.com/"
+      },
+      {
+        "name": "Bayer",
+        "img": "/resources/Bayer_Company Logo_Full_Color.png",
+        "website": "https://www.bayer.com/en/"
       }
     ],
+    "tier3": [],
     "tier4": []
   }
 }
