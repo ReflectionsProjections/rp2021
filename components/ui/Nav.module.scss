@@ -1,0 +1,127 @@
+$breakpoint: 1000px;
+$height: 4.5rem;
+
+.navSpacer {
+  height: calc(6rem);
+}
+
+.wordmark > a {
+  font-family: var(--font-family);
+  color: var(--grey);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $height;
+
+  // TODO: Move z-indexes into enum
+  z-index: 999;
+
+  position: fixed;
+  padding: 0 min(5%, 2em);
+  width: 100%;
+
+  background-color: #fff;
+  box-shadow: var(--shadow);
+
+  > a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 100%;
+      padding: 0.25em 0;
+    }
+
+    @media (max-width: $breakpoint) {
+      display: none;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  > *:not(a) {
+    flex: 1;
+  }
+
+  .toggle {
+    display: none;
+
+    text-align: right;
+    border: none;
+    color: var(--grey);
+    font-size: 2rem;
+    background: none;
+  }
+
+  @media screen and (max-width: $breakpoint) {
+    .toggle {
+      display: block;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    text-align: right;
+
+    @media screen and (max-width: $breakpoint) {
+      position: fixed;
+      left: 0;
+      top: $height;
+
+      height: auto;
+      width: 100%;
+      background-color: #fff;
+      padding-bottom: 0.1em;
+
+      &:not([data-open='true']) {
+        display: none;
+      }
+    }
+
+    li {
+      display: inline-block;
+      height: 100%;
+      text-align: center;
+
+      @media screen and (max-width: $breakpoint) {
+        display: block;
+        &:not(:last-child) {
+          border-bottom: 1px solid var(--grey-lightest);
+        }
+      }
+
+      a {
+        display: flex;
+        box-sizing: border-box;
+        position: relative;
+        height: 100%;
+        font-family: var(--alt-font);
+        font-weight: 500;
+
+        @media screen and (max-width: $breakpoint) {
+          width: 100%;
+          padding: 1em 0;
+        }
+
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.875rem;
+        padding: 0 2rem;
+        &.ctaLink {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}

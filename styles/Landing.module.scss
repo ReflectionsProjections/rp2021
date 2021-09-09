@@ -7,7 +7,7 @@
   align-items: center;
 
   font-family: var(--font-family);
-  color: white;
+  color: black;
 }
 
 .main {
@@ -18,37 +18,22 @@
   justify-content: center;
   align-items: center;
 
-  h1 {
-    margin-bottom: 0.5em;
-    padding: 0.5em 0;
-    font-size: 2em;
-  }
-
-  h2,
-  h1 {
-    font-weight: normal;
-  }
-
-  h2 {
-    margin: 0;
-  }
-
-  p {
-    text-align: center;
-    margin: 1em 0;
-    font-size: 1.125rem;
-  }
-
   img {
-    max-width: 195px;
+    max-width: 500px;
     width: 90%;
   }
-}
 
-.logoBar {
-  display: inline-block;
-  font-weight: bold;
-  transform: scaleY(2);
+  Button {
+    font-family: var(--alt-font);
+    text-align: center;
+    margin-bottom: 2em;
+    color: black;
+  }
+
+  Button:focus,
+  Button:hover {
+    opacity: 0.75;
+  }
 }
 
 .footer {
@@ -68,18 +53,4 @@
   &:last-child {
     margin-bottom: 3em;
   }
-}
-
-.registrationButton {
-  color: var(--orange-2);
-  font-family: var(--alt-font);
-  background: white !important;
-  text-align: center;
-  margin-bottom: 3em;
-}
-
-.registrationButton:focus,
-.registrationButton:hover {
-  opacity: 0.75;
-  color: var(--orange-2);
 }

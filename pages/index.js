@@ -2,9 +2,10 @@ import Head from 'next/head';
 import FAQ from '../components/FAQ';
 import About from '../components/About';
 
-import styles from '../components/landing/Landing.module.scss';
+import styles from '../styles/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
+import Nav from '../components/ui/Nav';
 import Button from 'react-bootstrap/Button';
 
 export default function Index() {
@@ -15,11 +16,9 @@ export default function Index() {
     window.addEventListener('mousemove', (event) => {
       const width = window.outerWidth;
       const height = window.outerHeight;
-      const xOffset = 0;
-      const yOffset = 7;
-      const mouseXpercentage = (event.clientX / width) * 100 + xOffset;
-      const mouseYpercentage = (event.clientY / height) * 100 + yOffset;
-      document.body.style = `background: radial-gradient(at ${mouseXpercentage}% ${mouseYpercentage}%, var(--orange-3), var(--yellow-3))`;
+      const mouseXpercentage = (event.clientX / width) * 100;
+      const mouseYpercentage = (event.clientY / height) * 100;
+      document.body.style = `background: radial-gradient(at ${mouseXpercentage}% ${mouseYpercentage}%, var(--background-orange), white)`;
     });
   }
 
@@ -38,20 +37,15 @@ export default function Index() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Nav />
       <div className={styles.landingContainer}>
         <main className={styles.main}>
-          <img src="/logo.png" alt="Reflections|Projections Logo" />
-          <h1>
-            reflections <span className={styles.logoBar}>|</span> projections
-          </h1>
-          <p>27 years of connecting students with industry</p>
-          <h2>September 20-25th, 2021</h2>
-          <br />
-        </main>
+          <img src="/big_logo.png" alt="Reflections Projections Logo" />
 
-        <a href="https://airtable.com/shrTGIqGrMhlD32NC">
-          <Button className={styles.registrationButton}>Register Now!</Button>
-        </a>
+          <a href="https://airtable.com/shrTGIqGrMhlD32NC">
+            <Button>Register Now!</Button>
+          </a>
+        </main>
 
         <About name="about" />
         <FAQ faqData={faqSection ?? { sections: [] }} />

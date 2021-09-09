@@ -1,4 +1,7 @@
 {
+  "speakerSection": {
+    "list": []
+  },
   "faqSection": {
     "sections": [
       {
@@ -6,7 +9,7 @@
         "questions": [
           {
             "question": "Is registration open?",
-            "answer": "Yes! Be sure to click the link on the navigation bar to register!"
+            "answer": "Yes! Be sure to click the link at the top to register!"
           },
           {
             "question": "Who can attend?",
@@ -36,6 +39,10 @@
           {
             "question": "How will the career fair work?",
             "answer": "We will be having a 1 day in-person, 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. More details regarding the platform and logistics will be communicated to attendees."
+          },
+          {
+            "question": "What's the difference between Tech Talks and Speaker Talks?",
+            "answer": "Tech Talks are given by sponsor representatives who wish to spotlight their company and talk about new products/technologies. Speaker Talks are given by experts in the tech community and are about specific technical or personal topics."
           }
         ]
       },
@@ -61,6 +68,10 @@
           {
             "question": "What will you do?",
             "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+          },
+          {
+            "question": "Is registration open?",
+            "answer": "Yes! (See above)"
           }
         ]
       },
