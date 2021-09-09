@@ -1,8 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
-
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -24,27 +20,39 @@ SponsorGroup.Title = ({ children }) => (
 SponsorGroup.Body = ({ children }) => <Row>{children}</Row>;
 
 const SponsorSection = ({ sponsors }) => {
-  const hasAllTiersSection = (sponsors.allTiers || []).length > 0;
-
   const { tier1, tier2, tier3, tier4 } = sponsors;
-  const tiers = [...tier1, ...tier2, ...tier3, ...tier4];
 
   return (
-    <Section>
-      <Section.Title>Sponsors</Section.Title>
-      <div className={styles.sponsorGrid}>
-        {tiers.map((sponsor, idx) => (
-          <a
-            key={`${sponsor.name}-${idx}`}
-            href={sponsor.website}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src={sponsor.img} />
-          </a>
-        ))}
-      </div>
-    </Section>
+    <div className={styles.sponsorSection}>
+      <Section>
+        <Section.Title>Sponsors</Section.Title>
+        <div className={styles.primarySponsor}>
+          {sponsors.tier1.map((sponsor, idx) => (
+            <a
+              key={`${sponsor.name}-${idx}`}
+              href={sponsor.website}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={sponsor.img} />
+            </a>
+          ))}
+        </div>
+
+        <div className={styles.sponsorGrid}>
+          {sponsors.tier2.map((sponsor, idx) => (
+            <a
+              key={`${sponsor.name}-${idx}`}
+              href={sponsor.website}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src={sponsor.img} />
+            </a>
+          ))}
+        </div>
+      </Section>
+    </div>
   );
 };
 

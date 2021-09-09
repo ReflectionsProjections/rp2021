@@ -15,6 +15,7 @@
   margin-bottom: 0.5em;
   border-radius: 0;
   cursor: pointer;
+  background: none;
 }
 
 .questionCardTitle {
@@ -26,7 +27,7 @@
 .questionCardText {
   margin-top: 0.75em;
   color: var(--black-text);
-  font-family: var(--alt-font);
+  font-family: var(--font-family);
 }
 
 .questionCardMobile p {
