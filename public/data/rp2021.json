@@ -364,33 +364,346 @@
   "events": {
     "byId": {
       "12nj3j55j31": {
-        "title": "PuzzleBang (all week)",
-        "thumbnailPath": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "Opening Ceremony",
+        "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-16-2019 00:00",
-          "end": "09-21-2019 24:00"
+          "start": "09-20-2021 14:00",
+          "end": "09-20-2021 14:30"
         },
-        "location": "PuzzleBang.com"
+        "location": ""
+      },
+      "uc4j3e3v6z": {
+        "title": "Snack from Insomnia Cookies",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "SNACK",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 14:30",
+          "end": "09-20-2021 15:00"
+        },
+        "location": ""
       },
       "5ad72c8753": {
-        "title": "R|P Symposium",
-        "thumbnailPath": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "Talk by Gregg Vanderheiden",
+        "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-16-2019 14:00",
-          "end": "09-16-2019 16:00"
+          "start": "09-20-2021 15:00",
+          "end": "09-20-2021 16:00"
         },
-        "location": "Siebel Center Atrium"
+        "location": ""
+      },
+      "pa242m1jmp": {
+        "title": "BCBS",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 16:00",
+          "end": "09-20-2021 17:00"
+        },
+        "location": ""
+      },
+        "ymotk7w43n": {
+        "title": "Meal Sponsored by Blue Cross",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 17:00",
+          "end": "09-20-2021 18:00"
+        },
+        "location": ""
+      },
+      "12ft78d0vb": {
+        "title": "Talk by David Gadsden",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 18:00",
+          "end": "09-20-2021 19:00"
+        },
+        "location": ""
+      },
+      "ipnezqzx2e": {
+        "title": "Talk by Sam Song Liang",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 15:00",
+          "end": "09-21-2021 16:00"
+        },
+        "location": ""
+      },
+      "0999rrrhr4": {
+        "title": "Talk by Chris Brust",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 16:00",
+          "end": "09-21-2021 17:00"
+        },
+        "location": ""
+      },
+      "q4kwqhhxag": {
+        "title": "Aechelon Event",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 18:00",
+          "end": "09-21-2021 19:00"
+        },
+        "location": ""
+      },
+      "ksatladh87": {
+        "title": "Meal - Subway",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "MEAL",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 15:00",
+          "end": "09-21-2021 16:00"
+        },
+        "location": ""
+      },
+      "kr8teywxg4": {
+        "title": "Snack - Einstein's Bros. Bagels",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 15:00",
+          "end": "09-22-2021 16:00"
+        },
+        "location": ""
+      },
+      "ij8p85lh9i": {
+        "title": "Uline Event",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 14:00",
+          "end": "09-22-2021 15:00"
+        },
+        "location": ""
+      },
+      "ca9p4hhn75": {
+        "title": "Talk by Tyler Menezes",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 15:00",
+          "end": "09-22-2021 16:00"
+        },
+        "location": ""
+      },
+      "r91i39av22": {
+        "title": "Talk by MJ Chun",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 16:00",
+          "end": "09-22-2021 17:00"
+        },
+        "location": ""
+      },
+      "hgablgdnh1": {
+        "title": "Keynote Talk by Dr. Sivakumar",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 17:00",
+          "end": "09-22-2021 18:00"
+        },
+        "location": ""
+      },
+      "hdd82ybhw4": {
+        "title": "Meal - DP Dough",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "MEAL",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 18:00",
+          "end": "09-22-2021 18:45"
+        },
+        "location": ""
+      },
+      "n9g0s3sfow": {
+        "title": "Talk by Lili Gangas",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 12:00",
+          "end": "09-23-2021 13:00"
+        },
+        "location": ""
+      },
+      "3tbyv7a9jc": {
+        "title": "Talk by Safiya Noble",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 14:00",
+          "end": "09-23-2021 15:00"
+        },
+        "location": ""
+      },
+      "hbsgnf2zha": {
+        "title": "Bluebonnet Panel",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 15:00",
+          "end": "09-23-2021 16:00"
+        },
+        "location": ""
+      },
+      "13qt2v5edd": {
+        "title": "Cruise Event",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 16:00",
+          "end": "09-23-2021 17:00"
+        },
+        "location": ""
+      },
+      "dm79olvj1t": {
+        "title": "Talk by Cindy Cohn",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 17:00",
+          "end": "09-23-2021 18:00"
+        },
+        "location": ""
+      },
+      "hv42xc12h6": {
+        "title": "Meal - Jimmy John's",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 18:00",
+          "end": "09-23-2021 18:45"
+        },
+        "location": ""
+      },
+      "26jsiv52q9": {
+        "title": "Snack - Taco Bell",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 14:15",
+          "end": "09-24-2021 15:00"
+        },
+        "location": ""
+      },
+      "lf80cwzvms": {
+        "title": "Talk by Jim Fruchterman",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 15:00",
+          "end": "09-24-2021 16:00"
+        },
+        "location": ""
+      },
+      "s82pqboigw": {
+        "title": "Closing Ceremony",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 17:00",
+          "end": "09-24-2021 17:30"
+        },
+        "location": ""
+      },
+      "triorn4scg": {
+        "title": "Meal - Himalayan",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 17:30",
+          "end": "09-24-2021 18:15"
+        },
+        "location": ""
       }
+      
     },
-    "allIds": ["12nj3j55j31", "5ad72c8753"]
+    "allIds": ["12nj3j55j31", "uc4j3e3v6z", "5ad72c8753", "pa242m1jmp", "ymotk7w43n", "12ft78d0vb", "ipnezqzx2e", "0999rrrhr4", "q4kwqhhxag", "ksatladh87", "kr8teywxg4", "ij8p85lh9i", "ca9p4hhn75", "r91i39av22", "hgablgdnh1", "hdd82ybhw4", "n9g0s3sfow", "3tbyv7a9jc", "hbsgnf2zha", "13qt2v5edd", "dm79olvj1t", "hv42xc12h6", "26jsiv52q9", "lf80cwzvms", "s82pqboigw", "triorn4scg"]
   },
   "sponsors": {
     "allTiers": [],
