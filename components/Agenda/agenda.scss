@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+.togglebar,
+.togglebar:focus {
+  background-color: #f3681f !important;
+  color: black !important;
+  width: 500px;
+  font-family: 'Roboto Mono';
+}
+
+.toggleitem {
+  background-color: #fea55b;
+  color: black;
+  font-family: 'Roboto Mono';
+}
+
+.togglemenu {
+  background-color: #fea55b;
+  width: 500px;
+}
+
+.togglebar:hover:active:after {
+  background-color: #f3681f !important;
+  color: black !important;
+}
+
+.toggleitem:hover {
+  background-color: #f3681f;
+  color: black;
+}

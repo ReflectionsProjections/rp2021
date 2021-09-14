@@ -1,4 +1,4 @@
-import Speaker from '../components/Speaker';
+import Agenda from '../components/Agenda';
 import { Element } from 'react-scroll';
 import Nav from '../components/ui/Nav';
 import useGetStaticData from '../services/useGetStaticData';
@@ -7,7 +7,7 @@ import Head from 'next/head';
 export default function Speakers() {
   const { isLoaded, rpData } = useGetStaticData();
 
-  const { speakerSection } = rpData;
+  const { events } = rpData;
 
   return (
     <>
@@ -29,9 +29,7 @@ export default function Speakers() {
       </Head>
       <Nav />
       {isLoaded && (
-        <Element name="speakers">
-          {<Speaker speakers={speakerSection.list} />}
-        </Element>
+        <Element name="agenda">{<Agenda events={events} />}</Element>
       )}
     </>
   );

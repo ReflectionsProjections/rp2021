@@ -1,0 +1,92 @@
+.timelinecontainer {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding-left: 4em;
+  padding: none;
+  &::after {
+    // this is the timeline vertical line
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: black;
+    top: 20px;
+    bottom: 0;
+    left: calc(12% + 1px);
+    margin-left: 2.3rem;
+
+    @media (min-width: 768px) {
+      left: calc(12% + 1px);
+    }
+
+    @media (min-width: 992px) {
+      left: calc(37% + 1px);
+    }
+  }
+}
+
+.timelinetitle {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.timelineevent {
+  position: relative;
+  margin: 0;
+  padding: 1em 0;
+  width: 100%;
+  &::after {
+    /* circle thing on line */
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: calc(12% - 13px);
+    background-color: #f3681f;
+    border: 3px solid black;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+
+    @media (min-width: 768px) {
+      left: calc(12% - 13px);
+    }
+
+    @media (min-width: 992px) {
+      left: calc(37% - 11px);
+    }
+  }
+}
+
+.timelineeventtime {
+  font-family: 'Roboto Mono';
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  text-align: left;
+  color: black;
+  @media (min-width: 992px) {
+    text-align: right;
+    font-size: 1em;
+  }
+}
+
+.timelineeventlocation {
+  font-family: 'Roboto Mono';
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  text-align: left;
+  color: black;
+  @media (min-width: 992px) {
+    text-align: right;
+    font-size: 1em;
+  }
+}
+
+.timelineeventbody {
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
