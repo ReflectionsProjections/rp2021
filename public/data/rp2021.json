@@ -5,7 +5,7 @@
         "name": "Gregg Vanderheiden",
         "tagline": "Ph.D.",
         "bio": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
-        "image": "/headshots/GreggVanderheiden.jpg"
+        "image": "/headshots/GreggVanderheiden.jpeg"
       },
       {
         "name": "Becca Blais",
@@ -34,7 +34,7 @@
         "name": "Tyler Menezes",
         "tagline": "Executive Director at CodeDay",
         "bio": "<p>Tyler Menezes is the Executive Director at CodeDay, where he works to provide welcoming and diverse opportunities for under-served students to explore a future in tech and beyond. He briefly studied at University of Washington, combined with stints working in machine learning at Microsoft Research and as a programmer at several Seattle startups, led to his work finding data-driven solutions to increasing CS diversity and enrollment since 2014.<p>",
-        "image": "/headshot/TylerMenezes.jpg"
+        "image": "/headshots/TylerMenezes.jpg"
       },
       {
         "name": "Dr. Dandapani Sivakumar",
@@ -577,48 +577,5 @@
       "s82pqboigw",
       "triorn4scg"
     ]
-  },
-  "sponsors": {
-    "allTiers": [],
-    "tier1": [],
-    "tier2": [],
-    "tier3": [
-      {
-        "name": "Aechelon Technology",
-        "img": "/static/assets/img/sponsors/AechelonTechnology.png",
-        "website": "http://aechelon.com/"
-      },
-      {
-        "name": "Goldman Sachs",
-        "img": "/static/assets/img/sponsors/Goldmansachs.jpg",
-        "website": "https://www.goldmansachs.com/careers/"
-      },
-      {
-        "name": "Human Capital",
-        "img": "/static/assets/img/sponsors/HumanCapital.png",
-        "website": "https://human.capital/"
-      },
-      {
-        "name": "IMC Trading",
-        "img": "/static/assets/img/sponsors/IMC.png",
-        "website": "https://www.imc.com/us/"
-      },
-      {
-        "name": "Qualtrics",
-        "img": "/static/assets/img/sponsors/Qualtrics.jpg",
-        "website": "https://www.qualtrics.com/careers/"
-      }
-    ],
-    "tier4": [],
-    "diversity": {
-      "divTier1": [
-        {
-          "name": "Balsamiq",
-          "img": "/static/assets/img/sponsors/Balsamiq.png",
-          "website": "https://balsamiq.com/"
-        }
-      ],
-      "divTier2": []
-    }
   }
 }
