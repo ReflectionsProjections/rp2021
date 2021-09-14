@@ -1,6 +1,83 @@
 {
   "speakerSection": {
-    "list": []
+    "list": [
+      {
+        "name": "Gregg Vanderheiden",
+        "tagline": "Ph.D.",
+        "bio": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
+        "image": "/headshots/GreggVanderheiden.jpg"
+      },
+      {
+        "name": "Becca Blais",
+        "tagline": "CEO and Executive Director of Bluebonnet Data",
+        "bio": "<p>Becca Blais got her start in policy through Notre Dame (Political Science and Peace Studies) student advocacy, where she served as Student Body Vice President and later Student Body President. She is a 2017 Truman Scholar and the Co-Founder and Executive Director of Bluebonnet Data, a nonprofit that is recruiting and training the next generation of data-savvy leaders in the progressive movement.</p>",
+        "image": "/headshots/BeccaBlais.jpg"
+      },
+      {
+        "name": "Cindy Cohn",
+        "tagline": "Executive Director of the Electronic Frontier Foundation",
+        "bio": "<p>From 2000-2015 she served as EFF’s Legal Director as well as its General Counsel where she served as lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech.</p>",
+        "image": "/headshots/CindyCohn.jpg"
+      },
+      {
+        "name": "Kalika Bali",
+        "bio": "<p>Kalika Bali is a Principal Researcher at Microsoft Research India working broadly in the area of Speech and Language Technology especially in the use of linguistic models for building technology that offers a more natural Human-Computer as well as Computer-Mediated interactions, and technology for Low Resource Languages. She has been working in the field of Speech and Natural Language Processing for over two decades and believes that local language technology, especially with speech interfaces, can help millions of people gain entry into a world that is till now almost inaccessible to them. </p>",
+        "image": "/headshots/KalikaBali.jpg"
+      },
+      {
+        "name": "Sam Liang",
+        "tagline": "Ph.D.",
+        "bio": "<p>Sam Liang is the Founder and CEO of Otter.ai, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
+        "image": "/headshots/SamHigh.jpg"
+      },
+      {
+        "name": "Tyler Menezes",
+        "tagline": "Executive Director at CodeDay",
+        "bio": "<p>Tyler Menezes is the Executive Director at CodeDay, where he works to provide welcoming and diverse opportunities for under-served students to explore a future in tech and beyond. He briefly studied at University of Washington, combined with stints working in machine learning at Microsoft Research and as a programmer at several Seattle startups, led to his work finding data-driven solutions to increasing CS diversity and enrollment since 2014.<p>",
+        "image": "/headshot/TylerMenezes.jpg"
+      },
+      {
+        "name": "Dr. Dandapani Sivakumar",
+        "bio": "<p>D. Sivakumar is a computer scientist whose work has included solving deep theoretical problems in computing to building cutting-edge applications of CS and AI.  His career -- as an academic, a researcher, an engineer, and in research leadership -- spans 25 years, the bulk of which was spent at IBM Almaden Research Center and Google, where he was most recently a Research Director.  His recent adventure is in starting a company that aims to reimagine Search by innovative advances in natural language understanding.</p>",
+        "image": "/headshots/DandapaniSivakumar.jpg"
+      },
+      {
+        "name": "MJ Chun",
+        "bio": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. SMJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
+        "image": "/headshots/MJChun.png"
+      },
+      {
+        "name": "Jim Fruchterman",
+        "tagline": "CEO, Tech Matters",
+        "bio": "<p>Jim Fruchterman is a leading social entrepreneur, a MacArthur Fellow, a recipient of the Skoll Award for Social Entrepreneurship, and a Distinguished Alumnus of Caltech. His life’s work is applying technology to benefit the 95% of humanity typically neglected by for-profit tech companies. </p>",
+        "image": "/headshots/JimFruchterman.jpg"
+      }
+    ]
+  },
+  "projectSection": {
+    "list": [
+      {
+        "name": "Machine Learning",
+        "badge": "ML",
+        "tagline": "Project Example 1",
+        "bio": "<p>Example description</p>",
+        "image": "/static/img/projects/rp"
+      },
+      {
+        "name": "Data Science",
+        "tagline": "Project Example 2",
+        "badge": "ML",
+        "bio": "<p>Description</p>",
+        "image": "/static/img/projects/rp"
+      },
+      {
+        "name": "Other Project",
+        "tagline": "Project",
+        "badge": "Mobile app",
+        "bio": "<p>Aaaaaaa</p>",
+        "image": "/static/img/projects/rp"
+      }
+    ]
   },
   "faqSection": {
     "sections": [
@@ -22,7 +99,7 @@
         ]
       },
       {
-        "name": "Conference Format",
+        "name": "Conference Format / COVID Information",
         "questions": [
           {
             "question": "Will I be able to attend the conference online?",
@@ -134,32 +211,414 @@
   "events": {
     "byId": {
       "12nj3j55j31": {
-        "title": "PuzzleBang (all week)",
-        "thumbnailPath": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "Opening Ceremony",
+        "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-16-2019 00:00",
-          "end": "09-21-2019 24:00"
+          "start": "09-20-2021 14:00",
+          "end": "09-20-2021 14:30"
         },
-        "location": "PuzzleBang.com"
+        "location": ""
+      },
+      "uc4j3e3v6z": {
+        "title": "Snack from Insomnia Cookies",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "SNACK",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 14:30",
+          "end": "09-20-2021 15:00"
+        },
+        "location": ""
       },
       "5ad72c8753": {
-        "title": "R|P Symposium",
-        "thumbnailPath": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "Talk by Gregg Vanderheiden",
+        "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-16-2019 14:00",
-          "end": "09-16-2019 16:00"
+          "start": "09-20-2021 15:00",
+          "end": "09-20-2021 16:00"
         },
-        "location": "Siebel Center Atrium"
+        "location": ""
+      },
+      "pa242m1jmp": {
+        "title": "BCBS",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 16:00",
+          "end": "09-20-2021 17:00"
+        },
+        "location": ""
+      },
+      "ymotk7w43n": {
+        "title": "Meal Sponsored by Blue Cross",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 17:00",
+          "end": "09-20-2021 18:00"
+        },
+        "location": ""
+      },
+      "12ft78d0vb": {
+        "title": "Talk by David Gadsden",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 18:00",
+          "end": "09-20-2021 19:00"
+        },
+        "location": ""
+      },
+      "ipnezqzx2e": {
+        "title": "Talk by Sam Song Liang",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 15:00",
+          "end": "09-21-2021 16:00"
+        },
+        "location": ""
+      },
+      "0999rrrhr4": {
+        "title": "Talk by Chris Brust",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 16:00",
+          "end": "09-21-2021 17:00"
+        },
+        "location": ""
+      },
+      "q4kwqhhxag": {
+        "title": "Aechelon Event",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 18:00",
+          "end": "09-21-2021 19:00"
+        },
+        "location": ""
+      },
+      "ksatladh87": {
+        "title": "Meal - Subway",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "MEAL",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 15:00",
+          "end": "09-21-2021 16:00"
+        },
+        "location": ""
+      },
+      "kr8teywxg4": {
+        "title": "Snack - Einstein's Bros. Bagels",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 15:00",
+          "end": "09-22-2021 16:00"
+        },
+        "location": ""
+      },
+      "ij8p85lh9i": {
+        "title": "Uline Event",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 14:00",
+          "end": "09-22-2021 15:00"
+        },
+        "location": ""
+      },
+      "ca9p4hhn75": {
+        "title": "Talk by Tyler Menezes",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 15:00",
+          "end": "09-22-2021 16:00"
+        },
+        "location": ""
+      },
+      "r91i39av22": {
+        "title": "Talk by MJ Chun",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 16:00",
+          "end": "09-22-2021 17:00"
+        },
+        "location": ""
+      },
+      "hgablgdnh1": {
+        "title": "Keynote Talk by Dr. Sivakumar",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 17:00",
+          "end": "09-22-2021 18:00"
+        },
+        "location": ""
+      },
+      "hdd82ybhw4": {
+        "title": "Meal - DP Dough",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "MEAL",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 18:00",
+          "end": "09-22-2021 18:45"
+        },
+        "location": ""
+      },
+      "n9g0s3sfow": {
+        "title": "Talk by Lili Gangas",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 12:00",
+          "end": "09-23-2021 13:00"
+        },
+        "location": ""
+      },
+      "3tbyv7a9jc": {
+        "title": "Talk by Safiya Noble",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 14:00",
+          "end": "09-23-2021 15:00"
+        },
+        "location": ""
+      },
+      "hbsgnf2zha": {
+        "title": "Bluebonnet Panel",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 15:00",
+          "end": "09-23-2021 16:00"
+        },
+        "location": ""
+      },
+      "13qt2v5edd": {
+        "title": "Cruise Event",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 16:00",
+          "end": "09-23-2021 17:00"
+        },
+        "location": ""
+      },
+      "dm79olvj1t": {
+        "title": "Talk by Cindy Cohn",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 17:00",
+          "end": "09-23-2021 18:00"
+        },
+        "location": ""
+      },
+      "hv42xc12h6": {
+        "title": "Meal - Jimmy John's",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-23-2021 18:00",
+          "end": "09-23-2021 18:45"
+        },
+        "location": ""
+      },
+      "26jsiv52q9": {
+        "title": "Snack - Taco Bell",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 14:15",
+          "end": "09-24-2021 15:00"
+        },
+        "location": ""
+      },
+      "lf80cwzvms": {
+        "title": "Talk by Jim Fruchterman",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 15:00",
+          "end": "09-24-2021 16:00"
+        },
+        "location": ""
+      },
+      "s82pqboigw": {
+        "title": "Closing Ceremony",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 17:00",
+          "end": "09-24-2021 17:30"
+        },
+        "location": ""
+      },
+      "triorn4scg": {
+        "title": "Meal - Himalayan",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 17:30",
+          "end": "09-24-2021 18:15"
+        },
+        "location": ""
       }
     },
-    "allIds": ["12nj3j55j31", "5ad72c8753"]
+    "allIds": [
+      "12nj3j55j31",
+      "uc4j3e3v6z",
+      "5ad72c8753",
+      "pa242m1jmp",
+      "ymotk7w43n",
+      "12ft78d0vb",
+      "ipnezqzx2e",
+      "0999rrrhr4",
+      "q4kwqhhxag",
+      "ksatladh87",
+      "kr8teywxg4",
+      "ij8p85lh9i",
+      "ca9p4hhn75",
+      "r91i39av22",
+      "hgablgdnh1",
+      "hdd82ybhw4",
+      "n9g0s3sfow",
+      "3tbyv7a9jc",
+      "hbsgnf2zha",
+      "13qt2v5edd",
+      "dm79olvj1t",
+      "hv42xc12h6",
+      "26jsiv52q9",
+      "lf80cwzvms",
+      "s82pqboigw",
+      "triorn4scg"
+    ]
+  },
+  "sponsors": {
+    "allTiers": [],
+    "tier1": [],
+    "tier2": [],
+    "tier3": [
+      {
+        "name": "Aechelon Technology",
+        "img": "/static/assets/img/sponsors/AechelonTechnology.png",
+        "website": "http://aechelon.com/"
+      },
+      {
+        "name": "Goldman Sachs",
+        "img": "/static/assets/img/sponsors/Goldmansachs.jpg",
+        "website": "https://www.goldmansachs.com/careers/"
+      },
+      {
+        "name": "Human Capital",
+        "img": "/static/assets/img/sponsors/HumanCapital.png",
+        "website": "https://human.capital/"
+      },
+      {
+        "name": "IMC Trading",
+        "img": "/static/assets/img/sponsors/IMC.png",
+        "website": "https://www.imc.com/us/"
+      },
+      {
+        "name": "Qualtrics",
+        "img": "/static/assets/img/sponsors/Qualtrics.jpg",
+        "website": "https://www.qualtrics.com/careers/"
+      }
+    ],
+    "tier4": [],
+    "diversity": {
+      "divTier1": [
+        {
+          "name": "Balsamiq",
+          "img": "/static/assets/img/sponsors/Balsamiq.png",
+          "website": "https://balsamiq.com/"
+        }
+      ],
+      "divTier2": []
+    }
   }
 }
