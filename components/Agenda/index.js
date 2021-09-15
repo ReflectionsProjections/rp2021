@@ -185,7 +185,7 @@ const Agenda = ({ events }) => {
                     className="toggleitem"
                     href="#/action-5"
                     onClick={() => {
-                      setSelectedDate('09-24-2019');
+                      setSelectedDate('09-24-2021');
                       setSelectedDateWeek('Friday Sep 24th');
                     }}
                   >
