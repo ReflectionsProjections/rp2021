@@ -115,7 +115,7 @@ const Agenda = ({ events }) => {
   const allEvents = getEventsList(events);
 
   const [selectedType, setSelectedType] = useState('');
-  const [selectedDate, setSelectedDate] = useState('09-20-2019');
+  const [selectedDate, setSelectedDate] = useState('09-20-2021');
   const [selectedDateWeek, setSelectedDateWeek] = useState('Monday Sep 20th');
   const [dropdownActive, setDropDownActive] = useState(false);
 
@@ -143,7 +143,6 @@ const Agenda = ({ events }) => {
                 <Dropdown.Menu className="togglemenu">
                   <Dropdown.Item
                     className="toggleitem"
-                    href="#/action-1"
                     onClick={() => {
                       setSelectedDate('09-20-2021');
                       setSelectedDateWeek('Monday Sep 20th');
@@ -153,7 +152,6 @@ const Agenda = ({ events }) => {
                   </Dropdown.Item>
                   <Dropdown.Item
                     className="toggleitem"
-                    href="#/action-2"
                     onClick={() => {
                       setSelectedDate('09-21-2021');
                       setSelectedDateWeek('Tuesday Sep 21th');
@@ -163,7 +161,6 @@ const Agenda = ({ events }) => {
                   </Dropdown.Item>
                   <Dropdown.Item
                     className="toggleitem"
-                    href="#/action-3"
                     onClick={() => {
                       setSelectedDate('09-22-2021');
                       setSelectedDateWeek('Wednesday Sep 22th');
@@ -173,7 +170,6 @@ const Agenda = ({ events }) => {
                   </Dropdown.Item>
                   <Dropdown.Item
                     className="toggleitem"
-                    href="#/action-4"
                     onClick={() => {
                       setSelectedDate('09-23-2021');
                       setSelectedDateWeek('Thursday Sep 23th');
@@ -183,7 +179,6 @@ const Agenda = ({ events }) => {
                   </Dropdown.Item>
                   <Dropdown.Item
                     className="toggleitem"
-                    href="#/action-5"
                     onClick={() => {
                       setSelectedDate('09-24-2021');
                       setSelectedDateWeek('Friday Sep 24th');
@@ -193,7 +188,6 @@ const Agenda = ({ events }) => {
                   </Dropdown.Item>
                   <Dropdown.Item
                     className="toggleitem"
-                    href="#/action-6"
                     onClick={() => {
                       setSelectedDate('09-25-2021');
                       setSelectedDateWeek('Saturday Sep 25th');

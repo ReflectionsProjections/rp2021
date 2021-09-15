@@ -2,8 +2,8 @@
   position: relative;
   max-width: 100%;
   margin: 0;
+  padding: 0;
   padding-left: 4em;
-  padding: none;
   &::after {
     // this is the timeline vertical line
     content: '';
@@ -12,11 +12,12 @@
     background-color: black;
     top: 20px;
     bottom: 0;
-    left: calc(12% + 1px);
+    height: calc(100% - 4em - 20px);
+    left: calc(11% + 1em + 2.5px);
     margin-left: 2.3rem;
 
     @media (min-width: 768px) {
-      left: calc(12% + 1px);
+      left: calc(11% + 1em + 3px);
     }
 
     @media (min-width: 992px) {
