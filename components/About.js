@@ -103,6 +103,28 @@ const About = () => (
             </a>{' '}
             if you have any other questions. See you soon!
           </AboutSection.Body>
+
+          <AboutSection.Title>PuzzleBang</AboutSection.Title>
+          <AboutSection.Body>
+            PuzzleBang is a{' '}
+            <a href="https://en.wikipedia.org/wiki/Puzzle_hunt" target="_new">
+              puzzle hunt
+            </a>{' '}
+            that takes place over the course of the conference. Puzzles are
+            released online at{' '}
+            <a href="https://puzzlebang.com/">PuzzleBang.com</a>{' '}
+            over the course of the week, with one or two puzzles per day and tying
+            everything together with a metapuzzle on Saturday. You're welcome to
+            play solo or with as many friends are you'd like.  No past experience
+            is necessary and you can join at any time! To get started, sign up
+            at{' '}
+            <a href="https://puzzlebang.com/">PuzzleBang.com</a>{' '}
+            or take a look at the{' '}
+            <a href="https://puzzlebang.com/poster">
+              poster puzzle we have around Siebel
+            </a>.
+            Tbbq yhpx! (Good luck!)
+          </AboutSection.Body>
         </AboutSection>
       </Col>
     </Row>
