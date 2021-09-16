@@ -78,7 +78,8 @@
   margin-bottom: 0.5em;
   font-size: 1.2em;
   text-align: left;
-  color: black;
+  color: white;
+
   @media (min-width: 992px) {
     text-align: right;
     font-size: 1em;
@@ -86,8 +87,14 @@
 }
 
 .timelineeventbody {
+  color: black;
   font-size: 1.3em;
   font-weight: 600;
   padding: 0;
   margin: 0;
+  span,
+  span a {
+    font-size: 0.96em;
+    color: var(--grey);
+  }
 }
