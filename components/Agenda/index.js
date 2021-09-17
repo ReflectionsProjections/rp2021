@@ -90,7 +90,10 @@ const DayAgenda = ({ label, events }) => {
               <UITimelineEvent.Body>
                 {event.title}
                 <br />
-                <span style={{ fontWeight: 200 }}>{event.location}</span>
+                <span
+                  dangerouslySetInnerHTML={{ __html: event.location }}
+                  style={{ fontWeight: 200 }}
+                />
                 {event.hasPage && (
                   <>
                     <br />
@@ -111,12 +114,38 @@ const DayAgenda = ({ label, events }) => {
   );
 };
 
+const DATES_FORMATTED = {
+  '09-20-2021': 'Monday Sep 20th',
+  '09-21-2021': 'Tuesday Sep 21st',
+  '09-22-2021': 'Wednesday Sep 22nd',
+  '09-23-2021': 'Thursday Sep 23rd',
+  '09-24-2021': 'Friday Sep 24th',
+  '09-25-2021': 'Saturday Sep 25th',
+};
+
+const getDefaultDate = () => {
+  const curr = new Date();
+  const currFormatted = [
+    (curr.getMonth() + 1).toString().padStart(2, '0'),
+    curr.getDate().toString().padStart(2, '0'),
+    curr.getFullYear(),
+  ].join('-');
+  console.log(currFormatted);
+  if (DATES_FORMATTED[currFormatted]) {
+    return [currFormatted, DATES_FORMATTED[curr]];
+  }
+  return ['09-20-2021', DATES_FORMATTED['09-20-2021']];
+};
+
 const Agenda = ({ events }) => {
   const allEvents = getEventsList(events);
 
   const [selectedType, setSelectedType] = useState('');
-  const [selectedDate, setSelectedDate] = useState('09-20-2021');
-  const [selectedDateWeek, setSelectedDateWeek] = useState('Monday Sep 20th');
+  const [defaultSelectedDate, defaultSelectedDateWeek] = getDefaultDate();
+  const [selectedDate, setSelectedDate] = useState(defaultSelectedDate);
+  const [selectedDateWeek, setSelectedDateWeek] = useState(
+    defaultSelectedDateWeek
+  );
   const [dropdownActive, setDropDownActive] = useState(false);
 
   const handleDropdown = () => {
