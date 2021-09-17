@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Segment } from 'semantic-ui-react';
 
-import styles from './dashboardClock.scss';
+import styles from './dashboardClock.module.scss';
 
 export default class DashboardClock extends Component {
   constructor() {
@@ -11,13 +11,13 @@ export default class DashboardClock extends Component {
         d: '0',
         h: '0',
         m: '0',
-        s: '0'
+        s: '0',
       },
       currentTimer: {
         h: '0',
         m: '0',
-        type: ''
-      }
+        type: '',
+      },
     };
   }
 
@@ -51,13 +51,13 @@ export default class DashboardClock extends Component {
           d: CDd,
           h: CDh,
           m: CDm,
-          s: CDs
+          s: CDs,
         },
         currentTimer: {
           h: NOWh,
           m: NOWm,
-          type
-        }
+          type,
+        },
       });
     }, 1000);
   }

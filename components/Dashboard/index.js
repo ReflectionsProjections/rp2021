@@ -4,7 +4,7 @@ import { Transition } from 'react-transition-group';
 import { Timeline } from 'react-twitter-widgets';
 
 import classNames from 'classnames';
-import styles from './Dashboard.scss';
+import styles from './Dashboard.module.scss';
 import DashboardClock from './components/dashboardClock';
 import DashboardEvents from './components/dashboardEvents';
 
@@ -13,10 +13,10 @@ export default class Dashboard extends Component {
     super(props);
 
     this.state = {
-      logos: props.sponsorImages.slice(0, 8),
+      logos: (props.sponsorImages ?? []).slice(0, 8),
       visibles: [true, true, true, true, true, true, true, true],
       enter: 750,
-      exit: 750
+      exit: 750,
     };
   }
 
@@ -30,8 +30,11 @@ export default class Dashboard extends Component {
     }, 5000);
   }
 
-  randomLogos = index => {
+  randomLogos = (index) => {
     const { sponsorImages } = this.props;
+
+    if (!sponsorImages) return;
+
     const { logos, visibles } = this.state;
     const allLogos = sponsorImages;
 
@@ -46,7 +49,7 @@ export default class Dashboard extends Component {
     visibles[index] = true;
     this.setState({
       logos,
-      visibles
+      visibles,
     });
   };
 
@@ -124,7 +127,7 @@ export default class Dashboard extends Component {
                   chrome: 'noborders nofooter noheader noscrollbar',
                   tweetLimit: 4,
                   ariaPolite: 'rude',
-                  username: 'uiuc_rp'
+                  username: 'uiuc_rp',
                 }}
               />
             </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 import moment from 'moment';
-import styles from './dashboardEvents.scss';
+import styles from './dashboardEvents.module.scss';
 
 const DashboardEvent = ({ event }) => {
   return (
@@ -24,7 +24,7 @@ export default class DashboardEvents extends Component {
     super(props);
 
     this.state = {
-      upcomingEvents: []
+      upcomingEvents: [],
     };
   }
 
@@ -40,8 +40,11 @@ export default class DashboardEvents extends Component {
 
   updateUpcomingEvents = () => {
     const { events } = this.props;
+
+    if (!events) return;
+
     const currentTime = moment();
-    const filteredEvents = events.filter(event => {
+    const filteredEvents = events.filter((event) => {
       const time = moment(event.time.end);
       return time.isAfter(currentTime);
     });
@@ -53,7 +56,7 @@ export default class DashboardEvents extends Component {
     return (
       <Container className={styles.eventsContainer}>
         <h2 className={styles.containerTitle}>Upcoming Events</h2>
-        {upcomingEvents.map(event => {
+        {upcomingEvents.map((event) => {
           return <DashboardEvent event={event} key={event.title} />;
         })}
       </Container>

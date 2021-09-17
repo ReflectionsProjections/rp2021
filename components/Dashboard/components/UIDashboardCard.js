@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import styles from './UIDashboardCard.scss';
+import styles from './UIDashboardCard.module.scss';
 
 const UIDashboardCard = ({ children }) => (
   <div className={classNames('p-3', styles.card)}>{children}</div>
