@@ -12,16 +12,6 @@ export default function Index() {
   const { rpData } = useGetStaticData();
   const { faqSection, sponsors } = rpData;
 
-  if (typeof window !== 'undefined') {
-    window.addEventListener('mousemove', (event) => {
-      const width = window.outerWidth;
-      const height = window.outerHeight;
-      const mouseXpercentage = (event.clientX / width) * 100;
-      const mouseYpercentage = (event.clientY / height) * 100;
-      document.body.style = `background: radial-gradient(at ${mouseXpercentage}% ${mouseYpercentage}%, var(--background-orange), white)`;
-    });
-  }
-
   return (
     <>
       <Head>
