@@ -1,0 +1,90 @@
+.x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.logoColumn {
+  text-align: center;
+}
+
+.logo {
+  max-height: 5em;
+  margin-top: 2.5em;
+  object-fit: contain;
+  padding-right: 1em;
+  padding-left: 1em;
+  width: auto;
+}
+
+.logoRow {
+  height: 10em;
+  border-radius: 1em;
+  background-color: #ffffff;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.rpLogo {
+  padding-top: 3em;
+  width: 12em;
+  height: auto;
+}
+
+.rpWordmark {
+  padding-top: 5em;
+  width: 27em;
+  height: auto;
+  filter: invert(100%);
+}
+
+.dashboardContainer {
+  height: 100%;
+  max-width: 2000px;
+  background-size: auto 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.twitterContainer {
+  background-color: rgba(242, 245, 254, 0.9);
+  border-radius: 1em;
+  height: 46em;
+  overflow: hidden;
+  margin-left: 1em;
+}
+
+.twitterTitle {
+  color: #0cbabb;
+  font-family: 'Roboto Mono', sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.twitterInnerContainer {
+  border-radius: 1em;
+  background-color: #ffffff;
+  height: 40.5em;
+  overflow: hidden;
+}
+
+.timeRow {
+  margin-top: 2em;
+}
+
+.mainRow {
+  margin-top: 2em;
+}
+
+.eventsColumn {
+  border-radius: 1em;
+  background-color: rgba(242, 245, 254, 0.9);
+  height: 46em;
+  margin-right: 1em;
+  overflow: hidden;
+}
