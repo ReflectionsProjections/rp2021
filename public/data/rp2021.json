@@ -21,6 +21,7 @@
       },
       {
         "name": "Kalika Bali",
+        "tagline": "Principal Researcher at Microsoft Research",
         "bio": "<p>Kalika Bali is a Principal Researcher at Microsoft Research India working broadly in the area of Speech and Language Technology especially in the use of linguistic models for building technology that offers a more natural Human-Computer as well as Computer-Mediated interactions, and technology for Low Resource Languages. She has been working in the field of Speech and Natural Language Processing for over two decades and believes that local language technology, especially with speech interfaces, can help millions of people gain entry into a world that is till now almost inaccessible to them. </p>",
         "image": "/headshots/KalikaBali.jpg"
       },
@@ -38,11 +39,13 @@
       },
       {
         "name": "Dr. Dandapani Sivakumar",
+        "tagline": "Ph.D.",
         "bio": "<p>D. Sivakumar is a computer scientist whose work has included solving deep theoretical problems in computing to building cutting-edge applications of CS and AI.  His career -- as an academic, a researcher, an engineer, and in research leadership -- spans 25 years, the bulk of which was spent at IBM Almaden Research Center and Google, where he was most recently a Research Director.  His recent adventure is in starting a company that aims to reimagine Search by innovative advances in natural language understanding.</p>",
-        "image": "/headshots/DandapaniSivakumar.jpg"
+        "image": "/headshots/DandapaniSivakumar.jpeg"
       },
       {
         "name": "MJ Chun",
+        "tagline": "Head of Product at Serve Robotics, Co-founder",
         "bio": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
         "image": "/headshots/MJChun.png"
       },
@@ -221,10 +224,10 @@
           "start": "09-20-2021 14:00",
           "end": "09-20-2021 14:30"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/meeting/register/tZMvcOysqD0rE9LyH4sPbwLHRb-rTuoz0E_I"
       },
       "uc4j3e3v6z": {
-        "title": "Snack from Insomnia Cookies",
+        "title": "Snack",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -234,7 +237,7 @@
           "start": "09-20-2021 14:30",
           "end": "09-20-2021 15:00"
         },
-        "location": ""
+        "location": "Siebel Balcony (Second Floor)"
       },
       "5ad72c8753": {
         "title": "Talk by Gregg Vanderheiden",
@@ -247,7 +250,7 @@
           "start": "09-20-2021 15:00",
           "end": "09-20-2021 16:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/meeting/register/tZckduihqj0tGN1iH1FoH_rxWkYW9grrlBYE"
       },
       "pa242m1jmp": {
         "title": "BCBS",
@@ -260,7 +263,7 @@
           "start": "09-20-2021 16:00",
           "end": "09-20-2021 17:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/83532771617?pwd=ZGRMWEh6dVNtNWR4dzJIWFpVUEgxQT09"
       },
       "ymotk7w43n": {
         "title": "Meal Sponsored by Blue Cross",
@@ -273,7 +276,7 @@
           "start": "09-20-2021 17:00",
           "end": "09-20-2021 18:00"
         },
-        "location": ""
+        "location": "Siebel Balcony (Second Floor)"
       },
       "12ft78d0vb": {
         "title": "Talk by David Gadsden",
@@ -286,10 +289,23 @@
           "start": "09-20-2021 18:00",
           "end": "09-20-2021 19:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/meeting/register/tZwof-uqpzwuHtTK6p7kKXedpZH7X00W4oxq"
+      },
+      "8p5hon0o8n": {
+        "title": "Talk by Kalika Bali",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time":  {
+          "start":"09-20-2021 20:00",
+          "end": "09-20-2021 21:00",
+        },
+        "location": "https://illinois.zoom.us/meeting/register/tZUrdOCgrzIrE9IwtCW6qjw5QhqYNyOvLQwO"
       },
       "ipnezqzx2e": {
-        "title": "Talk by Sam Song Liang",
+        "title": "Talk by Dr. Sam Song Liang",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -299,7 +315,7 @@
           "start": "09-21-2021 15:00",
           "end": "09-21-2021 16:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/meeting/register/tZItceqhrzIqG9d5ZWHX5TyB7RqPbjnrbFfd"
       },
       "0999rrrhr4": {
         "title": "Talk by Chris Brust",
@@ -312,7 +328,7 @@
           "start": "09-21-2021 16:00",
           "end": "09-21-2021 17:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/meeting/register/tZ0pcuqppjwpGdLqLgqP37sdq5RET9iW_SKe"
       },
       "q4kwqhhxag": {
         "title": "Aechelon Event",
@@ -325,10 +341,10 @@
           "start": "09-21-2021 18:00",
           "end": "09-21-2021 19:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/85337095555?pwd=ckFFOXEwa1hKUzZ0WnkwUDFmclFOdz09"
       },
       "ksatladh87": {
-        "title": "Meal - Subway",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -338,10 +354,10 @@
           "start": "09-21-2021 15:00",
           "end": "09-21-2021 16:00"
         },
-        "location": ""
+        "location": "Siebel Balcony (Second Floor)"
       },
       "kr8teywxg4": {
-        "title": "Snack - Einstein's Bros. Bagels",
+        "title": "Snack",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -351,7 +367,7 @@
           "start": "09-22-2021 15:00",
           "end": "09-22-2021 16:00"
         },
-        "location": ""
+        "location": "Siebel Balcony (Second Floor)"
       },
       "ij8p85lh9i": {
         "title": "Uline Event",
@@ -364,7 +380,7 @@
           "start": "09-22-2021 14:00",
           "end": "09-22-2021 15:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/89876235114?pwd=MXcyL2RDNUdaSVdySkZGMy9JOGdWQT09"
       },
       "ca9p4hhn75": {
         "title": "Talk by Tyler Menezes",
@@ -377,10 +393,23 @@
           "start": "09-22-2021 15:00",
           "end": "09-22-2021 16:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/81657683562?pwd=Mm1WYTltUmFIL1NIa1c3R3BHZ1p0UT09"
       },
       "r91i39av22": {
         "title": "Talk by MJ Chun",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 16:00",
+          "end": "09-22-2021 17:00"
+        },
+        "location": "https://illinois.zoom.us/j/88043455215?pwd=Z0J2OHlaZWFyeEdUMjdEdEFNT29pdz09"
+      },
+      "8p03zvshso": {
+        "title": "Virtual Career Fair",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -403,10 +432,10 @@
           "start": "09-22-2021 17:00",
           "end": "09-22-2021 18:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/82901279232?pwd=UjFaZjJ2R1ByNFdKRlZlZU9lQ2RZZz09"
       },
       "hdd82ybhw4": {
-        "title": "Meal - DP Dough",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -416,7 +445,7 @@
           "start": "09-22-2021 18:00",
           "end": "09-22-2021 18:45"
         },
-        "location": ""
+        "location": "Siebel Balcony (Second Floor)"
       },
       "n9g0s3sfow": {
         "title": "Talk by Lili Gangas",
@@ -429,7 +458,7 @@
           "start": "09-23-2021 12:00",
           "end": "09-23-2021 13:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/81269742694?pwd=VE1kOGI4dlQrbWlaZUdyWXlWNVNMdz09"
       },
       "3tbyv7a9jc": {
         "title": "Talk by Safiya Noble",
@@ -442,7 +471,7 @@
           "start": "09-23-2021 14:00",
           "end": "09-23-2021 15:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/82044073599?pwd=eEJ4Z1NWRGlCM255blJ1Um5yNEhadz09"
       },
       "hbsgnf2zha": {
         "title": "Bluebonnet Panel",
@@ -455,7 +484,7 @@
           "start": "09-23-2021 15:00",
           "end": "09-23-2021 16:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/85155585338?pwd=cGd0cTYzcVJkUXVLdDhrbnI0VGJQUT09"
       },
       "13qt2v5edd": {
         "title": "Cruise Event",
@@ -468,7 +497,7 @@
           "start": "09-23-2021 16:00",
           "end": "09-23-2021 17:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/89941889825?pwd=K2pZUnZrdG8xbVIrZnRYMGx3Y2tuZz09"
       },
       "dm79olvj1t": {
         "title": "Talk by Cindy Cohn",
@@ -481,10 +510,10 @@
           "start": "09-23-2021 17:00",
           "end": "09-23-2021 18:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/85134246936?pwd=bHo0RldCQVVVd3pwRENSaXptSlg1Zz09"
       },
       "hv42xc12h6": {
-        "title": "Meal - Jimmy John's",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -494,10 +523,23 @@
           "start": "09-23-2021 18:00",
           "end": "09-23-2021 18:45"
         },
-        "location": ""
+        "location": "Siebel Balcony (Second Floor)"
+      },
+      "p9mar1i0sm": {
+        "title": "MechMania",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 12:00",
+          "end": "09-25-2021 14:00"
+        },
+        "location": "Virtual from 12pm - 3pm, Rest of Event: Siebel 1404"
       },
       "26jsiv52q9": {
-        "title": "Snack - Taco Bell",
+        "title": "Snack",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -520,7 +562,20 @@
           "start": "09-24-2021 15:00",
           "end": "09-24-2021 16:00"
         },
-        "location": ""
+        "location": "https://illinois.zoom.us/j/87877283987?pwd=WXg0NWhiY3dBTVRoSVhuR2VjMWVPQT09"
+      },
+      "mfc9ojgxo0": {
+        "title": "Two Sigma Tech Talk",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 16:00",
+          "end": "09-24-2021 17:00"
+        },
+        "location": "https://illinois.zoom.us/j/4533922231?pwd=eXdhUDlVaTZrWStCWE05RS9uUmM0dz09"
       },
       "s82pqboigw": {
         "title": "Closing Ceremony",
@@ -533,10 +588,10 @@
           "start": "09-24-2021 17:00",
           "end": "09-24-2021 17:30"
         },
-        "location": ""
+        "location": "Siebel 1404"
       },
       "triorn4scg": {
-        "title": "Meal - Himalayan",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -544,7 +599,7 @@
         "tags": [],
         "time": {
           "start": "09-24-2021 17:30",
-          "end": "09-24-2021 18:15"
+          "end": "09-24-2021 18:30"
         },
         "location": ""
       }
@@ -556,6 +611,7 @@
       "pa242m1jmp",
       "ymotk7w43n",
       "12ft78d0vb",
+      "8p5hon0o8n",
       "ipnezqzx2e",
       "0999rrrhr4",
       "q4kwqhhxag",
@@ -572,8 +628,10 @@
       "13qt2v5edd",
       "dm79olvj1t",
       "hv42xc12h6",
+      "p9mar1i0sm",
       "26jsiv52q9",
       "lf80cwzvms",
+      "mfc9ojgxo0",
       "s82pqboigw",
       "triorn4scg"
     ]
