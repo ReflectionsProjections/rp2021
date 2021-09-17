@@ -45,6 +45,10 @@ body {
   background: radial-gradient(at 50% 50%, var(--background-orange), white);
 }
 
+html {
+  height: 100%;
+}
+
 body {
   min-height: 100vh;
 }
