@@ -61,19 +61,13 @@ export default class Dashboard extends Component {
       <Container className={classNames(styles.dashboardContainer, styles.x)}>
         <Row className={styles.timeRow}>
           <Col className={styles.logoColumn}>
-            <Image
-              className={styles.rpLogo}
-              src="../../static/assets/2020logo.svg"
-            />
+            <Image className={styles.rpLogo} src="/logo.png" />
           </Col>
           <Col lg={4}>
             <DashboardClock clock title="Current Time" />
           </Col>
           <Col className={styles.logoColumn}>
-            <Image
-              className={styles.rpWordmark}
-              src="../../static/assets/wordmarkblack.svg"
-            />
+            <Image className={styles.rpWordmark} src="/wordmarkblack.svg" />
           </Col>
         </Row>
         <Row className={styles.mainRow}>
