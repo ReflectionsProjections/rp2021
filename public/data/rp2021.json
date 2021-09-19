@@ -14,16 +14,46 @@
         "image": "/headshots/BeccaBlais.jpg"
       },
       {
+        "name": "Aedan Lombardo",
+        "tagline": "Data Director of Bluebonnet Data",
+        "bio": "<p>Aedan Lombardo is Data Director of Bluebonnet Data, a nonprofit focused on recruiting and training the next generation of data-savvy leaders in the progressive movement. As Data Director, Aedan leads Bluebonnet's internal research initiatives and provides guidance to fellows on how to best leverage data for their campaign or cause. He graduated from Yale University in 2020 with a BA in Statistics & Data Science and prior to joining Bluebonnet as Data Director he volunteered as a Data Fellow on campaigns for municipal, state legislative, and statewide offices. He now resides in New York's Hudson Valley.</p>",
+        "image": "AedanLombardo.jpg"
+      },
+      {
         "name": "Cindy Cohn",
         "tagline": "Executive Director of the Electronic Frontier Foundation",
         "bio": "<p>From 2000-2015 she served as EFF’s Legal Director as well as its General Counsel where she served as lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech.</p>",
         "image": "/headshots/CindyCohn.jpg"
       },
       {
+        "name": "David Gadsden",
+        "tagline": "Director of Conservation Solutions at Esri",
+        "bio":"<p>David Gadsden, Esri’s Director of Conservation Solutions, is an applied geographer with more than two decades of experience applying geospatial technology to address complex humanitarian and conservation challenges. Gadsden earned a geography degree from the University of Washington in 1995 and later served as a US Peace Corps volunteer in rural Tanzania, working on community-based natural resource management. In his early career he architected and implemented GIS solutions to address environmental, social, public safety, emergency response and construction engineering challenges while working for both commercial and nonprofit organizations. In 2002, Gadsden joined Esri, where he initially served as a technical advisor to the United Nations, US Department of State, and USAID. He has helped a diverse community leverage the “Science of Where” to address complex challenges ranging from global health, disaster response, wildlife protection, green infrastructure, tribal governance, historic preservation and community development.</p",
+        "image": "/headshots/DavidGadsden.jpg"
+      },
+      {
         "name": "Kalika Bali",
         "tagline": "Principal Researcher at Microsoft Research",
         "bio": "<p>Kalika Bali is a Principal Researcher at Microsoft Research India working broadly in the area of Speech and Language Technology especially in the use of linguistic models for building technology that offers a more natural Human-Computer as well as Computer-Mediated interactions, and technology for Low Resource Languages. She has been working in the field of Speech and Natural Language Processing for over two decades and believes that local language technology, especially with speech interfaces, can help millions of people gain entry into a world that is till now almost inaccessible to them. </p>",
         "image": "/headshots/KalikaBali.jpg"
+      },
+      {
+        "name": "Lili Gangas",
+        "tagline": "Chief Technology Community Officer",
+        "bio": "<p>Lili Gangas is the Chief Technology Community Officer at the Kapor Center working to create new and more inclusive tech innovation ecosystems regionally & nationally. Her work is centered at the intersection of racial justice,  technology, and action driven partnerships to tackle pressing social and economic inequities of underrepresented communities.  Her areas of focus and interest include tech advocacy themes such as closing the Digital Divide, Future of Work(ers), Responsible Technology, and Ecosystem Building as they relate to new models with cross sector partners. Lili believes that it is critical that we help prepare and upskill communities of color for the future and encourage going beyond being consumers to also being creators and owners. She was a New America CA fellow focused on Tech for Good, was recognized as SF Business Times Most Influential Women in Business and SF Business Times 40 Under 40, and is an MBA lecturer at Mills College.  Lili was recently a featured Salesforce Dreamforce and TEDxOakland speaker.   <br> Before coming to the Kapor Center, Lili was an Associate Principal at Accenture Technology Lab’s Open Innovation team, based out of Silicon Valley,focused on partnerships and programming to connect startups to Fortune 500 clients. She was also a founding member of the Innovation Services team at Booz Allen specializing in crowdsourcing, prize challenges, and open data solutions at the federal level. Before that, Lili could be found in the lab working on software and hardware solutions for the aerospace industry as a Senior Multi-Disciplined Software Engineer at Raytheon Space and Airborne Systems. She is an advisor to tech focused nonprofits such as AI-4-All.org as well as community investing organizations such as The Unity Council and Pacific Community Ventures.  Lili holds an MBA from New York University Stern School of Business, a B.S. in Electrical Engineering from the University of Southern California.  </p>",
+        "image": "headshots/LiliGangas.jpeg"
+      },
+      {
+        "name": "MJ Chun",
+        "tagline": "Head of Product at Serve Robotics, Co-founder",
+        "bio": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
+        "image": "/headshots/MJChun.png"
+      },
+      {
+        "name": "Dr. Safiya Noble",
+        "tagline": "Ph.D.",
+        "bio": "<p>Dr. Safiya U. Noble is an Associate Professor of Gender Studies and African American Studies at the University of California, Los Angeles (UCLA) where she serves as the Co-Founder and Director of the UCLA Center for Critical Internet Inquiry (C2i2). She holds affiliations in the School of Education & Information Studies, and is a Research Associate at the Oxford Internet Institute at the University of Oxford where she is a Commissioner on the Oxford Commission on AI & Good Governance (OxCAIGG). Dr. Noble is a board member of the Cyber Civil Rights Initiative, serving those vulnerable to online harassment. She is the author of a best-selling book on racist and sexist algorithmic bias in commercial search engines, entitled Algorithms of Oppression: How Search Engines Reinforce Racism (NYU Press), which has been widely-reviewed in scholarly and popular publications.</p>",
+        "image": "headshots/SafiyaNoble.jpg"
       },
       {
         "name": "Sam Liang",
@@ -43,12 +73,7 @@
         "bio": "<p>D. Sivakumar is a computer scientist whose work has included solving deep theoretical problems in computing to building cutting-edge applications of CS and AI.  His career -- as an academic, a researcher, an engineer, and in research leadership -- spans 25 years, the bulk of which was spent at IBM Almaden Research Center and Google, where he was most recently a Research Director.  His recent adventure is in starting a company that aims to reimagine Search by innovative advances in natural language understanding.</p>",
         "image": "/headshots/DandapaniSivakumar.jpeg"
       },
-      {
-        "name": "MJ Chun",
-        "tagline": "Head of Product at Serve Robotics, Co-founder",
-        "bio": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
-        "image": "/headshots/MJChun.png"
-      },
+
       {
         "name": "Jim Fruchterman",
         "tagline": "CEO, Tech Matters",
