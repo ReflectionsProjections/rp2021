@@ -20,6 +20,12 @@
         "image": "/headshots/AedanLombardo.jpg"
       },
       {
+        "name": "Yong Dich (Emily)",
+        "tagline": "Board Member and Previous Technology/Infrastructure Intern at Bluebonnet Data",
+        "bio": "<p>Yong Dich is a 2020 graduate of Harvard University, where she studied Computer Science and Folklore and Mythology. She is currently on the board of Bluebonnet Data and a software engineer with the US Census in the Economics directorate via Reveal Global. After software engineering experiences in private sector, she found her entry into civic technology through the Civic Digital Fellowship by Coding it Forward and was placed with the US Census. Her interest in the intersection of technology and social impact started through her time with undergraduate computer science & education research, Shelter Hacks, WiCS, and Tech for Social Good at Harvard as well as through external opportunities such as Impact Fellowship and Bluebonnet Data. She loves reading, podcasts, traveling, learning fun facts, tea, and corny jokes.</p>",
+        "image": "/logo.png"
+      },
+      {
         "name": "Cindy Cohn",
         "tagline": "Executive Director of the Electronic Frontier Foundation",
         "bio": "<p>From 2000-2015 she served as EFF’s Legal Director as well as its General Counsel where she served as lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech.</p>",
@@ -60,6 +66,12 @@
         "tagline": "Ph.D.",
         "bio": "<p>Sam Liang is the Founder and CEO of Otter.ai, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
         "image": "/headshots/SamHigh.jpg"
+      },
+      {
+        "name": "Chris Brust",
+        "tagline": "",
+        "bio": "",
+        "image": "/logo.png"
       },
       {
         "name": "Tyler Menezes",
