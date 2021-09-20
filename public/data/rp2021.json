@@ -57,21 +57,21 @@
       },
       {
         "name": "Dr. Safiya Noble",
-        "tagline": "Ph.D.",
+        "tagline": "Associate Professor, UCLA",
         "bio": "<p>Dr. Safiya U. Noble is an Associate Professor of Gender Studies and African American Studies at the University of California, Los Angeles (UCLA) where she serves as the Co-Founder and Director of the UCLA Center for Critical Internet Inquiry (C2i2). She holds affiliations in the School of Education & Information Studies, and is a Research Associate at the Oxford Internet Institute at the University of Oxford where she is a Commissioner on the Oxford Commission on AI & Good Governance (OxCAIGG). Dr. Noble is a board member of the Cyber Civil Rights Initiative, serving those vulnerable to online harassment. She is the author of a best-selling book on racist and sexist algorithmic bias in commercial search engines, entitled Algorithms of Oppression: How Search Engines Reinforce Racism (NYU Press), which has been widely-reviewed in scholarly and popular publications.</p>",
         "image": "headshots/SafiyaNoble.jpg"
       },
       {
         "name": "Sam Liang",
-        "tagline": "Ph.D.",
-        "bio": "<p>Sam Liang is the Founder and CEO of Otter.ai, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
+        "tagline": "Founder and CEO, Otter.ai",
+        "bio": "<p>Sam Liang is the Founder and CEO of <a href='https://otter.ai'>Otter.ai</a>, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
         "image": "/headshots/SamHigh.jpg"
       },
       {
         "name": "Chris Brust",
-        "tagline": "",
-        "bio": "",
-        "image": "/logo.png"
+        "tagline": "Staff Engineer at Duolingo",
+        "bio": "<p>Chris Brust is a staff machine learning engineer at Duolingo, the world's largest language-learning platform. Over the past four years, he has been a principal architect of the 'Birdbrain' ML system, which learns from half a billion exercises completed by Duolingo learners every day and is used in nearly every lesson and practice session to tailor content to the learner; he has also worked on our proprietary analytics and A/B testing systems, and has co-organized two shared tasks. He is currently a co-lead of the Learning AI Lab, a team that develops AI technology to improve the way we teach. Prior to Duolingo, Chris was a postdoc at the Perimeter Institute for Theoretical Physics and earned a Ph.D. in Physics from Johns Hopkins University.</p>",
+        "image": "/headshots/ChrisBrust.png"
       },
       {
         "name": "Tyler Menezes",
@@ -156,10 +156,6 @@
           {
             "question": "How will the career fair work?",
             "answer": "We will be having a 1 day in-person, 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. More details regarding the platform and logistics will be communicated to attendees."
-          },
-          {
-            "question": "What's the difference between Tech Talks and Speaker Talks?",
-            "answer": "Tech Talks are given by sponsor representatives who wish to spotlight their company and talk about new products/technologies. Speaker Talks are given by experts in the tech community and are about specific technical or personal topics."
           }
         ]
       },
@@ -261,7 +257,7 @@
           "start": "09-20-2021 14:00",
           "end": "09-20-2021 14:30"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/meeting/register/tZMvcOysqD0rE9LyH4sPbwLHRb-rTuoz0E_I'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/j/87275466196?pwd=cmF5UlVZdWI3WTF6N0w4Qnp4WnZtUT09'>Virtual (Zoom)</a>"
       },
       "uc4j3e3v6z": {
         "title": "Snack",
@@ -287,7 +283,7 @@
           "start": "09-20-2021 15:00",
           "end": "09-20-2021 16:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1109 / <a href='https://illinois.zoom.us/j/83911946729?pwd=R2pWUU9BWjZLTXFySTJKYXk1RDBCZz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1109 / <a href='https://illinois.zoom.us/j/83911946729?pwd=R2pWUU9BWjZLTXFySTJKYXk1RDBCZz09'>Virtual (Zoom)</a>"
       },
       "pa242m1jmp": {
         "title": "Blue Cross Blue Shield",
@@ -300,7 +296,7 @@
           "start": "09-20-2021 16:00",
           "end": "09-20-2021 17:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/j/83532771617?pwd=ZGRMWEh6dVNtNWR4dzJIWFpVUEgxQT09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://urldefense.com/v3/__https://teams.microsoft.com/l/meetup-join/19*3ameeting_N[…]3bQkRBh2pJTIe2QBw9Va8ATTzyuj_sPUQJjV5dnQ-l5iEs9PmCLDkRfry9AE$'>Virtual (Microsoft Teams)</a>"
       },
       "ymotk7w43n": {
         "title": "Meal Sponsored by Blue Cross",
@@ -326,7 +322,7 @@
           "start": "09-20-2021 18:00",
           "end": "09-20-2021 19:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/88582297440?pwd=VWh0WThTWWdUVEFraXVFa2lCRWVkdz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/88582297440?pwd=VWh0WThTWWdUVEFraXVFa2lCRWVkdz09'>Virtual (Zoom)</a>"
       },
       "8p5hon0o8n": {
         "title": "Talk by Kalika Bali",
@@ -339,7 +335,7 @@
           "start": "09-20-2021 20:00",
           "end": "09-20-2021 21:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2407 / <a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>Virtual (Zoom)</a>"
       },
       "ipnezqzx2e": {
         "title": "Talk by Dr. Sam Song Liang",
@@ -352,7 +348,7 @@
           "start": "09-21-2021 15:00",
           "end": "09-21-2021 16:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/86063919013?pwd=Zk55a0pBMC9aei9KZkM2QTlldC8vdz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/86063919013?pwd=Zk55a0pBMC9aei9KZkM2QTlldC8vdz09'>Virtual (Zoom)</a>"
       },
       "0999rrrhr4": {
         "title": "Talk by Chris Brust",
@@ -365,7 +361,7 @@
           "start": "09-21-2021 16:00",
           "end": "09-21-2021 17:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/meeting/register/tZ0pcuqppjwpGdLqLgqP37sdq5RET9iW_SKe'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/j/89453187336?pwd=UnlpRWgwTGFKN25zT0ZQN0Iwbys5dz09'>Virtual (Zoom)</a>"
       },
       "q4kwqhhxag": {
         "title": "Aechelon Event",
@@ -378,7 +374,7 @@
           "start": "09-21-2021 18:00",
           "end": "09-21-2021 19:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/85337095555?pwd=ckFFOXEwa1hKUzZ0WnkwUDFmclFOdz09'>Virtual</a>"
+        "location": "<a href='https://illinois.zoom.us/j/85337095555?pwd=ckFFOXEwa1hKUzZ0WnkwUDFmclFOdz09'>Virtual (Zoom)</a>"
       },
       "ksatladh87": {
         "title": "Meal",
@@ -417,7 +413,7 @@
           "start": "09-22-2021 14:00",
           "end": "09-22-2021 15:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/89876235114?pwd=MXcyL2RDNUdaSVdySkZGMy9JOGdWQT09'>Virtual</a>"
+        "location": "<a href='https://illinois.zoom.us/j/89876235114?pwd=MXcyL2RDNUdaSVdySkZGMy9JOGdWQT09'>Virtual (Zoom)</a>"
       },
       "ca9p4hhn75": {
         "title": "Talk by Tyler Menezes",
@@ -430,7 +426,7 @@
           "start": "09-22-2021 15:00",
           "end": "09-22-2021 16:00"
         },
-        "location": "ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>Virtual</a>"
+        "location": "ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>Virtual (Zoom)</a>"
       },
       "r91i39av22": {
         "title": "Talk by MJ Chun",
@@ -443,7 +439,7 @@
           "start": "09-22-2021 16:00",
           "end": "09-22-2021 17:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/82857897326?pwd=YXRtVUU4TDRVWVNXUFFRb1ZxdW1YUT09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/82857897326?pwd=YXRtVUU4TDRVWVNXUFFRb1ZxdW1YUT09'>Virtual (Zoom)</a>"
       },
       "8p03zvshso": {
         "title": "Virtual Career Fair",
@@ -469,7 +465,7 @@
           "start": "09-22-2021 17:00",
           "end": "09-22-2021 18:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/81857087234?pwd=ODNxbG0rWkpoWFNhS2dGTUZEa1Axdz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/81857087234?pwd=ODNxbG0rWkpoWFNhS2dGTUZEa1Axdz09'>Virtual (Zoom)</a>"
       },
       "hdd82ybhw4": {
         "title": "Meal",
@@ -495,7 +491,7 @@
           "start": "09-23-2021 12:00",
           "end": "09-23-2021 13:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/87812951576?pwd=K21mdW1XY3BnMWxjUXJhTk43d3VWUT09'>Virtual</a>"
+        "location": "<a href='https://illinois.zoom.us/j/87812951576?pwd=K21mdW1XY3BnMWxjUXJhTk43d3VWUT09'>Virtual (Zoom)</a>"
       },
       "3tbyv7a9jc": {
         "title": "Talk by Safiya Noble",
@@ -508,7 +504,7 @@
           "start": "09-23-2021 14:00",
           "end": "09-23-2021 15:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/82338242909?pwd=V1dCUTdKM3BkcDhSZUVHZXd0MWhmQT09'>Virtual</a>"
+        "location": "<a href='https://illinois.zoom.us/j/82338242909?pwd=V1dCUTdKM3BkcDhSZUVHZXd0MWhmQT09'>Virtual (Zoom)</a>"
       },
       "hbsgnf2zha": {
         "title": "Bluebonnet Panel",
@@ -521,7 +517,7 @@
           "start": "09-23-2021 15:00",
           "end": "09-23-2021 16:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/82512924179?pwd=bWFjUk5pTTRWdjl0K0R3b3YvR0hzZz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/82512924179?pwd=bWFjUk5pTTRWdjl0K0R3b3YvR0hzZz09'>Virtual (Zoom)</a>"
       },
       "13qt2v5edd": {
         "title": "Cruise Event",
@@ -534,7 +530,7 @@
           "start": "09-23-2021 16:00",
           "end": "09-23-2021 17:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/89941889825?pwd=K2pZUnZrdG8xbVIrZnRYMGx3Y2tuZz09'>Virtual</a>"
+        "location": "Virtual (<a href='https://urldefense.com/v3/__https://jst.me/7587__;!!DZ3fjg!qjJRBwmBkgcnpVhBq20XQ66-IrX1GBtGeMjbZ0j58c0Quf88Fz6K0TX7IKm5sSIUeYw$'>RSVP here</a> to be sent a Zoom link)"
       },
       "dm79olvj1t": {
         "title": "Talk by Cindy Cohn",
@@ -547,7 +543,7 @@
           "start": "09-23-2021 17:00",
           "end": "09-23-2021 18:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/84762567598?pwd=SXh1bnB1ZkhtblFjdWMxb1p0MlljQT09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/84762567598?pwd=SXh1bnB1ZkhtblFjdWMxb1p0MlljQT09'>Virtual (Zoom)</a>"
       },
       "hv42xc12h6": {
         "title": "Meal",
@@ -599,7 +595,7 @@
           "start": "09-24-2021 15:00",
           "end": "09-24-2021 16:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/81014200051?pwd=OUpqVEt4SGVvY0R6MVZ1cGJMZmp2QT09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/81014200051?pwd=OUpqVEt4SGVvY0R6MVZ1cGJMZmp2QT09'>Virtual (Zoom)</a>"
       },
       "mfc9ojgxo0": {
         "title": "Two Sigma Tech Talk",
@@ -612,7 +608,7 @@
           "start": "09-24-2021 16:00",
           "end": "09-24-2021 17:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/4533922231?pwd=eXdhUDlVaTZrWStCWE05RS9uUmM0dz09'>Virtual</a>"
+        "location": "<a href='https://illinois.zoom.us/j/4533922231?pwd=eXdhUDlVaTZrWStCWE05RS9uUmM0dz09'>Virtual (Zoom)</a>"
       },
       "s82pqboigw": {
         "title": "Closing Ceremony",
@@ -625,7 +621,7 @@
           "start": "09-24-2021 17:00",
           "end": "09-24-2021 17:30"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/86569943632?pwd=ZFFqZjBjeHl2NXNvSjFvRUhobWU5dz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/86569943632?pwd=ZFFqZjBjeHl2NXNvSjFvRUhobWU5dz09'>Virtual (Zoom)</a>"
       },
       "triorn4scg": {
         "title": "Meal",
