@@ -25,6 +25,10 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Reflections Projections" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://reflectionsprojections.org" />
+        <meta property="og:image" content="https://acmrp.org/logo.png" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
