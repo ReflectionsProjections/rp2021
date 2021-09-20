@@ -14,21 +14,64 @@
         "image": "/headshots/BeccaBlais.jpg"
       },
       {
+        "name": "Aedan Lombardo",
+        "tagline": "Data Director of Bluebonnet Data",
+        "bio": "<p>Aedan Lombardo is Data Director of Bluebonnet Data, a nonprofit focused on recruiting and training the next generation of data-savvy leaders in the progressive movement. As Data Director, Aedan leads Bluebonnet's internal research initiatives and provides guidance to fellows on how to best leverage data for their campaign or cause. He graduated from Yale University in 2020 with a BA in Statistics & Data Science and prior to joining Bluebonnet as Data Director he volunteered as a Data Fellow on campaigns for municipal, state legislative, and statewide offices. He now resides in New York's Hudson Valley.</p>",
+        "image": "/headshots/AedanLombardo.jpg"
+      },
+      {
+        "name": "Yong Dich (Emily)",
+        "tagline": "Board Member and Previous Technology/Infrastructure Intern at Bluebonnet Data",
+        "bio": "<p>Yong Dich is a 2020 graduate of Harvard University, where she studied Computer Science and Folklore and Mythology. She is currently on the board of Bluebonnet Data and a software engineer with the US Census in the Economics directorate via Reveal Global. After software engineering experiences in private sector, she found her entry into civic technology through the Civic Digital Fellowship by Coding it Forward and was placed with the US Census. Her interest in the intersection of technology and social impact started through her time with undergraduate computer science & education research, Shelter Hacks, WiCS, and Tech for Social Good at Harvard as well as through external opportunities such as Impact Fellowship and Bluebonnet Data. She loves reading, podcasts, traveling, learning fun facts, tea, and corny jokes.</p>",
+        "image": "/logo.png"
+      },
+      {
         "name": "Cindy Cohn",
         "tagline": "Executive Director of the Electronic Frontier Foundation",
         "bio": "<p>From 2000-2015 she served as EFF’s Legal Director as well as its General Counsel where she served as lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech.</p>",
         "image": "/headshots/CindyCohn.jpg"
       },
       {
+        "name": "David Gadsden",
+        "tagline": "Director of Conservation Solutions at Esri",
+        "bio": "<p>David Gadsden, Esri’s Director of Conservation Solutions, is an applied geographer with more than two decades of experience applying geospatial technology to address complex humanitarian and conservation challenges. Gadsden earned a geography degree from the University of Washington in 1995 and later served as a US Peace Corps volunteer in rural Tanzania, working on community-based natural resource management. In his early career he architected and implemented GIS solutions to address environmental, social, public safety, emergency response and construction engineering challenges while working for both commercial and nonprofit organizations. In 2002, Gadsden joined Esri, where he initially served as a technical advisor to the United Nations, US Department of State, and USAID. He has helped a diverse community leverage the “Science of Where” to address complex challenges ranging from global health, disaster response, wildlife protection, green infrastructure, tribal governance, historic preservation and community development.</p",
+        "image": "/headshots/DavidGadsden.jpg"
+      },
+      {
         "name": "Kalika Bali",
+        "tagline": "Principal Researcher at Microsoft Research",
         "bio": "<p>Kalika Bali is a Principal Researcher at Microsoft Research India working broadly in the area of Speech and Language Technology especially in the use of linguistic models for building technology that offers a more natural Human-Computer as well as Computer-Mediated interactions, and technology for Low Resource Languages. She has been working in the field of Speech and Natural Language Processing for over two decades and believes that local language technology, especially with speech interfaces, can help millions of people gain entry into a world that is till now almost inaccessible to them. </p>",
         "image": "/headshots/KalikaBali.jpg"
+      },
+      {
+        "name": "Lili Gangas",
+        "tagline": "Chief Technology Community Officer",
+        "bio": "<p>Lili Gangas is the Chief Technology Community Officer at the Kapor Center working to create new and more inclusive tech innovation ecosystems regionally & nationally. Her work is centered at the intersection of racial justice,  technology, and action driven partnerships to tackle pressing social and economic inequities of underrepresented communities.  Her areas of focus and interest include tech advocacy themes such as closing the Digital Divide, Future of Work(ers), Responsible Technology, and Ecosystem Building as they relate to new models with cross sector partners. Lili believes that it is critical that we help prepare and upskill communities of color for the future and encourage going beyond being consumers to also being creators and owners. She was a New America CA fellow focused on Tech for Good, was recognized as SF Business Times Most Influential Women in Business and SF Business Times 40 Under 40, and is an MBA lecturer at Mills College.  Lili was recently a featured Salesforce Dreamforce and TEDxOakland speaker.   <br> Before coming to the Kapor Center, Lili was an Associate Principal at Accenture Technology Lab’s Open Innovation team, based out of Silicon Valley,focused on partnerships and programming to connect startups to Fortune 500 clients. She was also a founding member of the Innovation Services team at Booz Allen specializing in crowdsourcing, prize challenges, and open data solutions at the federal level. Before that, Lili could be found in the lab working on software and hardware solutions for the aerospace industry as a Senior Multi-Disciplined Software Engineer at Raytheon Space and Airborne Systems. She is an advisor to tech focused nonprofits such as AI-4-All.org as well as community investing organizations such as The Unity Council and Pacific Community Ventures.  Lili holds an MBA from New York University Stern School of Business, a B.S. in Electrical Engineering from the University of Southern California.  </p>",
+        "image": "headshots/LiliGangas.jpeg"
+      },
+      {
+        "name": "MJ Chun",
+        "tagline": "Head of Product at Serve Robotics, Co-founder",
+        "bio": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
+        "image": "/headshots/MJChun.png"
+      },
+      {
+        "name": "Dr. Safiya Noble",
+        "tagline": "Ph.D.",
+        "bio": "<p>Dr. Safiya U. Noble is an Associate Professor of Gender Studies and African American Studies at the University of California, Los Angeles (UCLA) where she serves as the Co-Founder and Director of the UCLA Center for Critical Internet Inquiry (C2i2). She holds affiliations in the School of Education & Information Studies, and is a Research Associate at the Oxford Internet Institute at the University of Oxford where she is a Commissioner on the Oxford Commission on AI & Good Governance (OxCAIGG). Dr. Noble is a board member of the Cyber Civil Rights Initiative, serving those vulnerable to online harassment. She is the author of a best-selling book on racist and sexist algorithmic bias in commercial search engines, entitled Algorithms of Oppression: How Search Engines Reinforce Racism (NYU Press), which has been widely-reviewed in scholarly and popular publications.</p>",
+        "image": "headshots/SafiyaNoble.jpg"
       },
       {
         "name": "Sam Liang",
         "tagline": "Ph.D.",
         "bio": "<p>Sam Liang is the Founder and CEO of Otter.ai, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
         "image": "/headshots/SamHigh.jpg"
+      },
+      {
+        "name": "Chris Brust",
+        "tagline": "",
+        "bio": "",
+        "image": "/logo.png"
       },
       {
         "name": "Tyler Menezes",
@@ -38,14 +81,11 @@
       },
       {
         "name": "Dr. Dandapani Sivakumar",
+        "tagline": "Ph.D.",
         "bio": "<p>D. Sivakumar is a computer scientist whose work has included solving deep theoretical problems in computing to building cutting-edge applications of CS and AI.  His career -- as an academic, a researcher, an engineer, and in research leadership -- spans 25 years, the bulk of which was spent at IBM Almaden Research Center and Google, where he was most recently a Research Director.  His recent adventure is in starting a company that aims to reimagine Search by innovative advances in natural language understanding.</p>",
-        "image": "/headshots/DandapaniSivakumar.jpg"
+        "image": "/headshots/DandapaniSivakumar.jpeg"
       },
-      {
-        "name": "MJ Chun",
-        "bio": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
-        "image": "/headshots/MJChun.png"
-      },
+
       {
         "name": "Jim Fruchterman",
         "tagline": "CEO, Tech Matters",
@@ -128,27 +168,27 @@
         "questions": [
           {
             "question": "What is MechMania?",
-            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed for the event. The competition dates and times will be announced soon! The competition will conclude with the closing ceremony and awards presentation, and will be livestreamed on twitch.tv. You must be registered for Reflections|Projections to compete in MechMania."
+            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed. The competition, from the moment it starts to the closing ceremony and awards presentation, will be livestreamed on twitch.tv. You must be registered for Reflections|Projections to compete in MechMania. You can find more info at mechmania.io."
           },
           {
             "question": "Who's eligible?",
-            "answer": "We accept teams of up to four students and up to forty teams, and pits them against each other in one final battle. All participants must be actively enrolled in a college or university, but teams do not need to be comprised of students from the same school."
+            "answer": "We accept teams of up to four students. All participants must actively be enrolled in a college or university, but teams do not need to be composed of students from the same school. Besides that, we accept everyone of every skill level!"
           },
           {
             "question": "What do you need to know?",
-            "answer": "All members should be proficient in the programming language their team intends to use- either Java or Python- with the relevant installation. You won't need a background in artificial intelligence--in previous years, many teams without an AI background have competed and done well, or even won."
+            "answer": "We accept everyone of all skill levels, but teams will have the option to program their bots in Java and Python, and run the Java engine to locally test their submissions. As such, teams should be proficient in the language they plan to use. We will provide relevant installation info on the day of the competition."
           },
           {
             "question": "What can you bring?",
-            "answer": "You can bring any reference manual(s) you bring, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. Competitors need to bring their own laptops, though the code you write must be capable of running on our systems."
+            "answer": "You can bring any reference manual(s) you want, whether it be The Art of Computer Programming or The Art of War. Absolutely no outside code is allowed. Competitors need to bring their own laptops. Due to Covid restrictions, please do not bring food into Siebel 1404 if you plan to attend in person."
           },
           {
             "question": "What will you do?",
-            "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+            "answer": "By using our provided sample starterpacks, you will implement an artificial intelligence that will play our game! The goal is simple: return a decision from a function, but the logic you take to get there is entirely up to you."
           },
           {
             "question": "Is registration open?",
-            "answer": "Yes! (See above)"
+            "answer": "Yes! Please visit mechmania.io for our pre-registration form."
           }
         ]
       },
@@ -221,10 +261,10 @@
           "start": "09-20-2021 14:00",
           "end": "09-20-2021 14:30"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/meeting/register/tZMvcOysqD0rE9LyH4sPbwLHRb-rTuoz0E_I'>Virtual</a>"
       },
       "uc4j3e3v6z": {
-        "title": "Snack from Insomnia Cookies",
+        "title": "Snack",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -234,7 +274,7 @@
           "start": "09-20-2021 14:30",
           "end": "09-20-2021 15:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
       "5ad72c8753": {
         "title": "Talk by Gregg Vanderheiden",
@@ -247,10 +287,10 @@
           "start": "09-20-2021 15:00",
           "end": "09-20-2021 16:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1109 / <a href='https://illinois.zoom.us/j/83911946729?pwd=R2pWUU9BWjZLTXFySTJKYXk1RDBCZz09'>Virtual</a>"
       },
       "pa242m1jmp": {
-        "title": "BCBS",
+        "title": "Blue Cross Blue Shield",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -260,7 +300,7 @@
           "start": "09-20-2021 16:00",
           "end": "09-20-2021 17:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/j/83532771617?pwd=ZGRMWEh6dVNtNWR4dzJIWFpVUEgxQT09'>Virtual</a>"
       },
       "ymotk7w43n": {
         "title": "Meal Sponsored by Blue Cross",
@@ -273,7 +313,7 @@
           "start": "09-20-2021 17:00",
           "end": "09-20-2021 18:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
       "12ft78d0vb": {
         "title": "Talk by David Gadsden",
@@ -286,10 +326,23 @@
           "start": "09-20-2021 18:00",
           "end": "09-20-2021 19:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/88582297440?pwd=VWh0WThTWWdUVEFraXVFa2lCRWVkdz09'>Virtual</a>"
+      },
+      "8p5hon0o8n": {
+        "title": "Talk by Kalika Bali",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-20-2021 20:00",
+          "end": "09-20-2021 21:00"
+        },
+        "location": "<a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>Virtual</a>"
       },
       "ipnezqzx2e": {
-        "title": "Talk by Sam Song Liang",
+        "title": "Talk by Dr. Sam Song Liang",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -299,7 +352,7 @@
           "start": "09-21-2021 15:00",
           "end": "09-21-2021 16:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/86063919013?pwd=Zk55a0pBMC9aei9KZkM2QTlldC8vdz09'>Virtual</a>"
       },
       "0999rrrhr4": {
         "title": "Talk by Chris Brust",
@@ -312,7 +365,7 @@
           "start": "09-21-2021 16:00",
           "end": "09-21-2021 17:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/meeting/register/tZ0pcuqppjwpGdLqLgqP37sdq5RET9iW_SKe'>Virtual</a>"
       },
       "q4kwqhhxag": {
         "title": "Aechelon Event",
@@ -325,10 +378,10 @@
           "start": "09-21-2021 18:00",
           "end": "09-21-2021 19:00"
         },
-        "location": ""
+        "location": "<a href='https://illinois.zoom.us/j/85337095555?pwd=ckFFOXEwa1hKUzZ0WnkwUDFmclFOdz09'>Virtual</a>"
       },
       "ksatladh87": {
-        "title": "Meal - Subway",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -338,10 +391,10 @@
           "start": "09-21-2021 15:00",
           "end": "09-21-2021 16:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
       "kr8teywxg4": {
-        "title": "Snack - Einstein's Bros. Bagels",
+        "title": "Snack",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -351,7 +404,7 @@
           "start": "09-22-2021 15:00",
           "end": "09-22-2021 16:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
       "ij8p85lh9i": {
         "title": "Uline Event",
@@ -364,7 +417,7 @@
           "start": "09-22-2021 14:00",
           "end": "09-22-2021 15:00"
         },
-        "location": ""
+        "location": "<a href='https://illinois.zoom.us/j/89876235114?pwd=MXcyL2RDNUdaSVdySkZGMy9JOGdWQT09'>Virtual</a>"
       },
       "ca9p4hhn75": {
         "title": "Talk by Tyler Menezes",
@@ -377,10 +430,23 @@
           "start": "09-22-2021 15:00",
           "end": "09-22-2021 16:00"
         },
-        "location": ""
+        "location": "ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>Virtual</a>"
       },
       "r91i39av22": {
         "title": "Talk by MJ Chun",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 16:00",
+          "end": "09-22-2021 17:00"
+        },
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/82857897326?pwd=YXRtVUU4TDRVWVNXUFFRb1ZxdW1YUT09'>Virtual</a>"
+      },
+      "8p03zvshso": {
+        "title": "Virtual Career Fair",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -403,10 +469,10 @@
           "start": "09-22-2021 17:00",
           "end": "09-22-2021 18:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/81857087234?pwd=ODNxbG0rWkpoWFNhS2dGTUZEa1Axdz09'>Virtual</a>"
       },
       "hdd82ybhw4": {
-        "title": "Meal - DP Dough",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -416,7 +482,7 @@
           "start": "09-22-2021 18:00",
           "end": "09-22-2021 18:45"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
       "n9g0s3sfow": {
         "title": "Talk by Lili Gangas",
@@ -429,7 +495,7 @@
           "start": "09-23-2021 12:00",
           "end": "09-23-2021 13:00"
         },
-        "location": ""
+        "location": "<a href='https://illinois.zoom.us/j/87812951576?pwd=K21mdW1XY3BnMWxjUXJhTk43d3VWUT09'>Virtual</a>"
       },
       "3tbyv7a9jc": {
         "title": "Talk by Safiya Noble",
@@ -442,7 +508,7 @@
           "start": "09-23-2021 14:00",
           "end": "09-23-2021 15:00"
         },
-        "location": ""
+        "location": "<a href='https://illinois.zoom.us/j/82338242909?pwd=V1dCUTdKM3BkcDhSZUVHZXd0MWhmQT09'>Virtual</a>"
       },
       "hbsgnf2zha": {
         "title": "Bluebonnet Panel",
@@ -455,7 +521,7 @@
           "start": "09-23-2021 15:00",
           "end": "09-23-2021 16:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/82512924179?pwd=bWFjUk5pTTRWdjl0K0R3b3YvR0hzZz09'>Virtual</a>"
       },
       "13qt2v5edd": {
         "title": "Cruise Event",
@@ -468,7 +534,7 @@
           "start": "09-23-2021 16:00",
           "end": "09-23-2021 17:00"
         },
-        "location": ""
+        "location": "<a href='https://illinois.zoom.us/j/89941889825?pwd=K2pZUnZrdG8xbVIrZnRYMGx3Y2tuZz09'>Virtual</a>"
       },
       "dm79olvj1t": {
         "title": "Talk by Cindy Cohn",
@@ -481,10 +547,10 @@
           "start": "09-23-2021 17:00",
           "end": "09-23-2021 18:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/84762567598?pwd=SXh1bnB1ZkhtblFjdWMxb1p0MlljQT09'>Virtual</a>"
       },
       "hv42xc12h6": {
-        "title": "Meal - Jimmy John's",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -494,10 +560,23 @@
           "start": "09-23-2021 18:00",
           "end": "09-23-2021 18:45"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
+      },
+      "p9mar1i0sm": {
+        "title": "MechMania",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 12:00",
+          "end": "09-24-2021 23:59"
+        },
+        "location": "<a href='https://www.twitch.tv/mechmania_tv'>Virtual</a> from 12pm - 3pm, Rest of Event: Siebel 1404"
       },
       "26jsiv52q9": {
-        "title": "Snack - Taco Bell",
+        "title": "Snack",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -507,7 +586,7 @@
           "start": "09-24-2021 14:15",
           "end": "09-24-2021 15:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
       "lf80cwzvms": {
         "title": "Talk by Jim Fruchterman",
@@ -520,7 +599,20 @@
           "start": "09-24-2021 15:00",
           "end": "09-24-2021 16:00"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/81014200051?pwd=OUpqVEt4SGVvY0R6MVZ1cGJMZmp2QT09'>Virtual</a>"
+      },
+      "mfc9ojgxo0": {
+        "title": "Two Sigma Tech Talk",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-24-2021 16:00",
+          "end": "09-24-2021 17:00"
+        },
+        "location": "<a href='https://illinois.zoom.us/j/4533922231?pwd=eXdhUDlVaTZrWStCWE05RS9uUmM0dz09'>Virtual</a>"
       },
       "s82pqboigw": {
         "title": "Closing Ceremony",
@@ -533,10 +625,10 @@
           "start": "09-24-2021 17:00",
           "end": "09-24-2021 17:30"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/86569943632?pwd=ZFFqZjBjeHl2NXNvSjFvRUhobWU5dz09'>Virtual</a>"
       },
       "triorn4scg": {
-        "title": "Meal - Himalayan",
+        "title": "Meal",
         "thumbnailPath": "",
         "displayInAgenda": true,
         "displayInEvents": true,
@@ -544,9 +636,22 @@
         "tags": [],
         "time": {
           "start": "09-24-2021 17:30",
-          "end": "09-24-2021 18:15"
+          "end": "09-24-2021 18:30"
         },
-        "location": ""
+        "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
+      },
+      "q52ajob3sw": {
+        "title": "MechMania",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-25-2021 00:00",
+          "end": "09-25-2021 14:00"
+        },
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404"
       }
     },
     "allIds": [
@@ -556,6 +661,7 @@
       "pa242m1jmp",
       "ymotk7w43n",
       "12ft78d0vb",
+      "8p5hon0o8n",
       "ipnezqzx2e",
       "0999rrrhr4",
       "q4kwqhhxag",
@@ -572,10 +678,13 @@
       "13qt2v5edd",
       "dm79olvj1t",
       "hv42xc12h6",
+      "p9mar1i0sm",
       "26jsiv52q9",
       "lf80cwzvms",
+      "mfc9ojgxo0",
       "s82pqboigw",
-      "triorn4scg"
+      "triorn4scg",
+      "q52ajob3sw"
     ]
   }
 }
