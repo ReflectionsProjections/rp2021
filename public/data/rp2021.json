@@ -57,21 +57,21 @@
       },
       {
         "name": "Dr. Safiya Noble",
-        "tagline": "Ph.D.",
+        "tagline": "Associate Professor, UCLA",
         "bio": "<p>Dr. Safiya U. Noble is an Associate Professor of Gender Studies and African American Studies at the University of California, Los Angeles (UCLA) where she serves as the Co-Founder and Director of the UCLA Center for Critical Internet Inquiry (C2i2). She holds affiliations in the School of Education & Information Studies, and is a Research Associate at the Oxford Internet Institute at the University of Oxford where she is a Commissioner on the Oxford Commission on AI & Good Governance (OxCAIGG). Dr. Noble is a board member of the Cyber Civil Rights Initiative, serving those vulnerable to online harassment. She is the author of a best-selling book on racist and sexist algorithmic bias in commercial search engines, entitled Algorithms of Oppression: How Search Engines Reinforce Racism (NYU Press), which has been widely-reviewed in scholarly and popular publications.</p>",
         "image": "headshots/SafiyaNoble.jpg"
       },
       {
         "name": "Sam Liang",
-        "tagline": "Ph.D.",
-        "bio": "<p>Sam Liang is the Founder and CEO of Otter.ai, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
+        "tagline": "Founder and CEO, Otter.ai",
+        "bio": "<p>Sam Liang is the Founder and CEO of <a href='https://otter.ai'>Otter.ai</a>, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
         "image": "/headshots/SamHigh.jpg"
       },
       {
         "name": "Chris Brust",
-        "tagline": "",
-        "bio": "",
-        "image": "/logo.png"
+        "tagline": "Staff Engineer at Duolingo",
+        "bio": "<p>Chris Brust is a staff machine learning engineer at Duolingo, the world's largest language-learning platform. Over the past four years, he has been a principal architect of the 'Birdbrain' ML system, which learns from half a billion exercises completed by Duolingo learners every day and is used in nearly every lesson and practice session to tailor content to the learner; he has also worked on our proprietary analytics and A/B testing systems, and has co-organized two shared tasks. He is currently a co-lead of the Learning AI Lab, a team that develops AI technology to improve the way we teach. Prior to Duolingo, Chris was a postdoc at the Perimeter Institute for Theoretical Physics and earned a Ph.D. in Physics from Johns Hopkins University.</p>",
+        "image": "/headshots/ChrisBrust.png"
       },
       {
         "name": "Tyler Menezes",
@@ -257,7 +257,7 @@
           "start": "09-20-2021 14:00",
           "end": "09-20-2021 14:30"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/meeting/register/tZMvcOysqD0rE9LyH4sPbwLHRb-rTuoz0E_I'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/j/87275466196?pwd=cmF5UlVZdWI3WTF6N0w4Qnp4WnZtUT09'>Virtual</a>"
       },
       "uc4j3e3v6z": {
         "title": "Snack",
@@ -335,7 +335,7 @@
           "start": "09-20-2021 20:00",
           "end": "09-20-2021 21:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2407 / <a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>Virtual</a>"
       },
       "ipnezqzx2e": {
         "title": "Talk by Dr. Sam Song Liang",
@@ -361,7 +361,7 @@
           "start": "09-21-2021 16:00",
           "end": "09-21-2021 17:00"
         },
-        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/meeting/register/tZ0pcuqppjwpGdLqLgqP37sdq5RET9iW_SKe'>Virtual</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/j/89453187336?pwd=UnlpRWgwTGFKN25zT0ZQN0Iwbys5dz09'>Virtual</a>"
       },
       "q4kwqhhxag": {
         "title": "Aechelon Event",
