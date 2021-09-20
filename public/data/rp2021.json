@@ -156,27 +156,27 @@
         "questions": [
           {
             "question": "What is MechMania?",
-            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed for the event. The competition dates and times will be announced soon! The competition will conclude with the closing ceremony and awards presentation, and will be livestreamed on twitch.tv. You must be registered for Reflections|Projections to compete in MechMania."
+            "answer": "MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game we have developed. The competition, from the moment it starts to the closing ceremony and awards presentation, will be livestreamed on twitch.tv. You must be registered for Reflections|Projections to compete in MechMania. You can find more info at mechmania.io."
           },
           {
             "question": "Who's eligible?",
-            "answer": "We accept teams of up to four students and up to forty teams, and pits them against each other in one final battle. All participants must be actively enrolled in a college or university, but teams do not need to be comprised of students from the same school."
+            "answer": "We accept teams of up to four students. All participants must actively be enrolled in a college or university, but teams do not need to be composed of students from the same school. Besides that, we accept everyone of every skill level!"
           },
           {
             "question": "What do you need to know?",
-            "answer": "All members should be proficient in the programming language their team intends to use- either Java or Python- with the relevant installation. You won't need a background in artificial intelligence--in previous years, many teams without an AI background have competed and done well, or even won."
+            "answer": "We accept everyone of all skill levels, but teams will have the option to program their bots in Java and Python, and run the Java engine to locally test their submissions. As such, teams should be proficient in the language they plan to use. We will provide relevant installation info on the day of the competition."
           },
           {
             "question": "What can you bring?",
-            "answer": "You can bring any reference manual(s) you bring, whether it be the Art of Computer Programming or the Art of War. But absolutely no outside code. Competitors need to bring their own laptops, though the code you write must be capable of running on our systems."
+            "answer": "You can bring any reference manual(s) you want, whether it be The Art of Computer Programming or The Art of War. Absolutely no outside code is allowed. Competitors need to bring their own laptops. Due to Covid restrictions, please do not bring food into Siebel 1404 if you plan to attend in person."
           },
           {
             "question": "What will you do?",
-            "answer": "By starting using our provided sample clients, you will implement an artificial intelligence function to make decisions for your bot. Our API will provide you information about the current state of the game, as well as allow you to send commands to play it. You may find previous competition sites useful to get an idea of how MechMania operates."
+            "answer": "By using our provided sample starterpacks, you will implement an artificial intelligence that will play our game! The goal is simple: return a decision from a function, but the logic you take to get there is entirely up to you."
           },
           {
             "question": "Is registration open?",
-            "answer": "Yes! (See above)"
+            "answer": "Yes! Please visit mechmania.io for our pre-registration form."
           }
         ]
       },
