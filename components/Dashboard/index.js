@@ -95,8 +95,7 @@ function DashboardEvents({ events }) {
   return (
     <>
       <div className={styles.eventsMeta}>
-        <h1>Schedule</h1>
-        <p>Upcoming speaker, sponsor, and meal events.</p>
+        <h1>Register at acmrp.org</h1>
         {/* <h1>Time</h1> */}
         <p className={styles.clock}>{formatAMPM(new Date()).toUpperCase()}</p>
       </div>
