@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import { Transition } from 'react-transition-group';
-import { Timeline } from 'react-twitter-widgets';
 
 import useGetStaticData from '../../services/useGetStaticData';
-import Agenda from '../Agenda';
-import classNames from 'classnames';
-// import styles from './Dashboard.module.scss';
 import styles from './newDashboard.module.scss';
 
 function getDashboardEvents(events) {
@@ -21,9 +15,9 @@ function getDashboardEvents(events) {
 
   let currentOrNext = eventObjects[0];
 
-  const now = +new Date('09-21-2021 16:30');
+  const now = +new Date();
 
-  for (let i = 1; i < eventObjects.length; i++) {
+  for (let i = 0; i < eventObjects.length; i++) {
     const event = eventObjects[i];
     if (+new Date(event.time.end) > now) {
       currentOrNext = eventObjects[i];
@@ -50,27 +44,27 @@ function getDashboardEvents(events) {
  * adapted from:
  * https://stackoverflow.com/questions/8888491/how-do-you-display-javascript-datetime-in-12-hour-am-pm-format
  */
-function formatAMPM(date) {
+function formatAMPM(date, showSeconds = false) {
   let hours = date.getHours();
   let minutes = date.getMinutes();
   const ampm = hours >= 12 ? 'pm' : 'am';
   hours = hours % 12;
   hours = hours ? hours : 12; // the hour '0' should be '12'
   minutes = minutes < 10 ? '0' + minutes : minutes;
-  return hours + ':' + minutes + ' ' + ampm;
+  let seconds = date.getSeconds();
+  seconds = seconds < 10 ? '0' + seconds : seconds;
+  return hours + ':' + minutes + ':' + seconds + ' ' + ampm;
 }
 
 function Event(event) {
   const {
     title,
-    description,
     time: { start, end },
   } = event;
 
   return (
     <div className={styles.event}>
       <div className={styles.eventTitle}>{title}</div>
-      <div className={styles.eventDescription}>{description}</div>
       <div className={styles.eventTime}>
         {formatAMPM(new Date(start))} - {formatAMPM(new Date(end))}
       </div>
@@ -80,29 +74,46 @@ function Event(event) {
 
 function DashboardEvents({ events }) {
   const [eventInfo, setEventInfo] = useState(getDashboardEvents(events));
+  const [time, setTime] = useState(new Date());
+
   useEffect(() => {
-    const interval = setInterval(() => {
+    const interval1 = setInterval(() => {
       setEventInfo(getDashboardEvents(events));
     }, 3600);
 
-    return () => clearInterval(interval);
+    const interval2 = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
   }, []);
 
   const [before, curr, after] = eventInfo;
   return (
     <>
-      <div className={styles.before}>
-        {before.map((event) => (
-          <Event key={event.id} {...event} />
-        ))}
+      <div className={styles.eventsMeta}>
+        <h1>Schedule</h1>
+        <p>Upcoming speaker, sponsor, and meal events.</p>
+        {/* <h1>Time</h1> */}
+        <p className={styles.clock}>{formatAMPM(new Date()).toUpperCase()}</p>
       </div>
-      <div className={styles.current}>
-        {curr && <Event key={curr.id} {...curr} />}
-      </div>
-      <div className={styles.after}>
-        {after.map((event) => (
-          <Event key={event.id} {...event} />
-        ))}
+      <div className={styles.events}>
+        <div className={styles.before}>
+          {before.map((event) => (
+            <Event key={event.id} {...event} />
+          ))}
+        </div>
+        <div className={styles.current}>
+          {curr && <Event key={curr.id} {...curr} />}
+        </div>
+        <div className={styles.after}>
+          {after.map((event) => (
+            <Event key={event.id} {...event} />
+          ))}
+        </div>
       </div>
     </>
   );
@@ -111,17 +122,37 @@ function DashboardEvents({ events }) {
 export default function Dashboard() {
   const { isLoaded, rpData } = useGetStaticData();
 
-  const { events } = rpData;
+  const { events, sponsors } = rpData;
 
   if (!isLoaded) return null;
 
   return (
     <div className={styles.container}>
-      <div className={styles.left}>test</div>
+      <div className={styles.left}>
+        <img src="/logo.png" alt="Reflections|Projections Logo" />
+        <img src="/big_logo.png" alt="Reflections Projections Logo" />
+      </div>
       <div className={styles.right}>
         <DashboardEvents events={events} />
       </div>
-      <div className={styles.bottom}>sponsors</div>
+      <div className={styles.bottom}>
+        {Object.keys(sponsors).map((tierKey) => {
+          const tier = sponsors[tierKey];
+          return (
+            <>
+              {tier.map((sponsor) => (
+                <div>
+                  <img
+                    key={sponsor.name}
+                    src={sponsor.img}
+                    alt={sponsor.name}
+                  />
+                </div>
+              ))}
+            </>
+          );
+        })}
+      </div>
     </div>
   );
 }

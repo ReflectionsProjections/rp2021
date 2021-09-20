@@ -22,11 +22,9 @@ export default class DashboardClock extends Component {
   }
 
   componentDidMount() {
-    const countdownDate = new Date('Feb 25, 2018 11:00:00').getTime();
-
     setInterval(() => {
       const now = new Date();
-      const dist = countdownDate - now.getTime();
+      const dist = now.getTime();
 
       let CDd = Math.floor(dist / (1000 * 60 * 60 * 24)).toString();
       let CDh = Math.floor(
