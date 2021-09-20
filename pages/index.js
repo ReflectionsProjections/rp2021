@@ -15,7 +15,6 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Reflections|Projections 2021</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"

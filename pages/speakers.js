@@ -12,7 +12,6 @@ export default function Speakers() {
   return (
     <>
       <Head>
-        <title>Reflections|Projections 2021</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
