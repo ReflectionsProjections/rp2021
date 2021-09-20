@@ -1,13 +1,12 @@
-import styles from '../styles/Videowall.module.scss';
+import Dashboard from '../components/Dashboard';
+import handleMouseMove from '../services/handleMouseMove';
 
-export default function Videowall() {
-  return (
-    <>
-      <div className={styles.registerContainer}>
-        <img src="/big_logo.png" alt="Reflections Projections Logo" />
+export default function DB() {
+  if (typeof window !== 'undefined') {
+    document.getElementsByTagName('body')[0].style =
+      'background: linear-gradient(var(--yellow-2), var(--yellow-1));';
+    window.removeEventListener('mousemove', handleMouseMove);
+  }
 
-        <h1>Register now at acmrp.org</h1>
-      </div>
-    </>
-  );
+  return <Dashboard />;
 }
