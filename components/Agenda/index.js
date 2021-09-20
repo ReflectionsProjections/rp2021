@@ -113,9 +113,8 @@ const getDefaultDate = () => {
     curr.getDate().toString().padStart(2, '0'),
     curr.getFullYear(),
   ].join('-');
-  console.log(currFormatted);
   if (DATES_FORMATTED[currFormatted]) {
-    return [currFormatted, DATES_FORMATTED[curr]];
+    return [currFormatted, DATES_FORMATTED[currFormatted]];
   }
   return ['09-20-2021', DATES_FORMATTED['09-20-2021']];
 };
