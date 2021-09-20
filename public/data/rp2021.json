@@ -17,7 +17,7 @@
         "name": "Aedan Lombardo",
         "tagline": "Data Director of Bluebonnet Data",
         "bio": "<p>Aedan Lombardo is Data Director of Bluebonnet Data, a nonprofit focused on recruiting and training the next generation of data-savvy leaders in the progressive movement. As Data Director, Aedan leads Bluebonnet's internal research initiatives and provides guidance to fellows on how to best leverage data for their campaign or cause. He graduated from Yale University in 2020 with a BA in Statistics & Data Science and prior to joining Bluebonnet as Data Director he volunteered as a Data Fellow on campaigns for municipal, state legislative, and statewide offices. He now resides in New York's Hudson Valley.</p>",
-        "image": "AedanLombardo.jpg"
+        "image": "/headshots/AedanLombardo.jpg"
       },
       {
         "name": "Cindy Cohn",
@@ -28,7 +28,7 @@
       {
         "name": "David Gadsden",
         "tagline": "Director of Conservation Solutions at Esri",
-        "bio":"<p>David Gadsden, Esri’s Director of Conservation Solutions, is an applied geographer with more than two decades of experience applying geospatial technology to address complex humanitarian and conservation challenges. Gadsden earned a geography degree from the University of Washington in 1995 and later served as a US Peace Corps volunteer in rural Tanzania, working on community-based natural resource management. In his early career he architected and implemented GIS solutions to address environmental, social, public safety, emergency response and construction engineering challenges while working for both commercial and nonprofit organizations. In 2002, Gadsden joined Esri, where he initially served as a technical advisor to the United Nations, US Department of State, and USAID. He has helped a diverse community leverage the “Science of Where” to address complex challenges ranging from global health, disaster response, wildlife protection, green infrastructure, tribal governance, historic preservation and community development.</p",
+        "bio": "<p>David Gadsden, Esri’s Director of Conservation Solutions, is an applied geographer with more than two decades of experience applying geospatial technology to address complex humanitarian and conservation challenges. Gadsden earned a geography degree from the University of Washington in 1995 and later served as a US Peace Corps volunteer in rural Tanzania, working on community-based natural resource management. In his early career he architected and implemented GIS solutions to address environmental, social, public safety, emergency response and construction engineering challenges while working for both commercial and nonprofit organizations. In 2002, Gadsden joined Esri, where he initially served as a technical advisor to the United Nations, US Department of State, and USAID. He has helped a diverse community leverage the “Science of Where” to address complex challenges ranging from global health, disaster response, wildlife protection, green infrastructure, tribal governance, historic preservation and community development.</p",
         "image": "/headshots/DavidGadsden.jpg"
       },
       {
@@ -249,7 +249,7 @@
           "start": "09-20-2021 14:00",
           "end": "09-20-2021 14:30"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/meeting/register/tZMvcOysqD0rE9LyH4sPbwLHRb-rTuoz0E_I'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Atrium / <a href='https://illinois.zoom.us/meeting/register/tZMvcOysqD0rE9LyH4sPbwLHRb-rTuoz0E_I'>zoom.com</a>"
       },
       "uc4j3e3v6z": {
         "title": "Snack",
@@ -275,7 +275,7 @@
           "start": "09-20-2021 15:00",
           "end": "09-20-2021 16:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1109 / <a href='https://illinois.zoom.us/j/83911946729?pwd=R2pWUU9BWjZLTXFySTJKYXk1RDBCZz09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1109 / <a href='https://illinois.zoom.us/j/83911946729?pwd=R2pWUU9BWjZLTXFySTJKYXk1RDBCZz09'>zoom.com</a>"
       },
       "pa242m1jmp": {
         "title": "BCBS",
@@ -314,7 +314,7 @@
           "start": "09-20-2021 18:00",
           "end": "09-20-2021 19:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/88582297440?pwd=VWh0WThTWWdUVEFraXVFa2lCRWVkdz09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/88582297440?pwd=VWh0WThTWWdUVEFraXVFa2lCRWVkdz09'>zoom.com</a>"
       },
       "8p5hon0o8n": {
         "title": "Talk by Kalika Bali",
@@ -323,8 +323,8 @@
         "displayInEvents": true,
         "type": "CONFERENCE",
         "tags": [],
-        "time":  {
-          "start":"09-20-2021 20:00",
+        "time": {
+          "start": "09-20-2021 20:00",
           "end": "09-20-2021 21:00"
         },
         "location": "<a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>zoom.com</a>"
@@ -340,7 +340,7 @@
           "start": "09-21-2021 15:00",
           "end": "09-21-2021 16:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/86063919013?pwd=Zk55a0pBMC9aei9KZkM2QTlldC8vdz09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/86063919013?pwd=Zk55a0pBMC9aei9KZkM2QTlldC8vdz09'>zoom.com</a>"
       },
       "0999rrrhr4": {
         "title": "Talk by Chris Brust",
@@ -353,7 +353,7 @@
           "start": "09-21-2021 16:00",
           "end": "09-21-2021 17:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/meeting/register/tZ0pcuqppjwpGdLqLgqP37sdq5RET9iW_SKe'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1302 / <a href='https://illinois.zoom.us/meeting/register/tZ0pcuqppjwpGdLqLgqP37sdq5RET9iW_SKe'>zoom.com</a>"
       },
       "q4kwqhhxag": {
         "title": "Aechelon Event",
@@ -418,7 +418,7 @@
           "start": "09-22-2021 15:00",
           "end": "09-22-2021 16:00"
         },
-        "location": "[physical location] ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>zoom.com</a>"
+        "location": "ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>zoom.com</a>"
       },
       "r91i39av22": {
         "title": "Talk by MJ Chun",
@@ -431,7 +431,7 @@
           "start": "09-22-2021 16:00",
           "end": "09-22-2021 17:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/82857897326?pwd=YXRtVUU4TDRVWVNXUFFRb1ZxdW1YUT09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/82857897326?pwd=YXRtVUU4TDRVWVNXUFFRb1ZxdW1YUT09'>zoom.com</a>"
       },
       "8p03zvshso": {
         "title": "Virtual Career Fair",
@@ -457,7 +457,7 @@
           "start": "09-22-2021 17:00",
           "end": "09-22-2021 18:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/81857087234?pwd=ODNxbG0rWkpoWFNhS2dGTUZEa1Axdz09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/81857087234?pwd=ODNxbG0rWkpoWFNhS2dGTUZEa1Axdz09'>zoom.com</a>"
       },
       "hdd82ybhw4": {
         "title": "Meal",
@@ -509,7 +509,7 @@
           "start": "09-23-2021 15:00",
           "end": "09-23-2021 16:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/82512924179?pwd=bWFjUk5pTTRWdjl0K0R3b3YvR0hzZz09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/82512924179?pwd=bWFjUk5pTTRWdjl0K0R3b3YvR0hzZz09'>zoom.com</a>"
       },
       "13qt2v5edd": {
         "title": "Cruise Event",
@@ -535,7 +535,7 @@
           "start": "09-23-2021 17:00",
           "end": "09-23-2021 18:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/84762567598?pwd=SXh1bnB1ZkhtblFjdWMxb1p0MlljQT09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/84762567598?pwd=SXh1bnB1ZkhtblFjdWMxb1p0MlljQT09'>zoom.com</a>"
       },
       "hv42xc12h6": {
         "title": "Meal",
@@ -587,7 +587,7 @@
           "start": "09-24-2021 15:00",
           "end": "09-24-2021 16:00"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/81014200051?pwd=OUpqVEt4SGVvY0R6MVZ1cGJMZmp2QT09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/81014200051?pwd=OUpqVEt4SGVvY0R6MVZ1cGJMZmp2QT09'>zoom.com</a>"
       },
       "mfc9ojgxo0": {
         "title": "Two Sigma Tech Talk",
@@ -613,7 +613,7 @@
           "start": "09-24-2021 17:00",
           "end": "09-24-2021 17:30"
         },
-        "location": "[physical location] Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/86569943632?pwd=ZFFqZjBjeHl2NXNvSjFvRUhobWU5dz09'>zoom.com</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/86569943632?pwd=ZFFqZjBjeHl2NXNvSjFvRUhobWU5dz09'>zoom.com</a>"
       },
       "triorn4scg": {
         "title": "Meal",
