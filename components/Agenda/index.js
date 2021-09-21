@@ -56,7 +56,7 @@ const formatTime = (time) => {
   return `${start} - ${end}`;
 };
 
-const AllDayAgenda = ({ events }) => {
+const AllDayAgenda = ({ label, events }) => {
   if (!events || events.length === 0) {
     return null;
   }
@@ -92,7 +92,6 @@ const DayAgenda = ({ label, events }) => {
   return (
     <Col xs={{ span: 10, offset: 1 }} sm={{ span: 8, offset: 2 }}>
       <UITimeline>
-        <UITimeline.Title>{label}</UITimeline.Title>
         <UITimeline.Body>
           {events.map((event) => (
             <UITimelineEvent key={event.title}>
@@ -238,15 +237,17 @@ const Agenda = ({ events }) => {
               </Dropdown>
             </Col>
           </Row>
+
+          <UITimeline.Title>{selectedDateWeek}</UITimeline.Title>
           <Row>
-            <DayAgenda
+            <AllDayAgenda
               label={selectedDateWeek}
-              events={filterEvents(allEvents, selectedDate, selectedType)}
+              events={filterEvents(allEvents, selectedDate, selectedType, true)}
             />
           </Row>
           <Row>
-            <AllDayAgenda
-              events={filterEvents(allEvents, selectedDate, selectedType, true)}
+            <DayAgenda
+              events={filterEvents(allEvents, selectedDate, selectedType)}
             />
           </Row>
         </Container>
