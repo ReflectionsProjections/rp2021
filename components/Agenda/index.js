@@ -26,12 +26,12 @@ const getEventsList = (events) => {
 };
 
 /* */
-const filterEvents = (events, day, type) => {
+const filterEvents = (events, day, type, isAllDay = false) => {
   if (!Array.isArray(events)) {
     return [];
   }
-
   return events
+    .filter(({ time }) => (isAllDay ? time.allDay : !time.allDay))
     .filter(({ displayInAgenda, time }) =>
       day
         ? moment(time.start, TIME_FORMAT).isSame(
@@ -56,6 +56,35 @@ const formatTime = (time) => {
   return `${start} - ${end}`;
 };
 
+const AllDayAgenda = ({ events }) => {
+  if (!events || events.length === 0) {
+    return null;
+  }
+
+  return (
+    <Col xs={{ span: 10, offset: 1 }} sm={{ span: 8, offset: 2 }}>
+      <UITimeline>
+        <UITimeline.Title>All Day</UITimeline.Title>
+        <UITimeline.Body>
+          {events.map((event) => (
+            <UITimelineEvent key={event.title}>
+              <UITimelineEvent.Time>{null}</UITimelineEvent.Time>
+              <UITimelineEvent.Body>
+                {event.title}
+                <br />
+                <span
+                  dangerouslySetInnerHTML={{ __html: event.location }}
+                  style={{ fontWeight: 200 }}
+                />
+              </UITimelineEvent.Body>
+            </UITimelineEvent>
+          ))}
+        </UITimeline.Body>
+      </UITimeline>
+    </Col>
+  );
+};
+
 const DayAgenda = ({ label, events }) => {
   if (!events || events.length === 0) {
     return null;
@@ -77,17 +106,6 @@ const DayAgenda = ({ label, events }) => {
                   dangerouslySetInnerHTML={{ __html: event.location }}
                   style={{ fontWeight: 200 }}
                 />
-                {event.hasPage && (
-                  <>
-                    <br />
-                    <a
-                      href={`/events/?id=${event.id}`}
-                      style={{ fontWeight: '400' }}
-                    >
-                      More Info &#8250;
-                    </a>
-                  </>
-                )}
               </UITimelineEvent.Body>
             </UITimelineEvent>
           ))}
@@ -224,6 +242,11 @@ const Agenda = ({ events }) => {
             <DayAgenda
               label={selectedDateWeek}
               events={filterEvents(allEvents, selectedDate, selectedType)}
+            />
+          </Row>
+          <Row>
+            <AllDayAgenda
+              events={filterEvents(allEvents, selectedDate, selectedType, true)}
             />
           </Row>
         </Container>

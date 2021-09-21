@@ -346,7 +346,8 @@
         "tags": [],
         "time": {
           "start": "09-21-2021 8:00",
-          "end": "09-21-2021 21:00"
+          "end": "09-21-2021 21:00",
+          "allDay": true
         },
         "location": "Thomas M. Siebel Center for Computer Science Atrium"
       },

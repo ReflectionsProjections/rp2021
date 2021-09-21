@@ -8,10 +8,20 @@ function getDashboardEvents(events) {
     [[], {}, []];
   }
 
-  const eventObjects = events.allIds.map((id) => events.byId[id]);
+  let eventObjects = events.allIds.map((id) => events.byId[id]);
+
   eventObjects.sort((eventA, eventB) => {
     return +new Date(eventA.time.start) - +new Date(eventB.time.start);
   });
+
+  const allDayEvents = eventObjects.filter((event) => {
+    const isAllDay = event.time.allDay;
+    const isThisDay =
+      new Date(event.time.start).getUTCDay() === new Date().getUTCDay();
+    return isAllDay && isThisDay;
+  });
+
+  eventObjects = eventObjects.filter((event) => !event.time.allDay);
 
   let currentOrNext = eventObjects[0];
 
@@ -37,7 +47,7 @@ function getDashboardEvents(events) {
     })
     .slice(0, 3);
 
-  return [before, currentOrNext, after];
+  return [before, currentOrNext, after, allDayEvents];
 }
 
 /*
@@ -59,14 +69,20 @@ function formatAMPM(date, showSeconds = false) {
 function Event(event) {
   const {
     title,
-    time: { start, end },
+    time: { start, end, allDay },
   } = event;
 
   return (
     <div className={styles.event}>
       <div className={styles.eventTitle}>{title}</div>
       <div className={styles.eventTime}>
-        {formatAMPM(new Date(start))} - {formatAMPM(new Date(end))}
+        {!allDay ? (
+          <>
+            {formatAMPM(new Date(start))} - {formatAMPM(new Date(end))}
+          </>
+        ) : (
+          'All Day'
+        )}
       </div>
     </div>
   );
@@ -91,13 +107,26 @@ function DashboardEvents({ events }) {
     };
   }, []);
 
-  const [before, curr, after] = eventInfo;
+  const [before, curr, after, allDayEvents] = eventInfo;
+
   return (
     <>
       <div className={styles.eventsMeta}>
         <h1>Register at acmrp.org</h1>
-        {/* <h1>Time</h1> */}
         <p className={styles.clock}>{formatAMPM(new Date()).toUpperCase()}</p>
+        <h2>All Day Events</h2>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            marginTop: '1.5rem',
+            rowGap: '15px',
+          }}
+        >
+          {allDayEvents.map((event) => (
+            <Event key={event.id} {...event} />
+          ))}
+        </div>
       </div>
       <div className={styles.events}>
         <div className={styles.before}>
@@ -139,8 +168,8 @@ export default function Dashboard() {
           const tier = sponsors[tierKey];
           return (
             <>
-              {tier.map((sponsor) => (
-                <div>
+              {tier.map((sponsor, idx) => (
+                <div key={idx}>
                   <img
                     key={sponsor.name}
                     src={sponsor.img}
