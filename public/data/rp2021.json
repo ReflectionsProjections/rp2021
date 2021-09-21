@@ -337,6 +337,19 @@
         },
         "location": "Thomas M. Siebel Center for Computer Science Room 2407 / <a href='https://illinois.zoom.us/j/81639819196?pwd=OU5pQk1Bb3cweUtSOExtanpOQmNWdz09'>Virtual (Zoom)</a>"
       },
+      "0999rrrhx5": {
+        "title": "Aechelon Corporate Day",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CORPORATE",
+        "tags": [],
+        "time": {
+          "start": "09-21-2021 8:00",
+          "end": "09-21-2021 21:00"
+        },
+        "location": "Thomas M. Siebel Center for Computer Science Atrium"
+      },
       "ipnezqzx2e": {
         "title": "Talk by Dr. Sam Song Liang",
         "thumbnailPath": "",
@@ -658,6 +671,7 @@
       "ymotk7w43n",
       "12ft78d0vb",
       "8p5hon0o8n",
+      "0999rrrhx5",
       "ipnezqzx2e",
       "0999rrrhr4",
       "q4kwqhhxag",
