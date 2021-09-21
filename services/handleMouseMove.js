@@ -1,4 +1,4 @@
-export default function (event) {
+export default function handleMouseMove(event) {
   const width = window.outerWidth;
   const height = window.outerHeight;
   const xOffset = 16;
