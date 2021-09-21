@@ -56,7 +56,7 @@ const formatTime = (time) => {
   return `${start} - ${end}`;
 };
 
-const AllDayAgenda = ({ label, events }) => {
+const AllDayAgenda = ({ events }) => {
   if (!events || events.length === 0) {
     return null;
   }
@@ -85,7 +85,7 @@ const AllDayAgenda = ({ label, events }) => {
   );
 };
 
-const DayAgenda = ({ label, events }) => {
+const DayAgenda = ({ events }) => {
   if (!events || events.length === 0) {
     return null;
   }
@@ -241,7 +241,6 @@ const Agenda = ({ events }) => {
           <UITimeline.Title>{selectedDateWeek}</UITimeline.Title>
           <Row>
             <AllDayAgenda
-              label={selectedDateWeek}
               events={filterEvents(allEvents, selectedDate, selectedType, true)}
             />
           </Row>
