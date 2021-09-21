@@ -374,7 +374,7 @@
           "start": "09-21-2021 18:00",
           "end": "09-21-2021 19:00"
         },
-        "location": "<a href='https://illinois.zoom.us/j/85337095555?pwd=ckFFOXEwa1hKUzZ0WnkwUDFmclFOdz09'>Virtual (Zoom)</a>"
+        "location": "Thomas M. Siebel Center for Computer Science Room 2405 / <a href='https://illinois.zoom.us/j/85337095555?pwd=ckFFOXEwa1hKUzZ0WnkwUDFmclFOdz09'>Virtual (Zoom)</a>"
       },
       "ksatladh87": {
         "title": "Meal",
@@ -384,8 +384,8 @@
         "type": "MEAL",
         "tags": [],
         "time": {
-          "start": "09-21-2021 15:00",
-          "end": "09-21-2021 16:00"
+          "start": "09-21-2021 19:00",
+          "end": "09-21-2021 20:00"
         },
         "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
