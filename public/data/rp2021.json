@@ -155,7 +155,7 @@
           },
           {
             "question": "How will the career fair work?",
-            "answer": "We will be having a 1 day in-person, 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. More details regarding the platform and logistics will be communicated to attendees."
+            "answer": "We will be having a virtual career fair in order to make the event more accessible and adhere to university safety guidelines. Certain companies will also have corporate days throughout the conference, with a booth and corporate representatives in person. More details regarding the platform and logistics will be communicated to attendees."
           }
         ]
       },
@@ -403,6 +403,20 @@
         },
         "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
+      "il5f0yvrwv": {
+        "title": "Uline Corporate Day",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CORPORATE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 8:00",
+          "end": "09-22-2021 21:00",
+          "allDay": true
+        },
+        "location": "Thomas M. Siebel Center for Computer Science Atrium"
+      },
       "kr8teywxg4": {
         "title": "Snack",
         "thumbnailPath": "",
@@ -442,6 +456,19 @@
         },
         "location": "ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>Virtual (Zoom)</a>"
       },
+      "jjuf8fvdim": {
+        "title": "VirtualCareer Fair",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 16:00",
+          "end": "09-22-2021 21:00"
+        },
+        "location": "<a href='https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MzVlYWUxYzQtZTM4OC00NGY1LTgyZTctYWFmOTQwZTc2NmY5%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25225fbcd3f3-c9fd-4d4e-b20e-b3b9b747e909%2522%252c%2522Oid%2522%253a%2522a0f52ca9-63dc-4512-a1f3-e7839ffa328b%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=58d2801f-fc39-4309-bacb-1773cad6a445&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true'>Aechelon (Microsoft Teams)</a><br /><a href='https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZDllYWRjMjItZjFmNi00ZDM4LWI5OWEtYmFmZWY2NGViYzY5%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522fcb2b37b-5da0-466b-9b83-0014b67a7c78%2522%252c%2522Oid%2522%253a%2522d28e59e9-2e55-4487-a7c3-de3347381ab1%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=c331f7e0-2c7c-4f1a-b4f9-b9977a395dfd&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true'>Bayer (Microsoft Teams)</a><br /><a href='https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZDVkNTQ4NWYtNWU4Yy00YmYwLTg5M2YtZDk5ZmIwMWM1MTRh%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%25222e0cb644-c094-41d7-ab3d-43201da24438%2522%252c%2522Oid%2522%253a%25228d6878a4-82c0-4153-af7f-a7a9e329a833%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=92ea702b-1f7a-4c82-9a1b-2dc014450a33&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true'>BCBS (Microsoft Teams)</a><br /><a href='https://app.joinhandshake.com/schedules/recurring/2029/public_invite'>Uline (Handshake)</a>"
+      },
       "r91i39av22": {
         "title": "Talk by MJ Chun",
         "thumbnailPath": "",
@@ -454,19 +481,6 @@
           "end": "09-22-2021 17:00"
         },
         "location": "Thomas M. Siebel Center for Computer Science Room 1304 / <a href='https://illinois.zoom.us/j/82857897326?pwd=YXRtVUU4TDRVWVNXUFFRb1ZxdW1YUT09'>Virtual (Zoom)</a>"
-      },
-      "8p03zvshso": {
-        "title": "Virtual Career Fair",
-        "thumbnailPath": "",
-        "displayInAgenda": true,
-        "displayInEvents": true,
-        "type": "CONFERENCE",
-        "tags": [],
-        "time": {
-          "start": "09-22-2021 16:00",
-          "end": "09-22-2021 17:00"
-        },
-        "location": ""
       },
       "hgablgdnh1": {
         "title": "Keynote Talk by Dr. Sivakumar",
@@ -677,9 +691,11 @@
       "0999rrrhr4",
       "q4kwqhhxag",
       "ksatladh87",
+      "il5f0yvrwv",
       "kr8teywxg4",
       "ij8p85lh9i",
       "ca9p4hhn75",
+      "jjuf8fvdim",
       "r91i39av22",
       "hgablgdnh1",
       "hdd82ybhw4",
