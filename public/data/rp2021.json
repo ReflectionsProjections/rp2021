@@ -155,7 +155,7 @@
           },
           {
             "question": "How will the career fair work?",
-            "answer": "We will be having a 1 day in-person, 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. More details regarding the platform and logistics will be communicated to attendees."
+            "answer": "We will be having 1 day virtual career fair in order to make the event more accessible and adhere to university safety guidelines. Certain companies will also have corporate days throughout the conference, with a booth and corporate representatives in person. More details regarding the platform and logistics will be communicated to attendees."
           }
         ]
       },
@@ -442,6 +442,19 @@
         },
         "location": "ECEB Room 2015 / <a href='https://illinois.zoom.us/j/84781320779?pwd=YnpscTBiZXRwOXRKSTBKV2g0WXRFQT09'>Virtual (Zoom)</a>"
       },
+      "jjuf8fvdim": {
+        "title": "Career Fair",
+        "thumbnailPath": "",
+        "displayInAgenda": true,
+        "displayInEvents": true,
+        "type": "CONFERENCE",
+        "tags": [],
+        "time": {
+          "start": "09-22-2021 16:00",
+          "end": "09-22-2021 21:00"
+        },
+        "location": ""
+      },
       "r91i39av22": {
         "title": "Talk by MJ Chun",
         "thumbnailPath": "",
@@ -680,6 +693,7 @@
       "kr8teywxg4",
       "ij8p85lh9i",
       "ca9p4hhn75",
+      "jjuf8fvdim",
       "r91i39av22",
       "hgablgdnh1",
       "hdd82ybhw4",
