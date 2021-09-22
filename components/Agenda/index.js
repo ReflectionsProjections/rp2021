@@ -67,7 +67,11 @@ const AllDayAgenda = ({ events }) => {
         <UITimeline.Body>
           {events.map((event) => (
             <UITimelineEvent key={event.title}>
-              <UITimelineEvent.Time>All day</UITimelineEvent.Time>
+              <UITimelineEvent.Time>
+                {new Date(event.time.start).getHours() <= 9
+                  ? 'All Day'
+                  : formatTime(event.time)}
+              </UITimelineEvent.Time>
               <UITimelineEvent.Body>
                 {event.title}
                 <br />
