@@ -64,11 +64,10 @@ const AllDayAgenda = ({ events }) => {
   return (
     <Col xs={{ span: 10, offset: 1 }} sm={{ span: 8, offset: 2 }}>
       <UITimeline>
-        <UITimeline.Title>All Day</UITimeline.Title>
         <UITimeline.Body>
           {events.map((event) => (
             <UITimelineEvent key={event.title}>
-              <UITimelineEvent.Time>{null}</UITimelineEvent.Time>
+              <UITimelineEvent.Time>All day</UITimelineEvent.Time>
               <UITimelineEvent.Body>
                 {event.title}
                 <br />
