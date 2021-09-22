@@ -63,7 +63,7 @@ function formatAMPM(date, showSeconds = false) {
   minutes = minutes < 10 ? '0' + minutes : minutes;
   let seconds = date.getSeconds();
   seconds = seconds < 10 ? '0' + seconds : seconds;
-  return hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+  return hours + ':' + minutes + ' ' + ampm;
 }
 
 function Event(event) {
@@ -80,8 +80,12 @@ function Event(event) {
           <>
             {formatAMPM(new Date(start))} - {formatAMPM(new Date(end))}
           </>
-        ) : (
+        ) : new Date(start).getHours() <= 9 ? ( //If the event is marked all day and starts before 9 just say all day, otherwise display its time
           'All Day'
+        ) : (
+          <>
+            {formatAMPM(new Date(start))} - {formatAMPM(new Date(end))}
+          </>
         )}
       </div>
     </div>
@@ -114,7 +118,7 @@ function DashboardEvents({ events }) {
       <div className={styles.eventsMeta}>
         <h1>Register at acmrp.org</h1>
         <p className={styles.clock}>{formatAMPM(new Date()).toUpperCase()}</p>
-        <h2>All Day Events</h2>
+        <h2>All Day Corporate Events</h2>
         <div
           style={{
             display: 'grid',
