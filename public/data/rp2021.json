@@ -647,8 +647,8 @@
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-24-2021 17:00",
-          "end": "09-24-2021 17:30"
+          "start": "09-24-2021 17:15",
+          "end": "09-24-2021 18:00"
         },
         "location": "Thomas M. Siebel Center for Computer Science Room 1404 / <a href='https://illinois.zoom.us/j/86569943632?pwd=ZFFqZjBjeHl2NXNvSjFvRUhobWU5dz09'>Virtual (Zoom)</a>"
       },
@@ -660,8 +660,8 @@
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-24-2021 17:30",
-          "end": "09-24-2021 18:30"
+          "start": "09-24-2021 18:00",
+          "end": "09-24-2021 19:00"
         },
         "location": "Thomas M. Siebel Center for Computer Science Balcony (Second Floor)"
       },
