@@ -595,8 +595,10 @@
         "type": "CONFERENCE",
         "tags": [],
         "time": {
-          "start": "09-24-2021 12:00",
-          "end": "09-24-2021 23:59"
+          "start": "09-24-2021 8:00",
+          "end": "09-24-2021 23:59",
+
+          "allDay": true
         },
         "location": "<a href='https://www.twitch.tv/mechmania_tv'>Virtual</a> from 12pm - 3pm, Rest of Event: Siebel 1404"
       },
